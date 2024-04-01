@@ -1,0 +1,54 @@
+.navbar {
+    width: 6%;
+    height: 100vh;
+    background-color: #817e7e4c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.555);
+    transition: width 0.5s;
+}
+
+.logo {
+    font-size: 200%;
+    margin-bottom: 5%;
+}
+
+.link {
+    position: relative;
+    overflow: hidden;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.link span{
+    visibility: hidden;
+}
+
+.link i {
+    margin-left: 31%; /* Ajusta el margen izquierdo del icono cuando no se pasa el ratón */
+    margin-right: 2%;
+    font-size: 6vh;
+    transition: margin-left 0.5s; /* Agrega una transición suave para el cambio de margen izquierdo */
+}
+
+
+
+/* HOVERS */
+.navbar:hover {
+    width: 12%;
+}
+
+.link:hover i {
+    margin-left: 2%; /* Ajusta el margen izquierdo del icono cuando se pasa el ratón */
+}
+.link:hover span {
+    visibility: visible;
+}
