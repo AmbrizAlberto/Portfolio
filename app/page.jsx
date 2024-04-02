@@ -6,9 +6,11 @@ import Image from 'next/image';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import styles from "./css/main.css"
+import style from "./css/mainrespons.css"
 import Navbar from './components/navbar';
 
 export default function Portafolio() {
+
   return (
     <div className='main'>
       
@@ -52,7 +54,7 @@ export default function Portafolio() {
             <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="" />HTML
           </li>
           <li>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" alt="" />CSS3</li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" alt="" />CSS</li>
           <li>
             <img src="https://static-00.iconduck.com/assets.00/next-js-icon-512x512-zuauazrk.png" alt="" />NEXTJS</li>
           <li>
@@ -74,6 +76,70 @@ export default function Portafolio() {
       <div className="grid-containerprj">
 
         <button className="container-project">
+
+          <div className="nameprj">Harmony & Heaven</div>
+          <div className="categorie">
+            Grupal
+          </div>
+          <div className="photoprj">
+            <img src="" alt="" />
+          </div>
+          <div className="descriptionprj">
+            <h4>Tienda de intrumentos con CRUD, Inicio de sesion y Punto de venta.</h4>
+          </div>
+          <div className="lenguajesprj">
+            <img src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" alt="" />
+            <img src="https://static-00.iconduck.com/assets.00/database-mysql-icon-1954x2048-08uox8qu.png" alt="" />
+          </div>
+          <div className="github">
+            <i className="bi bi-github"></i>Ver Repositorio
+          </div>
+
+        </button>
+
+        <button className="container-project">
+
+          <div className="nameprj">Harmony & Heaven</div>
+          <div className="categorie">
+            Grupal
+          </div>
+          <div className="photoprj">
+            <img src="" alt="" />
+          </div>
+          <div className="descriptionprj">
+            <h4>Tienda de intrumentos con CRUD, Inicio de sesion y Punto de venta.</h4>
+          </div>
+          <div className="lenguajesprj">
+            <img src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" alt="" />
+            <img src="https://static-00.iconduck.com/assets.00/database-mysql-icon-1954x2048-08uox8qu.png" alt="" />
+          </div>
+          <div className="github">
+            <i className="bi bi-github"></i>Ver Repositorio
+          </div>
+
+        </button>
+
+        <button className="container-project">
+
+          <div className="nameprj">Harmony & Heaven</div>
+          <div className="categorie">
+            Grupal
+          </div>
+          <div className="photoprj">
+            <img src="" alt="" />
+          </div>
+          <div className="descriptionprj">
+            <h4>Tienda de intrumentos con CRUD, Inicio de sesion y Punto de venta.</h4>
+          </div>
+          <div className="lenguajesprj">
+            <img src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" alt="" />
+            <img src="https://static-00.iconduck.com/assets.00/database-mysql-icon-1954x2048-08uox8qu.png" alt="" />
+          </div>
+          <div className="github">
+            <i className="bi bi-github"></i>Ver Repositorio
+          </div>
+
+        </button><button className="container-project">
 
           <div className="nameprj">Harmony & Heaven</div>
           <div className="categorie">

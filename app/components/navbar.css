@@ -1,6 +1,6 @@
 .navbar {
     width: 6%;
-    height: 100vh;
+    height: 92vh;
     background-color: #817e7e4c;
     position: fixed;
     top: 0;
@@ -11,6 +11,11 @@
     padding-top: 2%;
     box-shadow: 0 0px 20px rgba(0, 0, 0, 0.555);
     transition: width 0.5s;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    font-size: 150%;
 }
 
 .logo {
@@ -47,8 +52,15 @@
 }
 
 .link:hover i {
-    margin-left: 2%; /* Ajusta el margen izquierdo del icono cuando se pasa el ratón */
+    margin-left: 7%; /* Ajusta el margen izquierdo del icono cuando se pasa el ratón */
 }
 .link:hover span {
     visibility: visible;
+}
+
+@media screen and (max-width: 768px) {
+    /* Estilos para tabletas */
+    .navbar{
+        display: none;
+    }
 }

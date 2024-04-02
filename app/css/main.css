@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html{
-    background-image: linear-gradient(to bottom, #ff7e5f 0%, #ff7f5fe9 7%, #31405f 12%, #31405f 12%, #31405f 18%, #fffaa1dd 33%, #fffaa1 35%, #7bccff 37%);
+    background-image: linear-gradient(to bottom, #ff7e5f 20%, #ff7f5f 20%, #31405fe7 40%, #31405f 97%, #7bccff 100%);
     font-family: 'Roboto', sans-serif;
-    height: 1000%;
+    height: auto;
 }
 
 .main{
     margin-left: 5%;
-    width: 85%;
-    height: 90%;
+    width: 90%;
+    height: 100%;
     color: rgb(255, 0, 0);
     padding: 2%;
     border-radius: 20px;
@@ -20,7 +20,8 @@ html{
 /* DATOS PERSONALES */
 
 .personaldata {
-    margin-top: 8%;
+    transition: opacity 1s ease-in-out;
+    margin-top: 7%;
     display: flex;
     width: 100%;
     color: white;
@@ -29,7 +30,7 @@ html{
 .datos1{
     width: 50%;
 }.datos2{
-    border-left: 1px solid black;
+    border-left: 1vh solid rgba(0, 0, 0, 0.134);
     padding-left: 2%;
     margin-top: 0%;
     width: 50%;
@@ -40,11 +41,11 @@ html{
     border: none;
     margin-bottom: 1%;
 }.photomia img {
-    width: 50%;
-    margin: auto;
+    width: 40%;
+    margin-left: 35%;
     border-radius: 50%;
     max-width: 100%; /* Asegura que la imagen no supere el 100% del contenedor */
-    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    height: 40; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
     cursor: pointer;
 }
 
@@ -58,7 +59,7 @@ html{
     text-align:right;
     font-weight: 900;
     color: rgb(0, 0, 60);
-    font-size: 450%;
+    font-size: 600%;
     width: 80%;
     margin: auto;
     max-height: 20%;
@@ -67,7 +68,7 @@ html{
 .aboutme{
     margin-top: -10%;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 250%;
 }.aboutme h2{
     color: rgb(37, 39, 66);
     margin-bottom: 0%;
@@ -94,15 +95,17 @@ button{
 .lenguajes{
     padding-top: 10%;
     padding-bottom: 1%;
-    border-top: 5px solid rgba(0, 0, 0, 0.072);
-    margin-top: 13%;
+    margin-top: 20%;
     text-align: center;
     width: 100%;
     height: auto;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }.lenguajes h2{
-    font-size: 300%;
-    font-weight: 1000;
+    margin: auto;
+    margin-bottom: 5%;
+    width: 70%;
+    font-size: 400%;
+    font-weight: 600;
 }.lenguajes ul{
     display: flex; /* Utiliza Flexbox para hacer una lista horizontal */
     list-style: none; /* Quita los puntos de la lista */
@@ -112,6 +115,7 @@ button{
 }.lenguajes li{
     margin: 0 10px; /* Añade un margen entre los elementos de la lista */
     text-decoration: none;
+    font-size: 200%;
     font-weight: bold;
 }.lenguajes li img{
     width: 100px;
@@ -130,42 +134,43 @@ button{
 }
 
 .projects{
-    border-top: 5px solid rgba(0, 0, 0, 0.072);
-    margin-top: 20%;
+    margin-top: 5%;
     padding-top: 10%;
     text-align: center;
     width: 100%;
     height: auto;
-    color: rgb(255, 255, 255);
+    color: #7ed1f4;
 }.projects h2{
     font-weight: 600;
-    font-size: 250%;
+    font-size: 350%;
 }
 
 
 /* PROYECTOS */
 .grid-containerprj{
+    margin-left: 6%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
+    grid-template-columns: repeat(auto-fill, minmax(410px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
     gap: 40px 20px; /* Espacio entre los elementos */
     transition: 500ms;
 }
 
 .container-project{
-    background-color: #ffffff;
+    background-color: #ffffff93;
     border: 2px solid rgba(255, 255, 255, 0.451);
-    box-shadow: 0 0 30px rgba(3, 3, 3, 0.252);
+    box-shadow: 0 0 30px rgba(3, 3, 3, 0.145);
     border-radius: 20px;
     padding: 5%;
     transition: 1000ms;
     color: rgb(52, 52, 52);
+    font-size: 160%;
 }
 .container-project:hover{
-    background-color: rgb(65, 65, 65);
+    background-color: rgba(65, 65, 65, 0.622);
     color: white;
     box-shadow: 0 0 10px rgb(0, 0, 0);
     cursor: pointer;
-    transition: 500ms;
+    transition: 1000ms;
 }
 
 .container-project .nameprj{
@@ -226,3 +231,4 @@ button{
     color: white;
     transition: 1000ms;
 }
+
