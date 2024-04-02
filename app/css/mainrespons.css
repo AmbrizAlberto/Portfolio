@@ -2,7 +2,7 @@
 @media screen and (max-width: 768px) {
     /* Estilos para tabletas */
     html{
-        background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 4%, #31405fe7 10%, #31405f 97%, #7bccff 100%);
+        background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 10%, #31405fe7 20%, #31405f 97%, #7bccff 100%);
     }
     .main{
         margin: 0%;
@@ -43,9 +43,92 @@
         width: 35px;
         height: 35px;
     }
+    .projects h2{
+        margin-left: 10%;
+        font-size: 150%;
+    }
+    .grid-containerprj{
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
+    }
+    .container-project{
+        margin-top: -5%;
+        margin-bottom: -5%;
+        font-size: 50%;
+    }
+    .container-project .nameprj{
+        font-size: 200%;
+    }
+    .container-project .github{
+        display:inline;
+        color: rgb(0, 0, 0);
+        transition: 1000ms;
+    }
+
   }
   
   /* Ejemplo de media query para teléfonos celulares */
   @media screen and (max-width: 480px) {
     /* Estilos para teléfonos celulares */
+    html{
+        background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 10%, #31405fe7 20%, #31405f 97%, #7bccff 100%);
+    }
+    .main{
+        margin: 0%;
+        margin-left: 2%;
+    }
+    .personaldata{
+        margin-left: -5%;
+        width: 110%;
+        margin-top: 2%;
+    }
+    .aboutme{
+        font-size: 60%;
+    }
+    .nombre{
+        font-size: 150%;
+    }
+    .lenguajes h2{
+        margin: auto;
+        margin-left: 20%;
+        font-size: 100%;
+        margin-bottom: 10%;
+    }
+    .lenguajes ul {
+        margin-left: -10%;
+        display: flex;
+        font-size: 30%;
+    }
+    .lenguajes li{
+        margin: 0 7px;
+    }
+
+    .lenguajes li img{
+        width: 30px;
+        height: 30px;
+    }
+    .lenguajes li img:hover {
+        margin-top: -2px;
+        width: 35px;
+        height: 35px;
+    }
+    .projects h2{
+        margin-left: 10%;
+        font-size: 150%;
+    }
+    .grid-containerprj{
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
+    }
+    .container-project{
+        margin-top: -5%;
+        margin-bottom: -5%;
+        font-size: 50%;
+    }
+    .container-project .nameprj{
+        font-size: 200%;
+    }
+    .container-project .github{
+        display:inline;
+        color: rgb(0, 0, 0);
+        transition: 1000ms;
+    }
   }
