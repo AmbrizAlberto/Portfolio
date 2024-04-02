@@ -70,53 +70,52 @@
   @media screen and (max-width: 480px) {
     /* Estilos para teléfonos celulares */
     html{
-        background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 10%, #31405fe7 20%, #31405f 97%, #7bccff 100%);
-    }
-    .main{
-        margin: 0%;
-        margin-left: 2%;
+        background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 28%, #31405fe7 40%, #31405f 97%, #7bccff 100%);
     }
     .personaldata{
-        margin-left: -5%;
-        width: 110%;
-        margin-top: 2%;
+        margin-top: 18%;
+        flex-wrap: wrap;
+        text-align: left;
     }
-    .aboutme{
-        font-size: 60%;
+    .datos1{
+        margin-left: -15%;
+        width: 100%;
+        font-size: 200%;
     }
-    .nombre{
-        font-size: 150%;
+    .datos2{
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 100%;
+        font-size: 200%;
+    }
+    .lenguajes{
+        margin-top: 40%;
     }
     .lenguajes h2{
-        margin: auto;
-        margin-left: 20%;
-        font-size: 100%;
-        margin-bottom: 10%;
+        margin-top: 10%;
+        font-size: 200%;
     }
-    .lenguajes ul {
-        margin-left: -10%;
-        display: flex;
-        font-size: 30%;
+    .lenguajes ul{
+        flex-wrap: wrap;
     }
     .lenguajes li{
-        margin: 0 7px;
+        margin: 20px 10px; /* Añade un margen entre los elementos de la lista */
+        font-size: 200%;
     }
-
     .lenguajes li img{
-        width: 30px;
-        height: 30px;
+        width: 100px;
+        height: 100px;
+        margin: auto;
     }
-    .lenguajes li img:hover {
-        margin-top: -2px;
-        width: 35px;
-        height: 35px;
+    .projects{
+        font-size: 200%;
     }
     .projects h2{
-        margin-left: 10%;
+        margin-left: 5%;
         font-size: 150%;
     }
     .grid-containerprj{
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
     }
     .container-project{
         margin-top: -5%;
@@ -124,11 +123,7 @@
         font-size: 50%;
     }
     .container-project .nameprj{
-        font-size: 200%;
+        font-size: 150%;
     }
-    .container-project .github{
-        display:inline;
-        color: rgb(0, 0, 0);
-        transition: 1000ms;
-    }
+
   }
