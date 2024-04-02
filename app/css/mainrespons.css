@@ -100,9 +100,13 @@
     }
     .lenguajes li{
         margin: 20px 10px; /* Añade un margen entre los elementos de la lista */
-        font-size: 200%;
     }
     .lenguajes li img{
+        width: 90px;
+        height: 90px;
+        margin: auto;
+    }
+    .lenguajes li img:hover{
         width: 100px;
         height: 100px;
         margin: auto;
