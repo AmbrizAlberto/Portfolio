@@ -70,10 +70,10 @@
   @media screen and (max-width: 480px) {
     /* Estilos para teléfonos celulares */
     html{
-        background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 28%, #31405fe7 40%, #31405f 97%, #7bccff 100%);
+        background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 20%, #31405fe7 28%, #31405f 97%, #7bccff 100%);
     }
     .personaldata{
-        margin-top: 18%;
+        margin-top: 10%;
         flex-wrap: wrap;
         text-align: left;
     }
@@ -112,6 +112,7 @@
         margin: auto;
     }
     .projects{
+        margin-bottom: 100%;
         font-size: 200%;
     }
     .projects h2{
