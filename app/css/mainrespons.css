@@ -70,7 +70,7 @@
   @media screen and (max-width: 480px) {
     /* Estilos para teléfonos celulares */
     html{
-        background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 20%, #31405fe7 28%, #31405f 97%, #7bccff 100%);
+        background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 15%, #31405fe7 25%, #31405f 85%, #7bccff 95%);
     }
     .personaldata{
         margin-top: 10%;
