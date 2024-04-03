@@ -231,3 +231,13 @@ button{
     transition: 1000ms;
 }
 
+.containeremail {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .containeremail button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }

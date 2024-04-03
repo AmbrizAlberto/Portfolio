@@ -9,8 +9,9 @@ import styles from "./css/main.css"
 import style from "./css/mainrespons.css"
 import Navbar from './components/navbar';
 
-export default function Portafolio() {
 
+export default function Portafolio() {  
+  
   return (
     <div className='main'>
       
@@ -50,6 +51,9 @@ export default function Portafolio() {
         <h2>LENGUAJES QUE HE TRABAJADO</h2>
 
         <ul>
+          <li>
+            <img src="https://cdn4.iconfinder.com/data/icons/logos-3/504/Swift-2-512.png" alt="" />SWIFT
+          </li>
           <li>
             <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="" />HTML
           </li>
@@ -162,9 +166,13 @@ export default function Portafolio() {
         </button>
 
       </div>
+
+      <div className="contactme">
+
       </div>
 
-      
+
+      </div>   
       <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     </div>
 

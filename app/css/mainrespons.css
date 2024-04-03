@@ -78,6 +78,7 @@
         text-align: left;
     }
     .datos1{
+        padding-top: 15%;
         margin-left: -15%;
         width: 100%;
         font-size: 200%;
@@ -96,6 +97,8 @@
         font-size: 200%;
     }
     .lenguajes ul{
+        margin-left: 15%;
+        width: 60%;
         flex-wrap: wrap;
     }
     .lenguajes li{
@@ -116,7 +119,7 @@
         font-size: 200%;
     }
     .projects h2{
-        margin-left: 5%;
+        margin-left: 4%;
         font-size: 150%;
     }
     .grid-containerprj{
