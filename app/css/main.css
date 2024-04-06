@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html{
-    background-image: linear-gradient(to bottom, #ff7e5f 20%, #ff7f5f 20%, #31405fe7 40%, #31405f 85%, #7bccffd5 91%,  #7bccff8e 97%);
+    background-image: linear-gradient(to bottom, #ff7e5f 20%, #ff7f5f 20%, #31405fe7 40%, #31405f 83%, #000000 89%,  #000000 97%);
     font-family: 'Roboto', sans-serif;
     height: auto;
 }
@@ -163,18 +163,20 @@ button{
     transition: 1000ms;
     color: rgb(52, 52, 52);
     font-size: 160%;
+    transition: 500ms;
 }
 .container-project:hover{
     background-color: rgba(65, 65, 65, 0.622);
     color: white;
     box-shadow: 0 0 10px rgb(0, 0, 0);
     cursor: pointer;
-    transition: 1000ms;
+    transition: 500ms;
 }
 
 .container-project .nameprj{
     font-size: 27px;
     font-weight: bold;
+    transition: 300ms;
 }
 
 .container-project .categorie{
@@ -211,12 +213,12 @@ button{
     display: none;
     position: relative;
     color:transparent;
-    transition: 1000ms;
+    transition: 500ms;
 }
 
 .container-project .github i{
     margin-right: 2%;
-    transition: 1000ms;
+    transition: 500ms;
 }
 
 .container-project:hover .categorie{
@@ -225,36 +227,44 @@ button{
 }
 
 .container-project:hover .github{
+    transition-delay: 500ms;
     width: 100%;
     display:inline;
     color: white;
-    transition: 1000ms;
+    transition: 500ms;
 }
 
 .contactme{
     margin: auto;
-    margin-top: 15%;
-    color: #000000;
+    margin-top: 20%;
+    color: #ffffff;
 }
 .contactme h1{
+    color: rgb(255, 255, 255);
     margin-bottom: 0%;
+}
+.contactme .contactmett{
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 50px rgba(255, 255, 255, 0.702);
 }
 .contactme .correotxt{
     font-size: 200%;
+    color: rgb(255, 255, 255);
 }
 
 .contactme .correobtn{
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.467);
     border-radius: 7px;
     margin-left: 1%;
     font-size: 150%;
-    border: 1px solid rgb(8, 8, 8);
-    background-color: #00000014;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffffff14;
     transition: 500ms;
 }
 .contactme .correobtn:hover{
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.467);
+    box-shadow: 0 0 30px rgb(55, 182, 255);
     transition: 500ms;
 }

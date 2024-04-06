@@ -12,7 +12,8 @@ import Navbar from './components/navbar';
 
 export default function Portafolio() {
     
-  const [copiado, setCopiado] = useState(false);
+  const [copiadoCorreo, setCopiadoCorreo] = useState(false);
+  const [copiadoTelefono, setCopiadoTelefono] = useState(false);
 
   function copiarAlPortapapeles(id_elemento) {
     const aux = document.createElement('input');
@@ -23,7 +24,19 @@ export default function Portafolio() {
     document.body.removeChild(aux);
 
     // Cambiar el estado para mostrar "Copiado"
-    setCopiado(true);
+    setCopiadoCorreo(true);
+  }
+
+  function copiarTelefono(id_elemento) {
+    const aux = document.createElement('input');
+    aux.setAttribute('value', document.getElementById(id_elemento).innerHTML);
+    document.body.appendChild(aux);
+    aux.select();
+    document.execCommand('copy');
+    document.body.removeChild(aux);
+
+    // Cambiar el estado para mostrar "Copiado"
+    setCopiadoTelefono(true);
   }
   
   return (
@@ -182,20 +195,23 @@ export default function Portafolio() {
 
       <div className="contactme">
 
-        <h1>CORREO</h1>
-        <div className="correo"></div>
-          <span id="url" className='correotxt'>albertpoambez@gmail.com</span>
-          <button className='correobtn' onClick={() => copiarAlPortapapeles('url')}>
-            {copiado ? 'Copiado' : 'Copiar'}
-          </button>
+      <h1 className="contactmett">CONTACTAME</h1>
 
-        <h1>TELEFONO</h1>
-        <div className="telefono">
-          <span id="url" className='correotxt'>+52 3141576598</span>
-          <button className='correobtn' onClick={() => copiarAlPortapapeles('url')}>
-            {copiado ? 'Copiado' : 'Copiar'}
-          </button>
-        </div>
+      <h1>CORREO</h1>
+      <div className="correo">
+        <span id="url" className='correotxt'>albertpoambez@gmail.com</span>
+        <button className='correobtn' onClick={() => copiarAlPortapapeles('url')}>
+          {copiadoCorreo ? 'Copiado' : 'Copiar'}
+        </button>
+      </div>
+
+      <h1>TELEFONO</h1>
+      <div className="telefono">
+        <span id="tel" className='correotxt'>+52 3141576598</span>
+        <button className='correobtn' onClick={() => copiarTelefono('tel')}>
+          {copiadoTelefono ? 'Copiado' : 'Copiar'}
+        </button>
+      </div>
 
       </div>
 
@@ -203,7 +219,7 @@ export default function Portafolio() {
 
 
 
-      </div>   
+      </div>
       <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     </div>
 
