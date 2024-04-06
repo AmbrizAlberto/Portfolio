@@ -1,6 +1,5 @@
-
+/* Estilos para tabletas */
 @media screen and (max-width: 768px) {
-    /* Estilos para tabletas */
     html{
         background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 10%, #31405fe7 20%, #31405f 97%, #7bccff 100%);
     }
@@ -66,11 +65,16 @@
 
   }
   
-  /* Ejemplo de media query para teléfonos celulares */
+  
+  
+  
+  
+  
+  
+  /* Estilos para teléfonos celulares */
   @media screen and (max-width: 480px) {
-    /* Estilos para teléfonos celulares */
     html{
-        background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 15%, #31405fe7 25%, #31405f 85%, #7bccff 95%);
+        background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 13%, #31405fe7 20%, #31405f 82%, #000000 86%);
     }
     .personaldata{
         margin-top: 10%;
@@ -131,6 +135,13 @@
         font-size: 50%;
     }
     .container-project .nameprj{
+        font-size: 150%;
+    }
+    .contactme{
+        margin-top: 40%;
+        font-size: 40%;
+    }
+    .contactme .correotxt{
         font-size: 150%;
     }
 
