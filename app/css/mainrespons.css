@@ -74,7 +74,7 @@
   /* Estilos para teléfonos celulares */
   @media screen and (max-width: 480px) {
     html{
-        background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 13%, #31405fe7 20%, #31405f 82%, #000000 86%);
+        background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 13%, #31405fe7 20%, #31405f 90%, #000000 93%);
     }
     .personaldata{
         margin-top: 10%;
@@ -82,6 +82,7 @@
         text-align: left;
     }
     .datos1{
+        text-align: center;
         padding-top: 15%;
         margin-left: -15%;
         width: 100%;
@@ -95,6 +96,7 @@
     }
     .lenguajes{
         margin-top: 40%;
+        margin-left: -4%;
     }
     .lenguajes h2{
         margin-top: 10%;
@@ -119,7 +121,7 @@
         margin: auto;
     }
     .projects{
-        margin-bottom: 100%;
+        margin-bottom: 1%;
         font-size: 200%;
     }
     .projects h2{
@@ -138,11 +140,11 @@
         font-size: 150%;
     }
     .contactme{
-        margin-top: 40%;
-        font-size: 40%;
+        margin-top: 50%;
+        font-size: 30%;
     }
     .contactme .correotxt{
-        font-size: 150%;
+        font-size: 170%;
     }
 
   }

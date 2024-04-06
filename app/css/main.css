@@ -251,6 +251,7 @@ button{
 .contactme .correotxt{
     font-size: 200%;
     color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .contactme .correobtn{

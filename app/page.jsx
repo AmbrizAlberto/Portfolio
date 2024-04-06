@@ -54,7 +54,8 @@ export default function Portafolio() {
           </div>
           <div className="datos">
             <div className="nombre">
-              Alberto Ambriz
+              Alberto
+              Ambriz 
             </div>
           </div>
         </div>
