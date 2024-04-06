@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html{
-    background-image: linear-gradient(to bottom, #ff7e5f 20%, #ff7f5f 20%, #31405fe7 40%, #31405f 97%, #7bccff 100%);
+    background-image: linear-gradient(to bottom, #ff7e5f 20%, #ff7f5f 20%, #31405fe7 40%, #31405f 85%, #7bccffd5 91%,  #7bccff8e 97%);
     font-family: 'Roboto', sans-serif;
     height: auto;
 }
@@ -231,13 +231,30 @@ button{
     transition: 1000ms;
 }
 
-.containeremail {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  .containeremail button {
-    padding: 10px 20px;
-    font-size: 16px;
+.contactme{
+    margin: auto;
+    margin-top: 15%;
+    color: #000000;
+}
+.contactme h1{
+    margin-bottom: 0%;
+}
+.contactme .correotxt{
+    font-size: 200%;
+}
+
+.contactme .correobtn{
     cursor: pointer;
-  }
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.467);
+    border-radius: 7px;
+    margin-left: 1%;
+    font-size: 150%;
+    border: 1px solid rgb(8, 8, 8);
+    background-color: #00000014;
+    transition: 500ms;
+}
+.contactme .correobtn:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.467);
+    transition: 500ms;
+}

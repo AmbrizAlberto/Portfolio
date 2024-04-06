@@ -1,16 +1,30 @@
 /* https://static-00.iconduck.com/assets.00/next-js-icon-512x512-zuauazrk.png - NEXTJS ICON */
 
-
-import React from 'react'
+'use client'
 import Image from 'next/image';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import React, { useState } from 'react'; 
 
 import styles from "./css/main.css"
 import style from "./css/mainrespons.css"
 import Navbar from './components/navbar';
 
 
-export default function Portafolio() {  
+export default function Portafolio() {
+    
+  const [copiado, setCopiado] = useState(false);
+
+  function copiarAlPortapapeles(id_elemento) {
+    const aux = document.createElement('input');
+    aux.setAttribute('value', document.getElementById(id_elemento).innerHTML);
+    document.body.appendChild(aux);
+    aux.select();
+    document.execCommand('copy');
+    document.body.removeChild(aux);
+
+    // Cambiar el estado para mostrar "Copiado"
+    setCopiado(true);
+  }
   
   return (
     <div className='main'>
@@ -45,8 +59,6 @@ export default function Portafolio() {
 
 
 
-
-      
       <div className="lenguajes">
         <h2>LENGUAJES QUE HE TRABAJADO</h2>
 
@@ -70,7 +82,6 @@ export default function Portafolio() {
         </ul>
         
       </div>
-
 
 
 
@@ -167,9 +178,29 @@ export default function Portafolio() {
 
       </div>
 
+
+
       <div className="contactme">
 
+        <h1>CORREO</h1>
+        <div className="correo"></div>
+          <span id="url" className='correotxt'>albertpoambez@gmail.com</span>
+          <button className='correobtn' onClick={() => copiarAlPortapapeles('url')}>
+            {copiado ? 'Copiado' : 'Copiar'}
+          </button>
+
+        <h1>TELEFONO</h1>
+        <div className="telefono">
+          <span id="url" className='correotxt'>+52 3141576598</span>
+          <button className='correobtn' onClick={() => copiarAlPortapapeles('url')}>
+            {copiado ? 'Copiado' : 'Copiar'}
+          </button>
+        </div>
+
       </div>
+
+
+
 
 
       </div>   
