@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
 
 html{
-    background-image: linear-gradient(to bottom, #ff7e5f 20%, #ff7f5f 20%, #31405fe7 40%, #31405f 83%, #000000 89%,  #000000 97%);
+    background-image: linear-gradient(to bottom, #ff7e5f 15%, #ff7f5f 16%, #31405f 30%, #31405f 83%, #000000 89%,  #000000 97%);
     font-family: 'Roboto', sans-serif;
     height: auto;
 }
@@ -24,7 +35,7 @@ html{
     display: flex;
     width: 100%;
     color: white;
-}
+  }
 
 .datos1{
     width: 50%;

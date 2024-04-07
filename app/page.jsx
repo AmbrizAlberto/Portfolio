@@ -3,7 +3,9 @@
 'use client'
 import Image from 'next/image';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import React, { useState } from 'react'; 
+import React, { useState, useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
+
 
 import styles from "./css/main.css"
 import style from "./css/mainrespons.css"
@@ -14,6 +16,50 @@ export default function Portafolio() {
     
   const [copiadoCorreo, setCopiadoCorreo] = useState(false);
   const [copiadoTelefono, setCopiadoTelefono] = useState(false);
+
+  useEffect(() => {
+    // Inicializa ScrollReveal
+    ScrollReveal().reveal('.personaldata', {
+      duration: 1000, // Duración de la animación (en milisegundos)
+      origin: 'bottom', // Origen de la animación (top, right, bottom, left)
+      distance: '20px', // Distancia de la animación
+      delay: 200, // Retraso antes de que comience la animación (en milisegundos)
+      easing: 'ease-in-out', // Función de easing
+    });
+  }, []);
+
+  useEffect(() => {
+    // Inicializa ScrollReveal
+    ScrollReveal().reveal('.lenguajes', {
+      duration: 1000, // Duración de la animación (en milisegundos)
+      origin: 'left', // Origen de la animación (top, right, bottom, left)
+      distance: '20px', // Distancia de la animación
+      delay: 200, // Retraso antes de que comience la animación (en milisegundos)
+      easing: 'ease-in-out', // Función de easing
+    });
+  }, []);
+
+  useEffect(() => {
+    // Inicializa ScrollReveal
+    ScrollReveal().reveal('.projects', {
+      duration: 1000, // Duración de la animación (en milisegundos)
+      origin: 'right', // Origen de la animación (top, right, bottom, left)
+      distance: '20px', // Distancia de la animación
+      delay: 200, // Retraso antes de que comience la animación (en milisegundos)
+      easing: 'ease-in-out', // Función de easing
+    });
+  }, []);
+
+  useEffect(() => {
+    // Inicializa ScrollReveal
+    ScrollReveal().reveal('.contactme', {
+      duration: 2000, // Duración de la animación (en milisegundos)
+      origin: 'top', // Origen de la animación (top, right, bottom, left)
+      distance: '20px', // Distancia de la animación
+      delay: 100, // Retraso antes de que comience la animación (en milisegundos)
+      easing: 'ease-in-out', // Función de easing
+    });
+  }, []);
 
   function copiarAlPortapapeles(id_elemento) {
     const aux = document.createElement('input');
@@ -44,8 +90,7 @@ export default function Portafolio() {
       
       <Navbar/>
       
-      <div className="personaldata">
-        
+      <div className="personaldata">        
         <div className="datos1">
           <div className="photomia">
             <button type="button" className='photo'>
@@ -68,7 +113,7 @@ export default function Portafolio() {
           </div>
         </div>
           
-
+          
       </div>
 
 
@@ -196,23 +241,23 @@ export default function Portafolio() {
 
       <div className="contactme">
 
-      <h1 className="contactmett">CONTACTAME</h1>
+        <h1 className="contactmett">CONTACTAME</h1>
 
-      <h1>CORREO</h1>
-      <div className="correo">
-        <span id="url" className='correotxt'>albertpoambez@gmail.com</span>
-        <button className='correobtn' onClick={() => copiarAlPortapapeles('url')}>
-          {copiadoCorreo ? 'Copiado' : 'Copiar'}
-        </button>
-      </div>
+        <h1>CORREO</h1>
+        <div className="correo">
+          <span id="url" className='correotxt'>albertpoambez@gmail.com</span>
+          <button className='correobtn' onClick={() => copiarAlPortapapeles('url')}>
+            {copiadoCorreo ? 'Copiado' : 'Copiar'}
+          </button>
+        </div>
 
-      <h1>TELEFONO</h1>
-      <div className="telefono">
-        <span id="tel" className='correotxt'>+52 3141576598</span>
-        <button className='correobtn' onClick={() => copiarTelefono('tel')}>
-          {copiadoTelefono ? 'Copiado' : 'Copiar'}
-        </button>
-      </div>
+        <h1>TELEFONO</h1>
+        <div className="telefono">
+          <span id="tel" className='correotxt'>+52 3141576598</span>
+          <button className='correobtn' onClick={() => copiarTelefono('tel')}>
+            {copiadoTelefono ? 'Copiado' : 'Copiar'}
+          </button>
+        </div>
 
       </div>
 
@@ -222,6 +267,7 @@ export default function Portafolio() {
 
       </div>
       <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+      <script src='script/scrollreveal.js'></script>
     </div>
 
     
