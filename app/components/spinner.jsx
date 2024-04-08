@@ -5,9 +5,9 @@ import "./spinner.css"; // Corrige el nombre del archivo aquí
 
 const Spinner = () => {
   return (
+    
     <div className="spinner">
-      {/* Agrega aquí la animación de carga */}
-      <div className="spinner-circle"></div>
+      <span class="loaderspinner"></span>
     </div>
   );
 };

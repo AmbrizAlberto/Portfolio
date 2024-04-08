@@ -18,6 +18,7 @@ html{
 }
 
 .main{
+    overflow-y: auto; /* Permitir desplazamiento vertical cuando sea necesario */
     margin-left: 5%;
     width: 90%;
     height: 100%;

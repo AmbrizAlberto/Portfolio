@@ -1,36 +1,51 @@
 html {
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.152);
   display: flex; /* Usar flexbox */
   justify-content: center; /* Centrar horizontalmente */
   align-items: center; /* Centrar verticalmente */
   height: 100vh; /* Hacer que el html ocupe toda la altura de la pantalla */
   text-align: center;
   transition: 500ms;
+  font-weight: bold;
+  transition: 500ms;
 }
 
 .spinner {
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100px; /* Ajusta la altura según sea necesario */
   transition: 500ms;
-}
-
-.spinner-circle {
-  width: 50px; /* Ajusta el tamaño del círculo según sea necesario */
-  height: 50px; /* Ajusta el tamaño del círculo según sea necesario */
-  border: 5px solid #ccc; /* Cambia el color y el estilo del borde según sea necesario */
-  border-radius: 50%; /* Hace que el borde sea redondeado para formar un círculo */
-  border-top-color: #333; /* Cambia el color del borde superior para dar la apariencia de movimiento */
-  animation: spin 1s infinite linear; /* Agrega una animación giratoria infinita */
   transition: 500ms;
 }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
+.loaderspinner {
+  width: 8px;
+  height: 8px;
+  position: fixed;
+  border-radius: 50%;
+  background: rgba(227, 153, 73, 0.632);
+  animation: wave 1s ease-in infinite;
+  transition: 500ms;
+}
+
+@keyframes wave {
+ 0% {  box-shadow:
+  0 0 0 0px rgba(227, 153, 73, 0.632),
+  0 0 0 20px rgba(13, 0, 255, 0.066),
+  0 0 0 40px rgba(255, 170, 1, 0.36),
+  0 0 0 60px rgba(0, 81, 255, 0.244),
+  0 0 0 80px rgba(255, 0, 0, 0.034)
   }
-  100% {
-    transform: rotate(360deg);
+  100% {  box-shadow:
+    0 0 0 80px rgba(255, 136, 0, 0),
+    0 0 0 60px rgba(0, 81, 255, 0.2),
+    0 0 0 40px rgba(255, 115, 0, 0.168),
+    0 0 0 20px rgba(0, 157, 255, 0.397),
+    0 0 0 0px rgba(255, 136, 0, 0.73)  
   }
 }
+
+
+  
