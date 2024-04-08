@@ -1,7 +1,6 @@
-'use client';
-import Image from 'next/image';
+'use client'
 import React, { useState, useEffect } from 'react';
-import ScrollReveal from 'scrollreveal';
+import Image from 'next/image';
 import Navbar from './components/navbar';
 import styles from "./css/main.css";
 import style from "./css/mainrespons.css";
@@ -19,8 +18,9 @@ export default function Portafolio() {
     }
   }, []);
 
-  function initScrollReveal(selector, origin) {
+  async function initScrollReveal(selector, origin) {
     if (typeof window !== 'undefined') {
+      const ScrollReveal = (await import('scrollreveal')).default;
       ScrollReveal().reveal(selector, {
         duration: 1000,
         origin: origin,
@@ -31,7 +31,7 @@ export default function Portafolio() {
     }
   }
 
-  function copiarAlPortapapeles(id_elemento) {
+  async function copiarAlPortapapeles(id_elemento) {
     if (typeof window !== 'undefined') {
       const elemento = document.getElementById(id_elemento);
       if (elemento) {
@@ -42,11 +42,13 @@ export default function Portafolio() {
         document.execCommand('copy');
         document.body.removeChild(aux);
         setCopiadoCorreo(true);
+        await new Promise(resolve => setTimeout(resolve, 3000)); // Espera 3 segundos
+        setCopiadoCorreo(false);
       }
     }
   }
 
-  function copiarTelefono(id_elemento) {
+  async function copiarTelefono(id_elemento) {
     if (typeof window !== 'undefined') {
       const elemento = document.getElementById(id_elemento);
       if (elemento) {
@@ -57,6 +59,8 @@ export default function Portafolio() {
         document.execCommand('copy');
         document.body.removeChild(aux);
         setCopiadoTelefono(true);
+        await new Promise(resolve => setTimeout(resolve, 3000)); // Espera 3 segundos
+        setCopiadoTelefono(false);
       }
     }
   }

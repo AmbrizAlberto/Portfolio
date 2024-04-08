@@ -2,7 +2,13 @@
 
 const nextConfig = {
     images: {
-    domains: ['cdn4.iconfinder.com', 'cdn-icons-png.flaticon.com', 'upload.wikimedia.org', 'static-00.iconduck.com', 'cdn.iconscout.com'],
+      remotePatterns: [
+        { hostname: 'cdn4.iconfinder.com' },
+        { hostname: 'cdn-icons-png.flaticon.com' },
+        { hostname: 'upload.wikimedia.org' },
+        { hostname: 'static-00.iconduck.com' },
+        { hostname: 'cdn.iconscout.com' }
+      ],
     },
   };
   
