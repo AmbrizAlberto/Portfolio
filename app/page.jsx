@@ -86,17 +86,6 @@ export default function Portafolio() {
   }
   
   return (
-    <html>
-
-      <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta name="description" content="Proyectos e información de un ingeniero en software especializado"/>
-        <title>Portafolio - Alberto Ambriz</title>
-        <link rel="icon" href="/1mb.jpeg"/>
-      </head>
-
-      <body>
         
         <div className='main'>
           
@@ -281,11 +270,6 @@ export default function Portafolio() {
           <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
           <script src='script/scrollreveal.js'></script>
         </div>
-        
-      </body>
-      
-    </html>
-
     
   )
 }
