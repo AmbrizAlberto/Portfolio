@@ -1,6 +1,9 @@
 'use client'
+
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Head from 'next/head';
+
 import Navbar from './components/navbar';
 import styles from "./css/main.css";
 import style from "./css/mainrespons.css";
@@ -155,8 +158,10 @@ export default function Portafolio() {
           </div>
         </div>
       </div>
-      <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-      <script src='script/scrollreveal.js'></script>
+      <Head>
+        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer />
+        <script src='script/scrollreveal.js' />
+      </Head>
     </div>
   );
 }
