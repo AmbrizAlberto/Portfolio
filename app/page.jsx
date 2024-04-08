@@ -161,7 +161,7 @@ export default function Portafolio() {
       </div>
       <Head>
         <script src="https://platform.linkedin.com/badges/js/profile.js" async defer />
-        <script src='script/scrollreveal.js' />
+        <script src='script/scrollreveal.js' async defer />
       </Head>
     </div>
   );
