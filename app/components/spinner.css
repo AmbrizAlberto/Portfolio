@@ -5,7 +5,6 @@ html {
   align-items: center; /* Centrar verticalmente */
   height: 100vh; /* Hacer que el html ocupe toda la altura de la pantalla */
   text-align: center;
-  color: orange;
   transition: 500ms;
 }
 
