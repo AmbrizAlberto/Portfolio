@@ -8,6 +8,8 @@ import Head from 'next/head';
 import Navbar from './components/navbar';
 import styles from "./css/main.css";
 import style from "./css/mainrespons.css";
+import miImagen from './images/1mb.jpeg';
+
 
 export default function Portafolio() {
   const [copiadoCorreo, setCopiadoCorreo] = useState(false);
@@ -76,7 +78,7 @@ export default function Portafolio() {
         <div className="datos1">
           <div className="photomia">
             <button type="button" className='photo'>
-              <Image src='/1mb.jpeg' width={400} height={400} alt="" />
+              <Image src={miImagen} width={400} height={400} alt="" />
             </button>
           </div>
           <div className="datos">

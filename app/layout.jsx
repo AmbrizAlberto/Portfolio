@@ -1,6 +1,7 @@
 // layout.jsx
 
-'use client'; // Marca el componente como un componente de cliente
+'use client';
+import Head from 'next/head';
 import React, { useState, useEffect } from 'react';
 import LoadingScreen from './components/LoadingScreen';
 
@@ -25,7 +26,11 @@ export default function RootLayout({ children }) {
   return (
     <html className="html">
       <head>
-        {/* Aquí puedes agregar tus etiquetas <head> */}
+        <title>Portafolio - Alberto Ambriz</title>
+        <meta name="description" content="Proyectos y trayectoria de un desarrollador de software" />
+        {/* Usa la variable miImagen en el atributo href del enlace */}
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4100/4100416.png" />
+        {/* Otras etiquetas meta, enlaces CSS, etc. */}
       </head>
       <body>
         <div className="main">
