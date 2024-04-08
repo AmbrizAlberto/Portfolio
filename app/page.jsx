@@ -7,7 +7,8 @@ import Head from 'next/head';
 
 import Navbar from './components/navbar';
 import styles from "./css/main.css";
-import style from "./css/mainrespons.css";
+import stylerespons from "./css/mainrespons.css";
+import stylescroll from "./css/scroller.css";
 import miImagen from './images/1mb.jpeg';
 
 
