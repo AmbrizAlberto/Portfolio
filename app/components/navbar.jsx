@@ -1,3 +1,5 @@
+'use client';
+
 /* IMPORT PRINCIPAL LIBRARYS */
 import Link from 'next/link';
 

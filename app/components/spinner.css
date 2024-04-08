@@ -1,0 +1,37 @@
+html {
+  background-color: #333;
+  display: flex; /* Usar flexbox */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 100vh; /* Hacer que el html ocupe toda la altura de la pantalla */
+  text-align: center;
+  color: orange;
+  transition: 500ms;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Ajusta la altura según sea necesario */
+  transition: 500ms;
+}
+
+.spinner-circle {
+  width: 50px; /* Ajusta el tamaño del círculo según sea necesario */
+  height: 50px; /* Ajusta el tamaño del círculo según sea necesario */
+  border: 5px solid #ccc; /* Cambia el color y el estilo del borde según sea necesario */
+  border-radius: 50%; /* Hace que el borde sea redondeado para formar un círculo */
+  border-top-color: #333; /* Cambia el color del borde superior para dar la apariencia de movimiento */
+  animation: spin 1s infinite linear; /* Agrega una animación giratoria infinita */
+  transition: 500ms;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

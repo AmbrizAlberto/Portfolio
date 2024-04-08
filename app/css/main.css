@@ -52,10 +52,10 @@ html{
     margin-bottom: 1%;
 }.photomia img {
     width: 40%;
+    height: 40%; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
     margin-left: 35%;
     border-radius: 50%;
     max-width: 100%; /* Asegura que la imagen no supere el 100% del contenedor */
-    height: 40; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
     cursor: pointer;
 }
 
