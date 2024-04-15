@@ -7,7 +7,9 @@ const nextConfig = {
         { hostname: 'cdn-icons-png.flaticon.com' },
         { hostname: 'upload.wikimedia.org' },
         { hostname: 'static-00.iconduck.com' },
-        { hostname: 'cdn.iconscout.com' }
+        { hostname: 'cdn.iconscout.com' },
+        { hostname: 'camo.githubusercontent.com'},
+        { hostname: 'dn-icons-png.flaticon.com'}
       ],
     },
   };

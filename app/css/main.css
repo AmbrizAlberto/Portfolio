@@ -117,34 +117,7 @@ button{
     width: 70%;
     font-size: 400%;
     font-weight: 600;
-}.lenguajes ul{
-    display: flex; /* Utiliza Flexbox para hacer una lista horizontal */
-    list-style: none; /* Quita los puntos de la lista */
-    justify-content: center; /* Centra los elementos de la lista */
-    align-items: center; /* Centra verticalmente los elementos de la lista */
-    width: auto;
-}.lenguajes li{
-    margin: 0 10px; /* Añade un margen entre los elementos de la lista */
-    text-decoration: none;
-    font-size: 200%;
-    font-weight: bold;
-}.lenguajes li img{
-    width: 100px;
-    height: 100px;
-    transition: 500ms;
-}.lenguajes li img:hover {
-    margin-top: -10px;
-    background: none;
-    width: 110px;
-    height: 110px;
-    transition: 500ms;
-}.lenguajes li:hover{
-    text-shadow: 0 0 10px rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    transition: 500ms;
-}
-
-.projects{
+}.projects{
     margin-top: 5%;
     padding-top: 10%;
     text-align: center;
@@ -155,6 +128,61 @@ button{
     font-weight: 600;
     font-size: 350%;
 }
+
+
+/* TECNOLOGIAS */
+.grid-containertec {
+    display: flex;
+    justify-content: center; /* Para centrar horizontalmente */
+    align-items: center; /* Para centrar verticalmente */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 0fr));
+    grid-gap: 30px;
+  }
+  
+  .grid-itemtec {
+    margin-top: 5%;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.343);
+    background-color: rgba(55, 55, 55, 0.243);
+    padding: 10px;
+    text-align: center;
+    width: 380px;
+    height: 400px;
+    transition: 500ms;
+  }.grid-itemtec:hover{
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    background-color: #ffffff25;
+    transition: 500ms;
+  }.grid-containertec h2{
+    font-size: 250%;
+    color: rgba(255, 255, 255, 0.56);
+  }
+  .grid-itemtec .tecnologias{
+    margin-right: 2%;
+    font-size: 250%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas con igual ancho */
+    gap: 10px; /* Espacio entre los elementos */
+  }
+  .image-with-text {
+    font-size: 50%;
+    text-align: center;
+  }
+  
+  .image-with-text img {
+    width: 80px; /* Ajusta el ancho según sea necesario */
+    height: 80px; /* Esto permite que la imagen se ajuste proporcionalmente */
+  }
+  
+  .image-with-text p {
+    color: rgba(255, 255, 255, 0.349);
+    margin-top: 5px; /* Espacio entre la imagen y el texto */
+  }
+  
+  
+
 
 
 /* PROYECTOS */
