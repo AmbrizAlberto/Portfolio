@@ -22,7 +22,7 @@
         margin: auto;
         margin-left: 20%;
         font-size: 100%;
-        margin-bottom: 10%;
+        margin-bottom: -35%;
     }
     .projects h2{
         margin-left: 10%;
@@ -116,7 +116,7 @@
       }.grid-containertec h2{
         margin-left: 5%;
         font-size: 150%;
-        margin-bottom: 0%;
+        margin-bottom: -35%;
         margin: auto;
         color: rgba(255, 255, 255, 0.56);
       }
