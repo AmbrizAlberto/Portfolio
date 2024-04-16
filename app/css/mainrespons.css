@@ -24,24 +24,6 @@
         font-size: 100%;
         margin-bottom: 10%;
     }
-    .lenguajes ul {
-        margin-left: -10%;
-        display: flex;
-        font-size: 30%;
-    }
-    .lenguajes li{
-        margin: 0 7px;
-    }
-
-    .lenguajes li img{
-        width: 30px;
-        height: 30px;
-    }
-    .lenguajes li img:hover {
-        margin-top: -2px;
-        width: 35px;
-        height: 35px;
-    }
     .projects h2{
         margin-left: 10%;
         font-size: 150%;
@@ -99,38 +81,65 @@
         margin-left: -4%;
     }
     .lenguajes h2{
+        margin-bottom: -15%;
         margin-top: 10%;
         font-size: 200%;
-    }
-    .lenguajes ul{
-        margin-left: 15%;
-        width: 60%;
-        flex-wrap: wrap;
-    }
-    .lenguajes li{
-        margin: 20px 10px; /* Añade un margen entre los elementos de la lista */
-    }
-    .lenguajes li img{
-        width: 90px;
-        height: 90px;
-        margin: auto;
-    }
-    .lenguajes li img:hover{
-        width: 100px;
         height: 100px;
-        margin: auto;
     }
     .projects{
         margin-bottom: 1%;
         font-size: 200%;
     }
     .projects h2{
+        height: 5%;
         margin-left: 4%;
         font-size: 150%;
     }
-    .grid-containerprj{
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
-    }
+    .grid-containertec {
+        display: flex;
+        justify-content: center; /* Para centrar horizontalmente */
+        align-items: center; /* Para centrar verticalmente */
+        margin: auto;
+        display: grid;
+        grid-template-columns: (auto-fill, minmax(95px, 0fr));
+        grid-gap: 30px;
+      }
+      .grid-itemtec {
+        margin-top: 5%;
+        margin-left: 15%;
+        border-radius: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.343);
+        background-color: rgba(55, 55, 55, 0.243);
+        padding: 15px;
+        width: 270px;
+        height: 270px;
+      }.grid-containertec h2{
+        margin-left: 5%;
+        font-size: 150%;
+        margin-bottom: 0%;
+        margin: auto;
+        color: rgba(255, 255, 255, 0.56);
+      }
+      .grid-itemtec .tecnologias{
+        font-size: 150%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas con igual ancho */
+        gap: 10px; /* Espacio entre los elementos */
+      }
+      .image-with-text {
+        margin: auto;
+        font-size: 50%;
+      }
+      
+      .image-with-text img {
+        width: 50px; /* Ajusta el ancho según sea necesario */
+        height: 50px; /* Esto permite que la imagen se ajuste proporcionalmente */
+      }
+      
+      .image-with-text p {
+        color: rgba(255, 255, 255, 0.349);
+        margin-top: 5px; /* Espacio entre la imagen y el texto */
+      }
     .container-project{
         margin-top: -5%;
         margin-bottom: -5%;
