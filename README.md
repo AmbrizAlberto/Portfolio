@@ -1,9 +1,9 @@
 # PORTAFOLIO
 ## by AmbrizDev
 
-Portafolio de programador con proyectos desarrollado con NextJS y React utilizando clases y librerias dedicadas.
+Portafolio de programador con proyectos, desarrollado con React y NextJS utilizando clases y librerias dedicadas.
 
-Dar creditos se se reutiliza :DD
+Dar creditos si se reutiliza :DD
 
 Para iniciar el proyecto en local:
 ```bash
@@ -21,3 +21,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 ## Learn More
+
+### Contenido:
+- Sobre mi
+- Tecnologias
+- Proyectos
+- Contactame
