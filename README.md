@@ -1,5 +1,4 @@
-# PORTAFOLIO
-## by AmbrizDev
+# PORTAFOLIO ## by AmbrizDev
 
 Portafolio de programador con proyectos, desarrollado con React y NextJS utilizando clases y librerias dedicadas.
 
