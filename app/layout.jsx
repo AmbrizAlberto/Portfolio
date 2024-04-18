@@ -33,13 +33,11 @@ export default function RootLayout({ children }) {
         {/* Otras etiquetas meta, enlaces CSS, etc. */}
       </head>
       <body>
-        <div className="main">
           {loading ? ( // Si loading es verdadero, muestra el spinner de carga
             <LoadingScreen />
           ) : (
             children // Si loading es falso, muestra el contenido de la página
           )}
-        </div>
       </body>
     </html>
   );

@@ -1,5 +1,5 @@
 /* Estilos para tabletas */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     html{
         background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 20%, #31405fe7 31%, #31405f 87%, #000000 91%);
         overflow-y: auto
@@ -105,116 +105,61 @@
     .contactme .correotxt{
         font-size: 170%;
     }
+}
 
-  }
-  
-  
-  
-  
-  
-  
-  
+
+
   /* Estilos para teléfonos celulares */
   @media screen and (max-width: 480px) {
     html{
-        background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 13%, #31405fe7 20%, #31405f 90%, #000000 93%);
+        background-image: linear-gradient(to bottom, #ff7e5f 15%, #ff7f5f 14%, #31405f 28%, #31405f 84%, #000000 95%,  #000000 100%);
+        overflow-x: hidden;
+        font-size: 50%;
     }
-    .personaldata{
+    body{
+        width: 100%;
+    }
+    .main{
+        width: 90%;
+    }.personaldata{
         margin-top: 10%;
         flex-wrap: wrap;
         text-align: left;
     }
     .datos1{
         text-align: center;
-        padding-top: 15%;
+        padding-top: 10%;
         margin-left: -15%;
         width: 100%;
-        font-size: 200%;
     }
     .datos2{
         margin-top: 10%;
-        margin-left: 5%;
-        width: 100%;
-        font-size: 200%;
-    }
-    .lenguajes{
-        margin-top: 40%;
-        margin-left: -4%;
-    }
-    .lenguajes h2{
-        margin-bottom: -15%;
-        margin-top: 10%;
-        font-size: 200%;
-        height: 100px;
-    }
-    .projects{
-        margin-bottom: 1%;
-        font-size: 200%;
-    }
-    .projects h2{
-        height: 5%;
-        margin-left: 4%;
-        font-size: 150%;
-    }
-    .grid-containertec {
-        display: flex;
-        justify-content: center; /* Para centrar horizontalmente */
-        align-items: center; /* Para centrar verticalmente */
-        margin: auto;
-        display: grid;
-        grid-template-columns: (auto-fill, minmax(95px, 0fr));
-        grid-gap: 30px;
-      }
-      .grid-itemtec {
-        margin-top: 5%;
-        margin-left: 15%;
-        border-radius: 30px;
-        border: 1px solid rgba(255, 255, 255, 0.343);
-        background-color: rgba(55, 55, 55, 0.243);
-        padding: 15px;
-        width: 270px;
-        height: 270px;
-      }.grid-containertec h2{
-        margin-left: 5%;
-        font-size: 150%;
-        margin-bottom: -35%;
-        margin: auto;
-        color: rgba(255, 255, 255, 0.56);
-      }
-      .grid-itemtec .tecnologias{
-        font-size: 150%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); /* 3 columnas con igual ancho */
-        gap: 10px; /* Espacio entre los elementos */
-      }
-      .image-with-text {
-        margin: auto;
-        font-size: 50%;
-      }
-      
-      .image-with-text img {
-        width: 50px; /* Ajusta el ancho según sea necesario */
-        height: 50px; /* Esto permite que la imagen se ajuste proporcionalmente */
-      }
-      
-      .image-with-text p {
-        color: rgba(255, 255, 255, 0.349);
-        margin-top: 5px; /* Espacio entre la imagen y el texto */
-      }
-    .container-project{
-        margin-top: -5%;
-        margin-bottom: -5%;
-        font-size: 50%;
-    }
-    .container-project .nameprj{
-        font-size: 150%;
-    }
-    .contactme{
-        margin-top: 50%;
-        font-size: 30%;
-    }
-    .contactme .correotxt{
-        font-size: 170%;
+        margin-left: 2%;
+        width: 90%;
     }
 
+    .grid-itemtec {
+        margin: auto;
+        width: 260px;
+        height: 200px;
+    }
+    .image-with-text img {
+        width: 40px; /* Ajusta el ancho según sea necesario */
+        height: 40px; /* Esto permite que la imagen se ajuste proporcionalmente */
+    }
+    .projects{
+        width: 100%;
+    }
+    .grid-containerprj{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
+        padding: 0%;
+        width: 100%;
+        border: 1px solid red;
+    }
+    .container-project{
+        border: 1px solid black;
+        margin: 0;
+        margin: auto;
+        width: 90%;
+    }
   }
