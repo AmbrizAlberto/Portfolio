@@ -26,6 +26,7 @@ html{
     padding: 2%;
     border-radius: 20px;
     margin: auto;
+    transition: 500ms;
 }
   
 
@@ -36,21 +37,25 @@ html{
     display: flex;
     width: 100%;
     color: white;
+    transition: 500ms;
   }
 
 .datos1{
     width: 50%;
+    transition: 500ms;
 }.datos2{
     border-left: 1vh solid rgba(0, 0, 0, 0.134);
     padding-left: 2%;
     margin-top: 0%;
     width: 50%;
+    transition: 500ms;
 }
 
 .photomia {
     background-color: transparent;
     border: none;
     margin-bottom: 1%;
+    transition: 500ms;
 }.photomia img {
     width: 40%;
     height: 40%; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
@@ -58,12 +63,14 @@ html{
     border-radius: 50%;
     max-width: 100%; /* Asegura que la imagen no supere el 100% del contenedor */
     cursor: pointer;
+    transition: 500ms;
 }
 
 .datos {
     display: flex; /* Utiliza flexbox para alinear verticalmente los datos */
     flex-direction: column; /* Alinea los elementos en columna */
     width: 100%;
+    transition: 500ms;
 }
 
 .nombre{
@@ -74,19 +81,24 @@ html{
     width: 80%;
     margin: auto;
     max-height: 20%;
+    transition: 500ms;
 }
 
 .aboutme{
     margin-top: -10%;
     font-weight: bold;
     font-size: 250%;
+    transition: 500ms;
 }.aboutme h2{
     color: rgb(37, 39, 66);
     margin-bottom: 0%;
     font-size: 200%;
+    transition: 500ms;
+
 }.descriptionme{
     color: rgb(255, 255, 255);
-    font-size: 100%
+    font-size: 100%;
+    transition: 500ms;
 }
 
 
@@ -94,6 +106,7 @@ html{
 button{
     background-color: transparent;
     border: none;
+    transition: 500ms;
 }
 
 
@@ -111,12 +124,14 @@ button{
     width: 100%;
     height: auto;
     color: #ffffff;
+    transition: 500ms;
 }.lenguajes h2{
     margin: auto;
     margin-bottom: 5%;
     width: 70%;
     font-size: 400%;
     font-weight: 600;
+    transition: 500ms;
 }.projects{
     margin-top: 5%;
     padding-top: 10%;
@@ -124,9 +139,11 @@ button{
     width: 100%;
     height: auto;
     color: #7ed1f4;
+    transition: 500ms;
 }.projects h2{
     font-weight: 600;
     font-size: 350%;
+    transition: 500ms;
 }
 
 
@@ -139,6 +156,7 @@ button{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 0fr));
     grid-gap: 30px;
+    transition: 500ms;
   }
   
   .grid-itemtec {
@@ -159,6 +177,7 @@ button{
     font-size: 250%;
     color: rgba(255, 255, 255, 0.56);
     margin-bottom: 5%;
+    transition: 500ms;
   }
   .grid-itemtec .tecnologias{
     margin-right: 2%;
@@ -166,20 +185,24 @@ button{
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columnas con igual ancho */
     gap: 10px; /* Espacio entre los elementos */
+    transition: 500ms;
   }
   .image-with-text {
     font-size: 50%;
     text-align: center;
+    transition: 500ms;
   }
   
   .image-with-text img {
     width: 80px; /* Ajusta el ancho según sea necesario */
     height: 80px; /* Esto permite que la imagen se ajuste proporcionalmente */
+    transition: 500ms;
   }
   
   .image-with-text p {
     color: rgba(255, 255, 255, 0.349);
     margin-top: 5px; /* Espacio entre la imagen y el texto */
+    transition: 500ms;
   }
   
   
@@ -196,21 +219,19 @@ button{
 }
 
 .container-project{
-    background-color: #ffffff93;
-    border: 2px solid rgba(255, 255, 255, 0.451);
-    box-shadow: 0 0 30px rgba(3, 3, 3, 0.145);
-    border-radius: 20px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.343);
+    background-color: rgba(55, 55, 55, 0.243);
+    padding: 10px;
     padding: 5%;
     transition: 1000ms;
-    color: rgb(52, 52, 52);
+    color: rgba(255, 255, 255, 0.56);
     font-size: 160%;
     transition: 500ms;
 }
 .container-project:hover{
-    background-color: rgba(65, 65, 65, 0.622);
-    color: white;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
-    cursor: pointer;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    background-color: #ffffff25;
     transition: 500ms;
 }
 
@@ -293,6 +314,7 @@ button{
     font-size: 200%;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    transition: 500ms;
 }
 
 .contactme .correobtn{

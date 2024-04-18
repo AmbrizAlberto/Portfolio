@@ -17,10 +17,10 @@ export default function Portafolio() {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      initScrollReveal('.personaldata', 'bottom');
-      initScrollReveal('.lenguajes', 'left');
+      initScrollReveal('.personaldata', 'right');
+      initScrollReveal('.lenguajes', 'right');
       initScrollReveal('.projects', 'right');
-      initScrollReveal('.contactme', 'bottom');
+      initScrollReveal('.contactme', 'right');
     }
   }, []);
 
