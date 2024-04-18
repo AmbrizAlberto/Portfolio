@@ -154,7 +154,6 @@
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
         padding: 0%;
         width: 100%;
-        border: 1px solid red;
     }
     .container-project{
         border: 1px solid black;
