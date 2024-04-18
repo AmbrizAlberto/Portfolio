@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function (Tecnologias) {
+const Technologies = () => {
   return (
     <div className="lenguajes">
         <h2>TECNOLOGIAS</h2>
@@ -66,3 +66,4 @@ export default function (Tecnologias) {
   )
 }
 
+export default Technologies;
