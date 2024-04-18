@@ -81,7 +81,7 @@ export default function Portafolio() {
         <div className="datos1">
           <div className="photomia">
             <button type="button" className='photo'>
-              <Image src={miImagen} width={400} height={400} alt="" />
+              <Image src={miImagen} width={"auto"} height={"auto"} alt="" />
             </button>
           </div>
           <div className="datos">

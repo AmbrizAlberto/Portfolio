@@ -9,6 +9,7 @@
       transform: translateY(0);
     }
   }
+
   div.arrow {
     margin: auto;
     margin-top: 7%;
@@ -215,6 +216,7 @@ button{
     transition: 500ms;
   }
   .grid-itemtec {
+    cursor: pointer;
     margin-top: 5%;
     border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.343);
@@ -265,8 +267,17 @@ button{
 
 
 /* PROYECTOS */
+
+.photoprj img{
+    width: 95%;
+    height: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 1px 15px 30px black;
+}
 .grid-containerprj{
     margin: auto;
+    margin-left: 5%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(410px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
     gap: 40px 20px; /* Espacio entre los elementos */
@@ -274,6 +285,7 @@ button{
 }
 
 .container-project{
+    cursor: pointer;
     border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.343);
     background-color: rgba(55, 55, 55, 0.243);

@@ -1,6 +1,9 @@
 
 import Image from 'next/image';
 
+
+import HyH from '../images/Harmony&HeavenM.jpg';
+
 const Proyectos = () => {
   return (
         <div className='projects'>
@@ -10,7 +13,7 @@ const Proyectos = () => {
               <div className="nameprj">Harmony & Heaven</div>
               <div className="categorie">Grupal</div>
               <div className="photoprj">
-                <Image src="" alt="" width={40} height={40} />
+                <Image src={HyH} alt="" width={"auto"} height={"auto"} />
               </div>
               <div className="descriptionprj">
                 <h4>Tienda de instrumentos con CRUD, Inicio de sesión y Punto de venta.</h4>
