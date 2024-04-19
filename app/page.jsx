@@ -1,6 +1,8 @@
 // page.jsx
 
 'use client'
+
+
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
@@ -8,11 +10,16 @@ import Head from 'next/head';
 import Navbar from './components/navbar';
 import styles from "./css/main.css";
 import stylerespons from "./css/mainrespons.css";
+
 import miImagen from './images/1mb.jpeg';
+
+import HyH from './images/Harmony&HeavenM.jpg';
+import HyH1 from './images/Harmony&HeavenL.jpg';
+import "./components/modal.css"
+
+
 import Tecnologias from './components/tecnologies';
 import Proyectos from './components/projects';
-
-
 
 export default function Portafolio() {
   const [copiadoCorreo, setCopiadoCorreo] = useState(false);
@@ -100,9 +107,7 @@ export default function Portafolio() {
         </div>
       </div>
 
-
       <Tecnologias/>
-      
 
       <Proyectos/>
 
@@ -122,6 +127,7 @@ export default function Portafolio() {
             {copiadoTelefono ? 'Copiado' : 'Copiar'}
           </button>
         </div>
+
 
       </div>
       <Head>

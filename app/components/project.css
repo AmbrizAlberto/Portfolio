@@ -1,0 +1,48 @@
+.nameprj1{
+    color: white;
+    font-size: 300%;
+}
+
+.categorie1{
+    margin-top: 2%;
+    color: rgb(159, 241, 255);
+    font-size: 250%;
+}
+
+.photoprj1 img{
+    width: 70%;
+    height: 1%;
+    margin-top: 5%;
+    border-radius: 20px;
+    box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.533);
+}
+
+.lenguajesprj1{
+    margin: auto;
+    padding: 1%;
+    width: 40%;
+    height: auto;
+    background-color: rgb(139, 139, 139);
+    border-radius: 20px;
+    margin-top: 2%;
+}
+.lenguajesprj1 img{
+    width: 15%;
+    height: auto;
+}
+
+.descriptionprj1{
+    margin: auto;
+    margin-top: 5%;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+    width: 80%;
+}
+
+.descriptionprj2{
+    color: white;
+    text-align: left;
+    font-weight: 600;
+    font-size: 150%;
+}
