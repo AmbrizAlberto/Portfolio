@@ -13,11 +13,6 @@ import stylerespons from "./css/mainrespons.css";
 
 import miImagen from './images/1mb.jpeg';
 
-import HyH from './images/Harmony&HeavenM.jpg';
-import HyH1 from './images/Harmony&HeavenL.jpg';
-import "./components/modal.css"
-
-
 import Tecnologias from './components/tecnologies';
 import Proyectos from './components/projects';
 
