@@ -1,5 +1,4 @@
 // projects.jsx
-
 import Image from 'next/image';
 import { X } from 'react-feather';
 import React, { useState } from 'react';
@@ -52,7 +51,7 @@ const Proyectos = () => {
         </button>
 
         <button className="container-project" onClick={() => openModalForProject("PickEmE")}>
-          <div className="nameprj">Pick Em' Everithimg</div>
+          <div className="nameprj">Pick Em&apos; Everithimg</div>
           <div className="categorie">Grupal</div>
           <div className="photoprj">
             <Image src={PEE} alt="" width={"auto"} height={"auto"} />
@@ -132,7 +131,7 @@ const Proyectos = () => {
               <X size={24} />
             </button>
 
-            <div className="nameprj1">Pick Em' Everithing</div>
+            <div className="nameprj1">Pick Em&apos; Everithing</div>
             <div className="categorie1">Grupal</div>
             <div className="lenguajesprj1">
               <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={40} height={40} alt="" />
@@ -145,10 +144,10 @@ const Proyectos = () => {
               <h4>Videojuego desarrollado 100% con la libreria Pygame de Python</h4>
             </div>
             <div className='descriptionprj2'>
-              Pick Em' Everithing es un videojuego dedicado para niños con el enfoque del cuidado del medio ambiente, Arthur (el personaje principarl del juego) ira recogiendo basura a lo largo de su aventura para llevarla al camion recolector, haciendo referencia a la responsabilidad de mantener limpio un lugar.
+              Pick Em&apos; Everithing es un videojuego dedicado para niños con el enfoque del cuidado del medio ambiente, Arthur (el personaje principarl del juego) ira recogiendo basura a lo largo de su aventura para llevarla al camion recolector, haciendo referencia a la responsabilidad de mantener limpio un lugar.
               <br />
               <br />
-              <p>Pick Em' Everithing cuenta con: 
+              <p>Pick Em&apos; Everithing cuenta con: 
                 <br />
                 <br />- Menu Principal: Español / Ingles
                 <br />- Menu de Niveles: 3 Niveles
