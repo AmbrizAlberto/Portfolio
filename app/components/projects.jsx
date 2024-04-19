@@ -108,11 +108,11 @@ const Proyectos = () => {
               <h4>Tienda de instrumentos CRUD, Inventario y Punto de venta.</h4>
             </div>
             <div className='descriptionprj2'>
-              Harmony &amp; Heaven se desarrollo como un inventario para una tienda de instrumentos donde se registraran los productos con "unidades a la venta", "precio del producto" y "categoria", ademas se creo el punto de venta para el cliente donde podra añadir al carrito cualquier producto disponible de la tienda.
-              <p>En el apartado de Vendedor, Harmony &amp; Heaven cuenta con un motor de busqueda y filtrado de los datos para facilitar la recoleccion de productos, tambien cuenta con un gestor de pedidos al Provedor de productos donde se registraran cuando se soliciten y cuando se reciban para estar en stock añadiendose automaticamente las cantidades recibidas en el inventario, asi como un dashboard para ver resumenes de ventas, empleados y demas cosas.
-              Los productos se pueden editar o eliminar de ser necesario.</p>
+              <p>Harmony &amp; Heaven se desarrollo como un inventario para una tienda de instrumentos donde se registraran los productos con &quot;unidades a la venta&quot;, &quot;precio del producto&quot; y &quot;categoria&quot;, ademas se creo el punto de venta para el cliente donde podra añadir al carrito cualquier producto disponible de la tienda.</p>
+              <p>En el apartado de Vendedor, Harmony &amp; Heaven cuenta con un motor de busqueda y filtrado de los datos para facilitar la recoleccion de productos, tambien cuenta con un gestor de pedidos al Provedor de productos donde se registraran cuando se soliciten y cuando se reciban para estar en stock añadiendose automaticamente las cantidades recibidas en el inventario, asi como un dashboard para ver resumenes de ventas, empleados y demas cosas.</p>
+              <p>Los productos se pueden editar o eliminar de ser necesario.</p>
 
-              <p>En el apartado de cliente (punto de venta), el cliente podra unicamente ver los productos en stock y añadirlos al carrito para su compra, el precio total por los productos a comprar se mostrara siempre hasta realizar la compra.</p>
+              <p>En el apartado de cliente --punto de venta--, el cliente podra unicamente ver los productos en stock y añadirlos al carrito para su compra, el precio total por los productos a comprar se mostrara siempre hasta realizar la compra.</p>
               <div className="photoprj1">
                 <Image src={HyH} alt="" width={"auto"} height={"auto"} />
               </div>
@@ -144,7 +144,7 @@ const Proyectos = () => {
               <h4>Videojuego desarrollado 100% con la libreria Pygame de Python</h4>
             </div>
             <div className='descriptionprj2'>
-              Pick Em&apos; Everithing es un videojuego dedicado para niños con el enfoque del cuidado del medio ambiente, Arthur (el personaje principarl del juego) ira recogiendo basura a lo largo de su aventura para llevarla al camion recolector, haciendo referencia a la responsabilidad de mantener limpio un lugar.
+              <p>Pick Em&apos; Everithing es un videojuego dedicado para niños con el enfoque del cuidado del medio ambiente, Arthur --el personaje principarl del juego-- ira recogiendo basura a lo largo de su aventura para llevarla al camion recolector, haciendo referencia a la responsabilidad de mantener limpio un lugar.</p>
               <br />
               <br />
               <p>Pick Em&apos; Everithing cuenta con: 
