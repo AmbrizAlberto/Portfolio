@@ -22,7 +22,7 @@ export default function Portafolio() {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      initScrollReveal('.personaldata', 'right');
+      initScrollReveal('.personaldata', '');
       initScrollReveal('.lenguajes', 'right');
       initScrollReveal('.projects', 'right');
       initScrollReveal('.contactme', 'right');
@@ -33,10 +33,10 @@ export default function Portafolio() {
     if (typeof window !== 'undefined') {
       const ScrollReveal = (await import('scrollreveal')).default;
       ScrollReveal().reveal(selector, {
-        duration: 1000,
+        duration: 1500,
         origin: origin,
         distance: '20px',
-        delay: 200,
+        delay: 0,
         easing: 'ease-in-out',
       });
     }
@@ -83,7 +83,7 @@ export default function Portafolio() {
         <div className="datos1">
           <div className="photomia">
             <button type="button" className='photo'>
-              <Image src={miImagen} width={"auto"} height={"auto"} alt="" />
+              <Image src={miImagen} width={"auto"} height={"auto"} priority={true}  alt="" />
             </button>
           </div>
           <div className="datos">
