@@ -36,7 +36,6 @@ body{
     border-radius: 20px;
     margin: auto;
     margin-left: auto;
-    transition: 500ms;
 }
   
 
@@ -47,7 +46,6 @@ body{
     display: flex;
     width: 100%;
     color: white;
-    transition: 500ms;
   }
 
 .datos1{
@@ -232,9 +230,10 @@ button{
 .grid-containerprj{
     margin: auto;
     margin-left: 5%;
+    margin-right: 5%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(410px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
-    gap: 60px 40px; /* Espacio entre los elementos */
+    gap: 60px 4%; /* Espacio entre los elementos */
     transition: 500ms;
 }
 

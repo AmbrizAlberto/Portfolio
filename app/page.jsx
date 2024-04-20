@@ -22,9 +22,7 @@ export default function Portafolio() {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      initScrollReveal('.personaldata', 'right');
-      initScrollReveal('.datos1', 'right');
-      initScrollReveal('.datos2', 'right');
+      initScrollReveal('.personaldata', 'bottom');
       initScrollReveal('.lenguajes', 'right');
       initScrollReveal('.projects', 'right');
       initScrollReveal('.contactme', 'right');

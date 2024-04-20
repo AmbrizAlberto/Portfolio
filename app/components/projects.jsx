@@ -8,10 +8,12 @@ import HyH1 from '../images/HarmonyAndHeavenL.jpg';
 import PEE from '../images/PickEm.jpg';
 import PEE1 from '../images/PickEm1.jpg';
 import PEE2 from '../images/PickEm2.jpg';
+import BB from '../images/BB1.jpg';
+import BB1 from "../images/BB2.jpeg";
 
 
-import "./modal.css";
-import styles from "./project.css";
+import "../css/modal.css";
+import "../css/project.css";
 
 const Proyectos = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -53,6 +55,7 @@ const Proyectos = () => {
             <div className="lenguajesprj">
               <Image src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" width={40} height={40} alt="" />
               <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" width={40} height={40} alt="" />
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
             </div>
             <div className="github">
               <i className="bi bi-github"></i>Ver proyecto
@@ -76,17 +79,19 @@ const Proyectos = () => {
           </div>
         </button>
 
-        <button className="container-project" onClick={() => openModalForProject("harmony_heaven")}>
+        <button className="container-project" onClick={() => openModalForProject("BugB")}>
           <div className="nameprj">BuggBlock</div>
           <div className="categorie">Grupal</div>
           <div className="photoprj">
-            <Image src={PEE} alt="" width={"auto"} height={"auto"} />
+            <Image src={BB} alt="" width={"auto"} height={"auto"} />
           </div>
           <div className="descriptionprj">
             <h4>Web Blog informatico enfocado a la tecnologia y computadoras, los usuarios pueden hacer nuevas publicaciones y el admin borrarlas</h4>
           </div>
           <div className="lenguajesprj">
-            <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={200} height={200} alt="" />
+            <Image src="https://static-00.iconduck.com/assets.00/php-icon-2048x2048-jyo8hbbt.png" width={200} height={200} alt="" />
+            <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
+            <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" width={40} height={40} alt="" />
           </div>
           <div className="github">
             <i className="bi bi-github"></i>Ver proyecto
@@ -175,6 +180,43 @@ const Proyectos = () => {
             </div>
 
 
+          </div>
+        </div>
+      )}
+
+      {modalOpen && selectedProject === "BugB" && (
+        <div className='modalprj1' onClick={closeModal}>
+          <div className='modalcontent1' onClick={(e) => e.stopPropagation()}>
+
+            <button className="close-modal" onClick={closeModal}>
+              <X size={24} />
+            </button>
+
+            <div className="nameprj1">BuggBlock</div>
+            <div className="categorie1">Grupal</div>
+            <div className="lenguajesprj1">
+              <Image src="https://static-00.iconduck.com/assets.00/php-icon-2048x2048-jyo8hbbt.png" width={200} height={200} alt="" />
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
+              <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" width={40} height={40} alt="" />
+            </div>
+            <div className="photoprj1">
+              <Image src={BB} alt="" width={"auto"} height={"auto"} />
+            </div>
+
+            <div className="descriptionprj1">
+              <h4>Un web blog para amantes de la tecnologia.</h4>
+            </div>
+            <div className='descriptionprj3'>
+              <p>BuggBlock es una pagina web tipo Blog con enfoque a informacion tecnologica donde los usuarios registrados podran realizar publicaciones con texto y fotos para despues verlas en el Main</p>
+            </div>
+            <div className="photoprj1">
+              <Image src={BB1} alt="" width={"auto"} height={"auto"} />
+            </div>
+            <br />
+            <br />
+            <div className='descriptionprj3'>
+              BuggBlock fue desarrollado con php para el manejo de datos de usuarios y publicaciones por el lado del Backend, y el diseño realizado con iconos de Bootstrap y CSS puro. 
+            </div>
           </div>
         </div>
       )}
