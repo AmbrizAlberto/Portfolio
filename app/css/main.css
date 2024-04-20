@@ -355,3 +355,13 @@ button{
     box-shadow: 0 0 30px rgb(55, 182, 255);
     transition: 500ms;
 }
+
+.creador{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    margin-top: 5%;
+    padding: 1%;
+    border-top: 1px solid white;
+    color: white;
+}

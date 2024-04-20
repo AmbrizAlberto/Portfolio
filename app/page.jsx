@@ -2,8 +2,7 @@
 
 'use client'
 
-
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
 
@@ -42,37 +41,19 @@ export default function Portafolio() {
     }
   }
 
-  async function copiarAlPortapapeles(id_elemento) {
-    if (typeof window !== 'undefined') {
-      const elemento = document.getElementById(id_elemento);
-      if (elemento) {
-        const aux = document.createElement('input');
-        aux.setAttribute('value', elemento.innerHTML);
-        document.body.appendChild(aux);
-        aux.select();
-        document.execCommand('copy');
-        document.body.removeChild(aux);
-        setCopiadoCorreo(true);
-        await new Promise(resolve => setTimeout(resolve, 3000)); // Espera 3 segundos
-        setCopiadoCorreo(false);
-      }
+  function copiarAlPortapapeles(texto) {
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(texto);
+      setCopiadoCorreo(true);
+      setTimeout(() => setCopiadoCorreo(false), 3000); // Espera 3 segundos
     }
   }
 
-  async function copiarTelefono(id_elemento) {
-    if (typeof window !== 'undefined') {
-      const elemento = document.getElementById(id_elemento);
-      if (elemento) {
-        const aux = document.createElement('input');
-        aux.setAttribute('value', elemento.innerHTML);
-        document.body.appendChild(aux);
-        aux.select();
-        document.execCommand('copy');
-        document.body.removeChild(aux);
-        setCopiadoTelefono(true);
-        await new Promise(resolve => setTimeout(resolve, 3000)); // Espera 3 segundos
-        setCopiadoTelefono(false);
-      }
+  function copiarTelefono(texto) {
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(texto);
+      setCopiadoTelefono(true);
+      setTimeout(() => setCopiadoTelefono(false), 3000); // Espera 3 segundos
     }
   }
 
@@ -111,19 +92,23 @@ export default function Portafolio() {
         <h1>CORREO</h1>
         <div className="correo">
           <span id="url" className='correotxt'>albertpoambez@gmail.com</span>
-          <button className='correobtn' onClick={() => copiarAlPortapapeles('url')}>
+          <button className='correobtn' onClick={() => copiarAlPortapapeles('albertpoambez@gmail.com')}>
             {copiadoCorreo ? 'Copiado' : 'Copiar'}
           </button>
         </div>
         <h1>TELEFONO</h1>
         <div className="telefono">
           <span id="tel" className='correotxt'>+52 3141576598</span>
-          <button className='correobtn' onClick={() => copiarTelefono('tel')}>
+          <button className='correobtn' onClick={() => copiarTelefono('+523141576598')}>
             {copiadoTelefono ? 'Copiado' : 'Copiar'}
           </button>
         </div>
+      </div>
 
-
+      <div className='creador'>
+        <h4>Estilo de portafolio con derechos reservados <i class="bi bi-c-circle"></i></h4>
+        <h4>Portafolio web realizado con NextJS</h4>
+        <i className="bi bi-github"></i>  /AmbrizAlberto
       </div>
       <Head>
         <script src="https://platform.linkedin.com/badges/js/profile.js" async defer />
