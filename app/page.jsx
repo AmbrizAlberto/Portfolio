@@ -22,7 +22,9 @@ export default function Portafolio() {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      initScrollReveal('.personaldata', '');
+      initScrollReveal('.personaldata', 'right');
+      initScrollReveal('.datos1', 'right');
+      initScrollReveal('.datos2', 'right');
       initScrollReveal('.lenguajes', 'right');
       initScrollReveal('.projects', 'right');
       initScrollReveal('.contactme', 'right');
@@ -33,10 +35,10 @@ export default function Portafolio() {
     if (typeof window !== 'undefined') {
       const ScrollReveal = (await import('scrollreveal')).default;
       ScrollReveal().reveal(selector, {
-        duration: 1500,
+        duration: 1000,
         origin: origin,
         distance: '20px',
-        delay: 0,
+        delay: 200,
         easing: 'ease-in-out',
       });
     }

@@ -6,6 +6,9 @@ import React, { useState } from 'react';
 import HyH from '../images/HarmonyAndHeavenM.jpg';
 import HyH1 from '../images/HarmonyAndHeavenL.jpg';
 import PEE from '../images/PickEm.jpg';
+import PEE1 from '../images/PickEm1.jpg';
+import PEE2 from '../images/PickEm2.jpg';
+
 
 import "./modal.css";
 import styles from "./project.css";
@@ -52,7 +55,7 @@ const Proyectos = () => {
               <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" width={40} height={40} alt="" />
             </div>
             <div className="github">
-              <i className="bi bi-github"></i>Ver Repositorio
+              <i className="bi bi-github"></i>Ver proyecto
             </div>
         </button>
 
@@ -69,7 +72,7 @@ const Proyectos = () => {
             <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={200} height={200} alt="" />
           </div>
           <div className="github">
-            <i className="bi bi-github"></i>Ver Repositorio
+            <i className="bi bi-github"></i>Ver proyecto
           </div>
         </button>
 
@@ -86,7 +89,7 @@ const Proyectos = () => {
             <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={200} height={200} alt="" />
           </div>
           <div className="github">
-            <i className="bi bi-github"></i>Ver Repositorio
+            <i className="bi bi-github"></i>Ver proyecto
           </div>
         </button>
 
@@ -119,12 +122,10 @@ const Proyectos = () => {
               <p>Los productos se pueden editar o eliminar de ser necesario.</p>
 
               <p>En el apartado de cliente --punto de venta--, el cliente podra unicamente ver los productos en stock y añadirlos al carrito para su compra, el precio total por los productos a comprar se mostrara siempre hasta realizar la compra.</p>
-              <div className="photoprj1">
-                <Image src={HyH} alt="" width={"auto"} height={"auto"} />
-              </div>
-
-            </div>
-
+          </div>
+          <div className="photoprj1">
+            <Image src={HyH} alt="" width={"auto"} height={"auto"} />
+          </div>
           </div>
         </div>
       )}
@@ -151,20 +152,28 @@ const Proyectos = () => {
             </div>
             <div className='descriptionprj2'>
               <p>Pick Em&apos; Everithing es un videojuego dedicado para niños con el enfoque del cuidado del medio ambiente, Arthur --el personaje principarl del juego-- ira recogiendo basura a lo largo de su aventura para llevarla al camion recolector, haciendo referencia a la responsabilidad de mantener limpio un lugar.</p>
-              <br />
-              <br />
-              <p>Pick Em&apos; Everithing cuenta con: 
-                <br />
-                <br />- Menu Principal: Español / Ingles
-                <br />- Menu de Niveles: 3 Niveles
-                <br />- Musica dentro de la aplicacion
-                <br />- Configuracion: Quitar musica, cambiar idioma
-              </p>
-              <div className="photoprj">
-                <Image src={HyH} alt="" width={"auto"} height={"auto"} />
-              </div>
-
             </div>
+            <div className="photoprj1">
+              <Image src={PEE1} alt="" width={"auto"} height={"auto"} />
+            </div>
+            <br />
+            <br />
+            <div className='descriptionprj3'>
+              Pick Em&apos; Everithing cuenta con: 
+                <br />| MENU PRINCIPAL -- Español / Ingles |
+                <br />| MENU DE NIVELES -- 3 Niveles |
+                <br />| MUSICA DENTRO DEL PROGRAMA |
+                <br />| CONFIGURACION -- Quitar musica, cambiar idioma |
+            </div>
+            <div className="photoprj1">
+              <Image src={PEE2} alt="" width={"auto"} height={"auto"} />
+            </div>
+            <div className='descriptionprj4' id='1'>
+              <p>
+                Todos los elementos del videojuego son originales y completamente creados desde 0 por los desarroladores, desde botones hasta objetos incluso el mismo personaje. 
+              </p>
+            </div>
+
 
           </div>
         </div>

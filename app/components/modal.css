@@ -2,40 +2,17 @@
 
 /* modal.css */
 
-/* Estilos para todos los navegadores */
-.modalprj1 {
-    scrollbar-width: thin; /* Grosor del scrollbar */
-}
 
-/* Estilos para navegadores WebKit (como Chrome y Safari) */
-.modalprj1::-webkit-scrollbar {
-    width: 12px; /* Ancho del scrollbar */
-}
-
-/* Estilos para el thumb del scrollbar en todos los navegadores */
-.modalprj1::-webkit-scrollbar-thumb {
-    background-color: transparent; /* Color transparente del thumb del scrollbar */
-}
-
-/* Estilos para el track del scrollbar en todos los navegadores */
-.modalprj1::-webkit-scrollbar-track {
-    background-color: transparent; /* Color transparente del track del scrollbar */
-}
-
-/* Estilos para navegadores que no soportan scrollbar-color */
-.modalprj1 {
-    scrollbar-color: transparent transparent; /* Color transparente del thumb y track del scrollbar */
-}
 
 /* modal.css */
 .modalprj1 {
     position: absolute;
     right: 0;
-    top: 0;
+    top: -700px;
     bottom: 0;
     margin: auto;
     width: 100%;
-    height: auto; /* Modificado para cubrir el 80% de la ventana */
+    height: 50%; /* Modificado para cubrir el 80% de la ventana */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,11 +21,12 @@
 }
 
 .modalcontent1 {
+    overflow-y: auto;
     margin: auto;
     padding: 5%;
     background-color: #3e3e3e;
     max-width: 100%;
-    max-height: 100%; /* Añadido para que el contenido del modal no exceda el 100% de la altura del modal */
+    height: 100vh; /* Añadido para que el contenido del modal no exceda el 100% de la altura del modal */
     border-radius: 20px;
     border: 1px solid #888;
     position: relative;
