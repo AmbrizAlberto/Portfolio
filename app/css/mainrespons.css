@@ -35,7 +35,7 @@
     .lenguajes h2{
         margin-bottom: -10%;
         margin-top: 0%;
-        font-size: 300%;
+        font-size: 240%;
         height: 100px;
     }
     .projects{
@@ -114,7 +114,16 @@
         top: -200%;
     }
     .modalcontent1 {
-        font-size: 50%;
+        font-size: 40%;
+    }
+    .modalprj1 .photoprj1 img{
+        border-radius: 7px;
+    }
+    .modalprj1 .lenguajesprj1 img{
+        width: 15%;
+    }
+    .modalprj1 .lenguajesprj1{
+        margin-bottom: 5%;
     }
 }
 

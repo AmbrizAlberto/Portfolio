@@ -1,27 +1,27 @@
 .nameprj1{
     color: white;
-    font-size: 300%;
+    font-size: 250%;
 }
 
 .categorie1{
     margin-top: 2%;
     color: rgb(159, 241, 255);
-    font-size: 250%;
+    font-size: 200%;
 }
 
 .photoprj1 img{
-    width: 70%;
+    width: 90%;
     height: 1%;
     margin: auto;
     margin-top: 1%;
-    border-radius: 20px;
+    border-radius: 4vh;
     box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.533);
 }
 
 .lenguajesprj1{
     margin: auto;
     padding: 1%;
-    width: 40%;
+    width: 50%;
     height: auto;
     background-color: rgba(255, 255, 255, 0.827);
     border-radius: 20px;
@@ -29,7 +29,8 @@
     margin-bottom: 2%;
 }
 .lenguajesprj1 img{
-    margin-right: 2%;
+    margin-top: 1%;
+    margin-right: 3%;
     width: 10%;
     height: auto;
 }
