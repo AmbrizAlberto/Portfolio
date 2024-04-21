@@ -106,7 +106,7 @@ export default function Portafolio() {
       </div>
 
       <div className='creador'>
-        <h4>Estilo de portafolio con derechos reservados <i class="bi bi-c-circle"></i></h4>
+        <h4>Estilo de portafolio con derechos reservados <i className="bi bi-c-circle"></i></h4>
         <h4>Portafolio web realizado con NextJS</h4>
         <i className="bi bi-github"></i>  /AmbrizAlberto
       </div>
