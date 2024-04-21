@@ -34,7 +34,7 @@ export default function Portafolio() {
       ScrollReveal().reveal(selector, {
         duration: 1000,
         origin: origin,
-        distance: '20px',
+        distance: '0px',
         delay: 200,
         easing: 'ease-in-out',
       });
