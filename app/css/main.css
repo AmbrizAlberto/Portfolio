@@ -65,6 +65,7 @@ body{
     margin-bottom: 1%;
     transition: 500ms;
 }.photomia img {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.527);
     width: 40%;
     height: 40%; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
     margin-left: 35%;
@@ -125,6 +126,7 @@ button{
 
 /* SUBTITULOS */
 .lenguajes{
+    border: 1px solid red;
     padding-top: 10%;
     padding-bottom: 1%;
     margin-top: 20%;
