@@ -65,13 +65,16 @@ body{
     margin-bottom: 1%;
     transition: 500ms;
 }.photomia img {
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.527);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
     width: 40%;
     height: 40%; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
     margin-left: 35%;
     border-radius: 50%;
     max-width: 100%; /* Asegura que la imagen no supere el 100% del contenedor */
     cursor: pointer;
+    transition: 500ms;
+}.photomia img:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
     transition: 500ms;
 }
 
@@ -126,7 +129,6 @@ button{
 
 /* SUBTITULOS */
 .lenguajes{
-    border: 1px solid red;
     padding-top: 10%;
     padding-bottom: 1%;
     margin-top: 20%;
