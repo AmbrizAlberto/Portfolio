@@ -84,15 +84,22 @@ export default function Portafolio() {
       </div>
 
       <div className='btnlinks'>
-          <button>
-            <i className="bi bi-linkedin"></i>
-          </button>
-          <button>
-            <i className="bi bi-github"></i>
-          </button>
-          <button>
-            <i className="bi bi-file-earmark-person-fill"></i>
-          </button>
+      <button>
+        <a href="https://www.linkedin.com/in/alberto-ambriz-chavez/" target="_blank">
+          <i className="bi bi-linkedin"></i>
+        </a>
+      </button>
+      <button>
+        <a href="https://github.com/ambrizalberto/" target="_blank">
+          <i className="bi bi-github"></i>
+        </a>
+      </button>
+      <button>
+        <a href="https://url_de_tu_documento" download>
+          <i className="bi bi-file-earmark-person-fill"></i>
+        </a>
+      </button>
+
         </div>
       
 
