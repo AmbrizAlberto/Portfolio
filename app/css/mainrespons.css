@@ -8,11 +8,12 @@
         overflow-y: auto
     }
     .personaldata{
+        height: 80vh;
         margin: auto;
         width: 100%;
         flex-wrap: wrap;
-        height: 100vh;
-        margin-bottom: 20%;
+        height: 80vh;
+        margin-bottom: 7vh;
     }
     .datos{
         margin: auto;
@@ -153,7 +154,7 @@
         width: 90%;
     }.personaldata{
         width: 90%;
-        height: 100vh;
+        height: 80vh;
         font-size: 100%;
         margin-top: 15%;
         flex-wrap: wrap;

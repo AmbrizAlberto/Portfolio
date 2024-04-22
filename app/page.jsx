@@ -22,7 +22,7 @@ export default function Portafolio() {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       initScrollReveal('.personaldata', 'bottom');
-      initScrollReveal('.lenguajes', 'right');
+      initScrollReveal('.lenguajes', 'inherit');
       initScrollReveal('.projects', 'right');
       initScrollReveal('.contactme', 'right');
     }
@@ -82,6 +82,19 @@ export default function Portafolio() {
           </div>
         </div>
       </div>
+
+      <div className='btnlinks'>
+          <button>
+            <i className="bi bi-linkedin"></i>
+          </button>
+          <button>
+            <i className="bi bi-github"></i>
+          </button>
+          <button>
+            <i className="bi bi-file-earmark-person-fill"></i>
+          </button>
+        </div>
+      
 
       <Tecnologias/>
 
