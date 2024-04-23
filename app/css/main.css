@@ -46,16 +46,19 @@ body{
     display: flex;
     width: 100%;
     color: white;
+    height: 70vh;
   }
 
 .datos1{
+    height: auto;
     width: 50%;
     transition: 500ms;
 }.datos2{
+    height: 50%;
     border-left: 1vh solid rgba(0, 0, 0, 0.134);
     padding-left: 2%;
-    margin-top: 0%;
     width: 50%;
+    height: auto;
     transition: 500ms;
 }
 
@@ -120,20 +123,15 @@ button{
 }
 
 .btnlinks{
-    margin: auto;
-    margin-top: 7vh;
     width: 100%;
-    height: 10vh;
+    height: 6vh;
     color: rgb(0, 0, 60);
-    margin-bottom: 3vh;
 }
 .btnlinks button{
-    margin: auto;
     padding: 1vh;
 }
 .btnlinks i{
     align-items: center;
-    margin: auto;
     color: rgb(0, 0, 60);
     font-size: 300%;
 }
