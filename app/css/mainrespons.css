@@ -8,12 +8,10 @@
         overflow-y: auto
     }
     .personaldata{
-        height: 80vh;
+        height: 85vh;
         margin: auto;
         width: 100%;
         flex-wrap: wrap;
-        height: 80vh;
-        margin-bottom: 7vh;
     }
     .datos{
         margin: auto;
@@ -41,6 +39,8 @@
         font-size: 65%;
     }
     .lenguajes{
+        margin-top: 15vh;
+        padding-top: 0;
         margin-left: 0%;
     }
     .lenguajes h2{
@@ -154,7 +154,7 @@
         width: 90%;
     }.personaldata{
         width: 90%;
-        height: 85vh;
+        height: 80vh;
         font-size: 90%;
         margin-top: 15%;
         flex-wrap: wrap;
@@ -171,6 +171,7 @@
         margin: auto;
     }
     .datos2{
+        font-size: 65%;
         margin-top: 5%;
         margin-left: 2%;
         width: 90%;
@@ -179,8 +180,7 @@
         height: 40%;
     }
     .btnlinks i{
-        margin-top: 2vh;
-        font-size: 200%;
+        font-size: 250%;
     }
 
     .lenguajes h2{

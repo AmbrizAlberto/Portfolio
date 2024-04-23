@@ -42,11 +42,12 @@ body{
 /* DATOS PERSONALES */
 
 .personaldata {
+    border: 1px solid black;
     margin-top: 7%;
     display: flex;
     width: 100%;
     color: white;
-    height: 70vh;
+    height: 70%;
   }
 
 .datos1{
@@ -54,11 +55,10 @@ body{
     width: 50%;
     transition: 500ms;
 }.datos2{
-    height: 50%;
+    height: auto;
     border-left: 1vh solid rgba(0, 0, 0, 0.134);
     padding-left: 2%;
     width: 50%;
-    height: auto;
     transition: 500ms;
 }
 
@@ -123,12 +123,13 @@ button{
 }
 
 .btnlinks{
+    border: 1px solid rgb(255, 0, 0);
+    margin-top: 2%;
     width: 100%;
-    height: 6vh;
     color: rgb(0, 0, 60);
 }
 .btnlinks button{
-    padding: 1vh;
+    padding: 1%;
 }
 .btnlinks i{
     align-items: center;
@@ -149,6 +150,7 @@ button{
 
 /* SUBTITULOS */
 .lenguajes{
+    border: 1px solid black;
     padding-top: 10%;
     padding-bottom: 1%;
     margin-top: 20%;
@@ -344,6 +346,7 @@ button{
 
 /* CONTACT ME */
 .contactme{
+    width: 99%;
     margin: auto;
     margin-top: 20%;
     color: #ffffff;
