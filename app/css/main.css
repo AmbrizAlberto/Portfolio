@@ -42,7 +42,6 @@ body{
 /* DATOS PERSONALES */
 
 .personaldata {
-    border: 1px solid black;
     margin-top: 7%;
     display: flex;
     width: 100%;
@@ -123,7 +122,6 @@ button{
 }
 
 .btnlinks{
-    border: 1px solid rgb(255, 0, 0);
     margin-top: 2%;
     width: 100%;
     color: rgb(0, 0, 60);
