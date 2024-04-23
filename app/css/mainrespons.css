@@ -1,5 +1,5 @@
 /* Estilos para tabletas */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 820px) {
     html{
         background-image: linear-gradient(to bottom, #ff7e5f 5%, #ff7f5f 14%, #31405fe7 22%, #31405f 87%, #000000 91%);
         overflow-y: auto
@@ -138,10 +138,25 @@
     }
 }
 
+@media screen and (max-width: 540px) {
+    .datos2{
+        font-size: 70%;
+    }
+}
+
+/* iPmini */
+@media screen and (max-width: 768px) {
+    .datos1{
+        margin-top: 10vh;
+    }
+    .personaldata{
+        font-size: 80%;
+    }
+}
 
 
-  /* Estilos para teléfonos celulares */
-  @media screen and (max-width: 412px) {
+  /* R6Pro */
+  @media screen and (max-width: 431px) {
     html{
         background-image: linear-gradient(to bottom, #ff7e5f 15%, #ff7f5f 14%, #31405f 28%, #31405f 84%, #000000 95%,  #000000 100%);
         overflow-x: hidden;
@@ -171,7 +186,7 @@
         margin: auto;
     }
     .datos2{
-        font-size: 65%;
+        font-size: 1.1vh;
         margin-top: 5%;
         margin-left: 2%;
         width: 90%;
