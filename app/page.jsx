@@ -42,7 +42,9 @@ export default function Portafolio() {
 
   return (
     <div className='main'>
+      
       <Navbar />
+
       <div className="personaldata">
         <div className="datos1">
           <div className="photomia">
@@ -80,7 +82,7 @@ export default function Portafolio() {
         </a>
       </button>
       <button>
-        <a href="/CV - Alberto Ambriz.pdf" download>
+        <a href="/CV%20-%20Alberto%20Ambriz.pdf" download>
           <i className="bi bi-file-earmark-person-fill"></i>
         </a>
       </button>
