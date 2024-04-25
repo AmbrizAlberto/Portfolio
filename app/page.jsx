@@ -51,7 +51,7 @@ export default function Portafolio() {
       <div className="personaldata">
         <div className="datos1">
           <div className="photomia">
-            <a href={downloadCV} download>
+            <a href={downloadCV} download="CV - Alberto Ambriz.pdf">
               <Image src={miImagen} width={"auto"} height={"auto"} priority={true}  alt="" />
             </a>
           </div>
@@ -83,7 +83,7 @@ export default function Portafolio() {
           </a>
         </button>
         <button>
-          <a href={downloadCV} download="Alberto_Ambriz_CV.pdf">
+          <a href={downloadCV} download="CV - Alberto Ambriz.pdf">
             <i className="bi bi-file-earmark-person-fill"></i>
           </a>
         </button>
