@@ -1,9 +1,9 @@
 import Image from 'next/image';
 
-const Tecnologias = () => {
+const TecnologiasEN = () => {
   return (
     <div className="lenguajes">
-        <h2>TECNOLOGIAS</h2>
+        <h2>TECNOLOGIES</h2>
 
         <div className="grid-containertec">
           <div className="grid-itemtec">
@@ -46,7 +46,7 @@ const Tecnologias = () => {
 
           </div>
           <div className="grid-itemtec">
-            <h2>Aprendiendo</h2>
+            <h2>Learning</h2>
             <div className="tecnologias">
               <div className="image-with-text">
                 <Image src="https://cdn4.iconfinder.com/data/icons/logos-3/504/Swift-2-512.png" width={200} height={200} alt="" />
@@ -60,7 +60,7 @@ const Tecnologias = () => {
 
           </div>
           <div className="grid-itemtec">
-            <h2>Herramientas</h2>
+            <h2>Tools</h2>
 
           </div>
 
@@ -70,4 +70,4 @@ const Tecnologias = () => {
   )
 }
 
-export default Tecnologias;
+export default TecnologiasEN;

@@ -52,7 +52,7 @@
 }
 
 .link:hover i {
-    margin-left: 7%; /* Ajusta el margen izquierdo del icono cuando se pasa el ratón */
+    margin-left: 6%; /* Ajusta el margen izquierdo del icono cuando se pasa el ratón */
 }
 .link:hover span {
     visibility: visible;

@@ -115,31 +115,40 @@ body{
     font-size: 100%;
     transition: 500ms;
 }
-
-button{
+button {
+    text-decoration: none;  /* Inherits to child elements by default */
     background-color: transparent;
     border: none;
     transition: 500ms;
-}
-
-.btnlinks{
+  }
+  
+  .btnlinks {
+    text-decoration: none; /* Not needed here, inherits from button */
     margin-top: 2%;
     width: 100%;
     color: rgb(0, 0, 60);
-}
-.btnlinks button{
+  }
+  
+  .btnlinks button {
+    text-decoration: none;
     padding: 1%;
-}
-.btnlinks i{
+  }
+  
+  .btnlinks i {
+    font-weight: bold;
+    text-decoration: underline; /* Add underline on hover */
     align-items: center;
     color: rgb(0, 0, 60);
     font-size: 300%;
-}
-.btnlinks i:hover{
+  }
+  
+  .btnlinks i:hover {
+    text-decoration: underline; /* Add underline on hover */
     cursor: pointer;
     color: rgb(255, 255, 255);
     transition: 500ms;
-}
+  }
+
 
 
 

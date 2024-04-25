@@ -163,6 +163,7 @@
         font-size: 80%;
     }
     body{
+        margin-left: 0;
         width: 100%;
     }
     .main{
@@ -218,16 +219,17 @@
         height: 40px; /* Esto permite que la imagen se ajuste proporcionalmente */
     }
     .projects{
-        width: 100%;
+        margin: auto;
+        width: 90%;
     }
     .grid-containerprj{
-        grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
         gap: 3% 0%; /* Espacio entre los elementos */
+        margin: auto;
         padding: 0%;
     }
     .container-project{
         margin: auto;
-        margin-left: 2%;
         width: 90%;
     }
     .modalprj1 {
