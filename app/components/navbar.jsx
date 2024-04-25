@@ -24,6 +24,7 @@ export default function Navbar() {
                 <Link className="link" href="/"><i className="bi bi-house-fill"></i><span>Hogar</span></Link>
                 <Link className="link" href="/"><i className="bi bi-person-raised-hand"></i><span>En solitario</span></Link>
                 <Link className="link" href="/"><i className="bi bi-people-fill"></i><span>En grupo</span></Link>
+                <Link className="link" href="/"><i className="">EN</i><span>Cambiar Idioma</span></Link>
             </div>
             
         </div>

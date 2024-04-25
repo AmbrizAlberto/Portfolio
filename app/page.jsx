@@ -16,6 +16,7 @@ import Tecnologias from './components/tecnologies';
 import Proyectos from './components/projects';
 import Contactame from './components/contactme';
 
+
 export default function Portafolio() {
 
   useEffect(() => {
@@ -40,6 +41,8 @@ export default function Portafolio() {
     }
   }
 
+  const downloadCV = "./CV.pdf";
+
   return (
     <div className='main'>
       
@@ -48,11 +51,9 @@ export default function Portafolio() {
       <div className="personaldata">
         <div className="datos1">
           <div className="photomia">
-            <button type="button" className='photo'>
-              <a href="/CV - Alberto Ambriz.pdf" download>
-                <Image src={miImagen} width={"auto"} height={"auto"} priority={true}  alt="" />
-              </a>
-            </button>
+            <a href="" download>
+              <Image src={miImagen} width={"auto"} height={"auto"} priority={true}  alt="" />
+            </a>
           </div>
           <div className="datos">
             <div className="nombre">
@@ -71,23 +72,22 @@ export default function Portafolio() {
       </div>
 
       <div className='btnlinks'>
-      <button>
-        <a href="https://www.linkedin.com/in/alberto-ambriz-chavez/" target="_blank">
-          <i className="bi bi-linkedin"></i>
-        </a>
-      </button>
-      <button>
-        <a href="https://github.com/ambrizalberto/" target="_blank">
-          <i className="bi bi-github"></i>
-        </a>
-      </button>
-      <button>
-        <a href="/CV%20-%20Alberto%20Ambriz.pdf" download>
-          <i className="bi bi-file-earmark-person-fill"></i>
-        </a>
-      </button>
-
-        </div>
+        <button>
+          <a href="https://www.linkedin.com/in/alberto-ambriz-chavez/" target="_blank">
+            <i className="bi bi-linkedin"></i>
+          </a>
+        </button>
+        <button>
+          <a href="https://github.com/ambrizalberto/" target="_blank">
+            <i className="bi bi-github"></i>
+          </a>
+        </button>
+        <button>
+          <a href={downloadCV} download="Alberto_Ambriz_CV.pdf">
+            <i className="bi bi-file-earmark-person-fill"></i>
+          </a>
+        </button>
+      </div>
       
 
       <Tecnologias/>
