@@ -51,7 +51,7 @@ export default function Portafolio() {
       <div className="personaldata">
         <div className="datos1">
           <div className="photomia">
-            <a href="" download>
+            <a href={downloadCV} download>
               <Image src={miImagen} width={"auto"} height={"auto"} priority={true}  alt="" />
             </a>
           </div>
