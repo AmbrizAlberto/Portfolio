@@ -1,4 +1,3 @@
-// projects.jsx
 import Image from 'next/image';
 import { X } from 'react-feather';
 import React, { useState } from 'react';
@@ -57,12 +56,12 @@ const Proyectos = () => {
               <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
             </div>
             <div className="github">
-              <i class="bi bi-eye-fill"></i>Ver proyecto
+              <i className="bi bi-eye-fill"></i>Ver proyecto
             </div>
         </button>
 
         <button className="container-project" onClick={() => openModalForProject("PickEmE")}>
-          <div className="nameprj">Pick Em&apos; Everithimg</div>
+          <div className="nameprj">Pick Em&amp;apos; Everithimg</div>
           <div className="categorie">Grupal</div>
           <div className="photoprj">
             <Image src={PEE} alt="" width={"auto"} height={"auto"} />
@@ -74,7 +73,7 @@ const Proyectos = () => {
             <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={200} height={200} alt="" />
           </div>
           <div className="github">
-            <i class="bi bi-eye-fill"></i>Ver proyecto
+            <i className="bi bi-eye-fill"></i>Ver proyecto
           </div>
         </button>
 
@@ -93,7 +92,7 @@ const Proyectos = () => {
             <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" width={40} height={40} alt="" />
           </div>
           <div className="github">
-            <i class="bi bi-eye-fill"></i>Ver proyecto
+            <i className="bi bi-eye-fill"></i>Ver proyecto
           </div>
         </button>
 
@@ -142,7 +141,7 @@ const Proyectos = () => {
               <X size={24} />
             </button>
 
-            <div className="nameprj1">Pick Em&apos; Everithing</div>
+            <div className="nameprj1">Pick Em&amp;apos; Everithing</div>
             <div className="categorie1">Grupal</div>
             <div className="lenguajesprj1">
               <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={40} height={40} alt="" />
@@ -155,7 +154,7 @@ const Proyectos = () => {
               <h4>Videojuego desarrollado 100% con Python con la libreria Pygame</h4>
             </div>
             <div className='descriptionprj2'>
-              <p>Pick Em&apos; Everithing es un videojuego dedicado para niños con el enfoque del cuidado del medio ambiente, Arthur &quot;el personaje principal del juego&quot; ira recogiendo basura a lo largo de su aventura para llevarla al camion recolector, haciendo referencia a la responsabilidad de mantener limpio un lugar.</p>
+              <p>Pick Em&amp;apos; Everithing es un videojuego dedicado para niños con el enfoque del cuidado del medio ambiente, Arthur &quot;el personaje principal del juego&quot; ira recogiendo basura a lo largo de su aventura para llevarla al camion recolector, haciendo referencia a la responsabilidad de mantener limpio un lugar.</p>
             </div>
             <div className="photoprj1">
               <Image src={PEE1} alt="" width={"auto"} height={"auto"} />
@@ -163,7 +162,7 @@ const Proyectos = () => {
             <br />
             <br />
             <div className='descriptionprj3'>
-              Pick Em&apos; Everithing cuenta con: 
+              Pick Em&amp;apos; Everithing cuenta con: 
                 <br />| MENU PRINCIPAL -- Español / Ingles |
                 <br />| MENU DE NIVELES -- 3 Niveles |
                 <br />| MUSICA DENTRO DEL PROGRAMA |
