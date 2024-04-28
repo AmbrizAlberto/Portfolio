@@ -1,11 +1,11 @@
 import Image from 'next/image';
-import miImagen from '../images/1mb.jpeg';
+import miImagen from '../../images/1mb.jpeg';
 
-const AboutmeEN = () => {
-
+const Aboutme = () => {
     const downloadCV = "./CV.pdf";
 
     return (
+
         <div className="personaldata">
             <div className="datos1">
                 <div className="photomia">
@@ -21,9 +21,9 @@ const AboutmeEN = () => {
             </div>
             <div className="datos2">
                 <div className="aboutme">
-                    <h2>ABOUT ME...</h2>
+                    <h2>SOBRE MI...</h2>
                     <div className='descriptionme'>
-                        Software Engineering student, I am passionate about developing applications (web/mobile), their design is the most entertaining for me, I am ready to work immediately.
+                        Estudiante de Ingeniería en Software, me apasiona el desarrollo de aplicaciones (web/móvil), el diseño de estas es lo más entretenido para mí, estoy listo para trabajar de inmediato.
                     </div>
                 </div>
             </div>
@@ -31,6 +31,6 @@ const AboutmeEN = () => {
     )
 }
 
-export default AboutmeEN;
+export default Aboutme;
 
 

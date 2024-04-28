@@ -11,20 +11,19 @@ import stylerespons from "./css/mainrespons.css";
 
 import miImagen from './images/1mb.jpeg';
 
-import Navbar from './components/navbar';
-import Aboutme from './components/aboutme';
-import Tecnologias from './components/tecnologies';
-import Proyectos from './components/projects';
-import Contactame from './components/contactme';
-import Creador from './components/creator';
+import Navbar from './components/español/navbar';
+import Aboutme from './components/español/aboutme';
+import Tecnologias from './components/español/tecnologies';
+import Proyectos from './components/español/projects';
+import Contactame from './components/español/contactme';
+import Creador from './components/español/creator';
 
-import PortafolioEN from './components/pageen';
-import NavbarEN from './components/navbarEN';
-import AboutmeEN from './components/aboutmeen';
-import TecnologiasEN from './components/tecnologiesEN';
-import ProyectosEN from './components/projectsEn';
-import ContactameEN from './components/contactmeen';
-import CreadorEN from './components/creatorEN';
+import NavbarEN from './components/ingles/navbaren';
+import AboutmeEN from './components/ingles/aboutmeen';
+import TecnologiasEN from './components/ingles/tecnologiesen';
+import ProyectosEN from './components/ingles/projectsen';
+import ContactameEN from './components/ingles/contactmeen';
+import CreadorEN from './components/ingles/creatoren';
 
 export default function Portafolio() {
   const [english, setEnglish] = useState(true); // Set initial state to true for English version

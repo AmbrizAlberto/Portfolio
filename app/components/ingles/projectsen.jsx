@@ -3,17 +3,17 @@ import Image from 'next/image';
 import { X } from 'react-feather';
 import React, { useState } from 'react';
 
-import HyH from '../images/HarmonyAndHeavenM.jpg';
-import HyH1 from '../images/HarmonyAndHeavenL.jpg';
-import PEE from '../images/PickEm.jpg';
-import PEE1 from '../images/PickEm1.jpg';
-import PEE2 from '../images/PickEm2.jpg';
-import BB from '../images/BB1.jpg';
-import BB1 from "../images/BB2.jpeg";
+import HyH from '../../images/HarmonyAndHeavenM.jpg';
+import HyH1 from '../../images/HarmonyAndHeavenL.jpg';
+import PEE from '../../images/PickEm.jpg';
+import PEE1 from '../../images/PickEm1.jpg';
+import PEE2 from '../../images/PickEm2.jpg';
+import BB from '../../images/BB1.jpg';
+import BB1 from "../../images/BB2.jpeg";
 
 
-import "../css/modal.css";
-import "../css/project.css";
+import "../../css/modal.css";
+import "../../css/project.css";
 
 const ProyectosEN = () => {
   const [modalOpen, setModalOpen] = useState(false);

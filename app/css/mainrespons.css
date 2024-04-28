@@ -118,23 +118,11 @@
     .contactme .correotxt{
         font-size: 170%;
     }
-
-
-
-    .modalprj1 {
-        top: -200%;
+    .modalprj1{
+       font-size: 40%;
     }
-    .modalcontent1 {
-        font-size: 40%;
-    }
-    .modalprj1 .photoprj1 img{
-        border-radius: 7px;
-    }
-    .modalprj1 .lenguajesprj1 img{
-        width: 15%;
-    }
-    .modalprj1 .lenguajesprj1{
-        margin-bottom: 5%;
+    .modalcontent{
+        margin-top: 50%;
     }
 }
 
@@ -231,14 +219,6 @@
     .container-project{
         margin: auto;
         width: 90%;
-    }
-    .modalprj1 {
-        top: 0%;
-        margin-bottom: -100%;
-    }
-    .modalcontent1 {
-        margin-top: 100%;
-        height: 200%;
     }
     .photoprj1 img{
         width: 70%;
