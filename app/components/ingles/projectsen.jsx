@@ -121,11 +121,11 @@ const ProyectosEN = () => {
 <h4>CRUD Instrument Store, Inventory and Point of Sale.</h4>
             </div>
             <div className='descriptionprj2'>
-              <p>Harmony &amp; Heaven was developed as an inventory for an instrument store where products would be recorded with &quot;units for sale&quot;, &quot;product price&quot; and "category", in addition the point of sale was created for the customer where they can add any product available in the store to the cart.</p>
+              <p>Harmony &amp; Heaven was developed as an inventory for an instrument store where products would be recorded with &quot;units for sale&quot;, &quot;product price&quot; and &quot;category&quot;, in addition the point of sale was created for the customer where they can add any product available in the store to the cart.</p>
               <p>In the Seller section, Harmony &amp; Heaven has a search engine and data filtering to facilitate the collection of products, it also has an order manager for the Product Supplier where they will be registered when they are requested and when they are received to be in stock, automatically adding the quantities received in the inventory, as well as a dashboard to see summaries of sales, employees and other things.</p>
               <p>Products can be edited or deleted if necessary.</p>
 
-              <p>In the customer section -point of sale-, the customer will only be able to see the products in stock and add them to the cart for purchase, the total price for the products to be purchased will always be shown until the purchase is made.</p>
+              <p>In the customer section &quot;Point of sale&quot;, the customer will only be able to see the products in stock and add them to the cart for purchase, the total price for the products to be purchased will always be shown until the purchase is made.</p>
             </div>
           <div className="photoprj1">
             <Image src={HyH} alt="" width={"auto"} height={"auto"} />
@@ -155,7 +155,7 @@ const ProyectosEN = () => {
               <h4>Video game developed 100% with the Pygame Python library</h4>
               </div>
               <div className='descriptionprj2'>
-                <p>Pick Em&apos; Everithing is a video game dedicated to children with a focus on caring for the environment. Arthur - the main character of the game - will collect garbage throughout his adventure to take it to the garbage truck, referring to the responsibility of keeping a clean environment. place.</p>            </div>
+                <p>Pick Em&apos; Everithing is a video game dedicated to children with a focus on caring for the environment. Arthur &quot;the main character of the game&quot; will collect garbage throughout his adventure to take it to the garbage truck, referring to the responsibility of keeping a clean environment. place.</p>            </div>
             <div className="photoprj1">
               <Image src={PEE1} alt="" width={"auto"} height={"auto"} />
             </div>
@@ -213,7 +213,8 @@ const ProyectosEN = () => {
             <br />
             <br />
             <div className='descriptionprj3'>
-              BuggBlock was developed with PHP to manage user data and posts on the Backend side, and the design was made with Bootstrap icons and pure CSS.            </div>
+              BuggBlock was developed with PHP to manage user data and posts on the Backend side, and the design was made with Bootstrap icons and pure CSS.            
+            </div>
           </div>
         </div>
       )}
