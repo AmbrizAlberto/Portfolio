@@ -61,7 +61,28 @@ const TecnologiasEN = () => {
           </div>
           <div className="grid-itemtec">
             <h2>Tools</h2>
-
+            <div className="tecnologias">
+              <div className="image-with-text">
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/3/31/ITerm2_v3.4_icon.png" width={200} height={200} alt="" />
+                <p>Terminal</p>
+              </div>
+              <div className="image-with-text">
+                <Image src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/visual-studio-code-icon.png" width={200} height={200} alt="" />
+                <p>VS Code</p>
+              </div>
+              <div className="image-with-text">
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png" width={200} height={200} alt="" />
+                <p>Git</p>
+              </div>
+              <div className="image-with-text">
+                <Image src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width={200} height={200} alt="" />
+                <p>GitHub</p>
+              </div>
+              <div className="image-with-text">
+                <Image src="https://static-00.iconduck.com/assets.00/npm-icon-2048x2048-3xqnd60o.png" width={200} height={200} alt="" />
+                <p>npm</p>
+              </div>
+            </div>
           </div>
 
         </div>
