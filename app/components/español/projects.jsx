@@ -26,7 +26,6 @@ const Proyectos = () => {
   const openModalForProject = (projectId) => {
     setSelectedProject(projectId);
     setModalOpen(true);
-    scrollToSection('proyecto');
   };
   
   const closeModal = () => {
@@ -58,7 +57,7 @@ const Proyectos = () => {
               <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
             </div>
             <div className="github">
-              <i className="bi bi-github"></i>Ver proyecto
+              <i class="bi bi-eye-fill"></i>Ver proyecto
             </div>
         </button>
 
@@ -75,7 +74,7 @@ const Proyectos = () => {
             <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={200} height={200} alt="" />
           </div>
           <div className="github">
-            <i className="bi bi-github"></i>Ver proyecto
+            <i class="bi bi-eye-fill"></i>Ver proyecto
           </div>
         </button>
 
@@ -94,7 +93,7 @@ const Proyectos = () => {
             <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" width={40} height={40} alt="" />
           </div>
           <div className="github">
-            <i className="bi bi-github"></i>Ver proyecto
+            <i class="bi bi-eye-fill"></i>Ver proyecto
           </div>
         </button>
 

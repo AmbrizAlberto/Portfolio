@@ -1,38 +1,36 @@
 /* modal.css */
-
-/* modal.css */
-
-
-
-/* modal.css */
 .modalprj1 {
-    top: 0%;
-    position: absolute;
-    margin: auto;
-    width: 101%;
-    height: 250vh; /* Modificado para cubrir el 80% de la ventana */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     z-index: 1100;
     overflow: hidden; /* Eliminado overflow-y y overflow-x */
-    backdrop-filter: blur(30px);
-    transition: 1000ms;
+    backdrop-filter: blur(30px); 
+    transition: 1s;
+    border: 1px solid black;
 }
 
 .modalcontent1 {
+    margin: auto;
+    position: relative;
     max-width: 70%;
-    box-shadow: 0 0 20px black;
-    overflow-y: auto;
+    max-height: 60%;
     padding: 4%;
+    box-shadow: 0 0 100px rgb(0, 0, 0);
+    overflow-y: auto;
     background-color: #3e3e3e;
-    height: 50vh; /* Añadido para que el contenido del modal no exceda el 100% de la altura del modal */
     border-radius: 20px;
     border: 2px solid #888;
-    position: relative;
     overflow-y: auto; /* Añadido para permitir el desplazamiento vertical del contenido */
     scrollbar-width: none;
-    margin: auto;
-    margin-top: 10%;
+    transition: 1s;
 }
 .close-modal {
     color: #aaa;
@@ -46,8 +44,10 @@
     background: none;
     border: none;
     padding: 0;
+    transition: 1s;
 }
 
 .close-modal:hover {
     color: #fff;
+    transition: 1s;
 }

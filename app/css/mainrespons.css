@@ -119,16 +119,20 @@
         font-size: 170%;
     }
     .modalprj1{
-       font-size: 40%;
+        height: 50%;
+        font-size: 40%;
     }
     .modalcontent{
-        margin-top: 50%;
+        font-size: 40%;
     }
 }
 
 @media screen and (max-width: 540px) {
     .datos2{
         font-size: 70%;
+    }
+    .modalprj1{
+        height: 50%;
     }
 }
 
@@ -139,6 +143,9 @@
     }
     .personaldata{
         font-size: 80%;
+    }
+    .modalprj1{
+        height: 50%;
     }
 }
 
@@ -233,5 +240,8 @@
         font-size: 90%;
         margin-top: 50%;
         margin-bottom: 5%;
+    }
+    .modalprj1{
+        height: 50%;
     }
   }
