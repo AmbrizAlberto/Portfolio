@@ -3,13 +3,13 @@ import miImagen from '../../images/1mb.jpeg';
 
 const AboutmeEN = () => {
 
-    const downloadCV = "./CV.pdf";
+    const downloadCVEN = "./CVEN.pdf";
 
     return (
         <div className="personaldata">
             <div className="datos1">
                 <div className="photomia">
-                    <a href={downloadCV} download="CV - Alberto Ambriz.pdf">
+                    <a href={downloadCVEN} download="CV ENG - Alberto Ambriz.pdf">
                         <Image src={miImagen} width={"auto"} height={"auto"} priority={true}  alt="" />
                     </a>
                 </div>

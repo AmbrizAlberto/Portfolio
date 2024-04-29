@@ -2,14 +2,14 @@ import Image from 'next/image';
 import miImagen from '../../images/1mb.jpeg';
 
 const Aboutme = () => {
-    const downloadCV = "./CV.pdf";
+
+    const downloadCV = "./CVES.pdf";
 
     return (
-
         <div className="personaldata">
             <div className="datos1">
                 <div className="photomia">
-                    <a href={downloadCV} download="CV - Alberto Ambriz.pdf">
+                    <a href={downloadCV} download="CV ESP - Alberto Ambriz.pdf">
                         <Image src={miImagen} width={"auto"} height={"auto"} priority={true}  alt="" />
                     </a>
                 </div>

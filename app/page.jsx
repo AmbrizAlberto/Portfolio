@@ -50,7 +50,8 @@ export default function Portafolio() {
     }
   }
 
-  const downloadCV = "./CV.pdf";
+  const downloadCV = "./CVES.pdf";
+  const downloadCVEN = "./CVEN.pdf";
 
   return (
     <div className='main'>
@@ -70,8 +71,13 @@ export default function Portafolio() {
           </a>
         </button>
         <button>
-          <a href={downloadCV} download="CV - Alberto Ambriz.pdf">
+          <a href={downloadCV} download="CV ESP - Alberto Ambriz.pdf">
             <i className="bi bi-file-earmark-person-fill"></i>
+          </a>
+        </button>
+        <button>
+          <a href={downloadCVEN} download="CV ENG - Alberto Ambriz.pdf">
+            <i class="bi bi-file-earmark-person"></i>
           </a>
         </button>
       </div>
