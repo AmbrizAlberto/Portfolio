@@ -22,10 +22,10 @@ export default function NavbarEN() {
 
             <div className="access">
                 <Link className="link" href="#"><i className="bi bi-house-fill"></i><span>Home</span></Link>
-                <Link className="link" href="/"><i className="bi bi-translate"></i><span>ES / EN</span></Link>
+{/*                 <Link className="link" href="/"><i className="bi bi-translate"></i><span>ES / EN</span></Link>
                 <Link className="link" href="/"><i className="bi bi-person-raised-hand"></i><span>Solo</span></Link>
                 <Link className="link" href="/"><i className="bi bi-people-fill"></i><span>In Group</span></Link>
-            </div>
+ */}            </div>
             
         </div>
     );
