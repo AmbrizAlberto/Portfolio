@@ -130,6 +130,9 @@ const ProyectosEN = () => {
             <div className="photoprj1">
               <Image src={HyH} alt="" width={"auto"} height={"auto"} />
             </div>
+            <button className='btngithublink'> 
+            <a href="https://github.com/AmbrizAlberto/HarmonyAndHeavenm.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>See on GitHub</a>
+            </button>
           </div>
         </div>
       )}
@@ -177,6 +180,9 @@ const ProyectosEN = () => {
                 All elements of the video game are original and completely created from scratch by the developers, from buttons to objects, even the character himself.
               </p>
             </div>
+            <button className='btngithublink'> 
+              <a href="https://github.com/AmbrizAlberto/PICK-EM-EVERITHING---PYGAME-PROJECT.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>See on GitHub</a>
+            </button>
           </div>
         </div>
       )}
@@ -214,6 +220,9 @@ const ProyectosEN = () => {
             <div className='descriptionprj3'>
               BuggBlock was developed with PHP to manage user data and posts on the Backend side, and the design was made with Bootstrap icons and pure CSS.            
             </div>
+            <button className='btngithublink'> 
+              <a href="https://github.com/AmbrizAlberto/BuggBlock.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>See on GitHub</a>
+            </button>
           </div>
         </div>
 )}

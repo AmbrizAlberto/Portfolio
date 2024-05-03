@@ -125,10 +125,13 @@ const Proyectos = () => {
               <p>Los productos se pueden editar o eliminar de ser necesario.</p>
 
               <p>En el apartado de cliente &quot;Punto de venta&quot;, el cliente podra unicamente ver los productos en stock y añadirlos al carrito para su compra, el precio total por los productos a comprar se mostrara siempre hasta realizar la compra.</p>
-          </div>
-          <div className="photoprj1">
-            <Image src={HyH} alt="" width={"auto"} height={"auto"} />
-          </div>
+            </div>
+            <div className="photoprj1">
+              <Image src={HyH} alt="" width={"auto"} height={"auto"} />
+            </div>
+            <button className='btngithublink'>
+              <a href="https://github.com/AmbrizAlberto/HarmonyAndHeavenm.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>Ver en GitHub</a>
+            </button>
           </div>
         </div>
       )}
@@ -176,7 +179,9 @@ const Proyectos = () => {
                 Todos los elementos del videojuego son originales y completamente creados desde 0 por los desarroladores, desde botones hasta objetos incluso el mismo personaje. 
               </p>
             </div>
-
+            <button className='btngithublink'> 
+              <a href="https://github.com/AmbrizAlberto/PICK-EM-EVERITHING---PYGAME-PROJECT.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>Ver en GitHub</a>
+            </button>
 
           </div>
         </div>
@@ -215,6 +220,10 @@ const Proyectos = () => {
             <div className='descriptionprj3'>
               BuggBlock fue desarrollado con php para el manejo de datos de usuarios y publicaciones por el lado del Backend, y el diseño realizado con iconos de Bootstrap y CSS puro. 
             </div>
+            <button className='btngithublink'> 
+              <a href="https://github.com/AmbrizAlberto/BuggBlock.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>Ver en GitHub</a>
+            </button>
+
           </div>
         </div>
       )}

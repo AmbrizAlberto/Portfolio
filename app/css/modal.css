@@ -51,3 +51,27 @@
     color: #fff;
     transition: 1s;
 }
+
+.btngithublink a{
+    text-decoration: none;
+    color: black;
+}.btngithublink a:hover{
+    color: white;
+}
+.btngithublink{
+    margin-top: 2%;
+    font-size: 3vh;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px black;
+    transition: 500ms;
+}.btngithublink:hover{
+    color: white;
+    box-shadow: 0 0 30px white;
+    background-color: black;
+    transition: 500ms;
+    cursor: pointer;
+}
