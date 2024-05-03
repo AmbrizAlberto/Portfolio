@@ -61,7 +61,7 @@ const Proyectos = () => {
         </button>
 
         <button className="container-project" onClick={() => openModalForProject("PickEmE")}>
-          <div className="nameprj">Pick Em&amp;apos; Everithimg</div>
+          <div className="nameprj">Pick Em&apos; Everithimg</div>
           <div className="categorie">Grupal</div>
           <div className="photoprj">
             <Image src={PEE} alt="" width={"auto"} height={"auto"} />
@@ -144,7 +144,7 @@ const Proyectos = () => {
               <X size={24} />
             </button>
 
-            <div className="nameprj1">Pick Em&amp;apos; Everithing</div>
+            <div className="nameprj1">Pick Em&apos; Everithing</div>
             <div className="categorie1">Grupal</div>
             <div className="lenguajesprj1">
               <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={40} height={40} alt="" />
