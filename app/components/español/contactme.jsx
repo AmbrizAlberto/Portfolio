@@ -32,7 +32,7 @@ const Contactame = () => {
             <h1>CORREO</h1>
             <div className="correo">
             <span id="url" className='correotxt'>albertpoambez@icloud.com</span>
-            <button className='correobtn' onClick={() => copiarAlPortapapeles('albertpoambez@gmail.com')}>
+            <button className='correobtn' onClick={() => copiarAlPortapapeles('albertpoambez@icloud.com')}>
                 {copiadoCorreo ? 'Copiado' : 'Copiar'}
             </button>
             </div>
