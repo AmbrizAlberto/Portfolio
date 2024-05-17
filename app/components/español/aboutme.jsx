@@ -9,8 +9,8 @@ const Aboutme = () => {
         <div className="personaldata">
             <div className="datos1">
                 <div className="photomia">
-                    <a href={downloadCV} download="CV ESP - Alberto Ambriz.pdf">
-                        <Image src={miImagen} width={"auto"} height={"auto"} priority={true}  alt="" />
+                    <a href={downloadCVEN} download="CV ENG - Alberto Ambriz.pdf">
+                        <Image onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} src={hovered ? miImagen : miImagen2} width={"auto"} height={"auto"} priority={true} alt="" />
                     </a>
                 </div>
                 <div className="datos">
