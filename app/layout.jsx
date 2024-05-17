@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html className="html">
       <head>
-        <title>Portfolio - Alberto Ambriz "Al Dev"</title>
+        <title>Portfolio - Alberto Ambriz</title>
         <meta name="description" content="Projects & trayectory of a Software Developer"/>
         <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4100/4100416.png" />
       </head>
