@@ -91,7 +91,7 @@ body{
 .nombre{
     text-align:right;
     font-weight: 900;
-    color: rgb(0, 0, 60);
+    color: rgb(0, 39, 60);
     font-size: 600%;
     width: 80%;
     margin: auto;
@@ -105,7 +105,7 @@ body{
     font-size: 250%;
     transition: 500ms;
 }.aboutme h2{
-    color: rgb(37, 39, 66);
+    color: rgb(37, 57, 66);
     margin-bottom: 0%;
     font-size: 200%;
     transition: 500ms;
@@ -126,7 +126,7 @@ button {
     text-decoration: none; /* Not needed here, inherits from button */
     margin-top: 2%;
     width: 100%;
-    color: rgb(0, 0, 60);
+    color: rgb(0, 35, 60);
   }
   
   .btnlinks button {
@@ -138,7 +138,7 @@ button {
     font-weight: bold;
     text-decoration: underline; /* Add underline on hover */
     align-items: center;
-    color: rgb(0, 0, 60);
+    color: rgb(0, 39, 60);
     font-size: 300%;
   }
   
