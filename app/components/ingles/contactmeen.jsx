@@ -33,14 +33,14 @@ const ContactameEN = () => {
             <div className="correo">
                 <span id="url" className='correotxt'>albertpoambez@icloud.com</span>
                     <button className='correobtn' onClick={() => copiarAlPortapapeles('albertpoambez@icloud.com')}>
-                        {copiadoCorreo ? 'Copiado' : 'Copiar'}
+                        {copiadoCorreo ? 'Copied' : 'Copy'}
                     </button>
             </div>
             <h1>PHONE NUMBER</h1>
             <div className="telefono">
             <span id="tel" className='correotxt'>+52 3141576598</span>
             <button className='correobtn' onClick={() => copiarTelefono('+523141576598')}>
-                {copiadoTelefono ? 'Copiado' : 'Copiar'}
+                {copiadoTelefono ? 'Copied' : 'Copy'}
             </button>
             </div>
         </div>
