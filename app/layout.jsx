@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      // Simulamos un tiempo de carga utilizando un temporizador
+      // Simula un tiempo de carga utilizando un temporizador
       const timer = setTimeout(() => {
         setLoading(false);
       }, 2000);
@@ -22,21 +22,18 @@ export default function RootLayout({ children }) {
   }, []);
   
 
-  // Renderiza el contenido de la página solo si loading es falso
   return (
     <html className="html">
       <head>
-        <title>Portafolio - Alberto Ambriz</title>
-        <meta name="description" content="Proyectos y trayectoria de un desarrollador de software" />
-        {/* Usa la variable miImagen en el atributo href del enlace */}
+        <title>Portfolio - Alberto Ambriz</title>
+        <meta name="description" content="Projects & trayectory of a Software Developer"/>
         <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4100/4100416.png" />
-        {/* Otras etiquetas meta, enlaces CSS, etc. */}
       </head>
       <body>
-          {loading ? ( // Si loading es verdadero, muestra el spinner de carga
+          {loading ? (
             <LoadingScreen />
           ) : (
-            children // Si loading es falso, muestra el contenido de la página
+            children
           )}
       </body>
     </html>

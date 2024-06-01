@@ -26,11 +26,12 @@
 .link {
     position: relative;
     overflow: hidden;
-    color: black;
+    color: rgb(0, 29, 44);
     text-decoration: none;
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .link span{
@@ -38,7 +39,9 @@
 }
 
 .link i {
-    margin-left: 31%; /* Ajusta el margen izquierdo del icono cuando no se pasa el ratón */
+    color: rgb(0, 22, 34);
+    width: 10vh;
+    margin-left: 35%; /* Ajusta el margen izquierdo del icono cuando no se pasa el ratón */
     margin-right: 2%;
     font-size: 6vh;
     transition: margin-left 0.5s; /* Agrega una transición suave para el cambio de margen izquierdo */
@@ -52,7 +55,7 @@
 }
 
 .link:hover i {
-    margin-left: 7%; /* Ajusta el margen izquierdo del icono cuando se pasa el ratón */
+    margin-left: 6%; /* Ajusta el margen izquierdo del icono cuando se pasa el ratón */
 }
 .link:hover span {
     visibility: visible;

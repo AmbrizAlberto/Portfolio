@@ -118,29 +118,21 @@
     .contactme .correotxt{
         font-size: 170%;
     }
-
-
-
-    .modalprj1 {
-        top: -200%;
-    }
-    .modalcontent1 {
+    .modalprj1{
+        height: 50%;
         font-size: 40%;
     }
-    .modalprj1 .photoprj1 img{
-        border-radius: 7px;
-    }
-    .modalprj1 .lenguajesprj1 img{
-        width: 15%;
-    }
-    .modalprj1 .lenguajesprj1{
-        margin-bottom: 5%;
+    .modalcontent{
+        font-size: 40%;
     }
 }
 
 @media screen and (max-width: 540px) {
     .datos2{
         font-size: 70%;
+    }
+    .modalprj1{
+        height: 50%;
     }
 }
 
@@ -151,6 +143,9 @@
     }
     .personaldata{
         font-size: 80%;
+    }
+    .modalprj1{
+        height: 50%;
     }
 }
 
@@ -163,6 +158,7 @@
         font-size: 80%;
     }
     body{
+        margin-left: 0;
         width: 100%;
     }
     .main{
@@ -218,25 +214,18 @@
         height: 40px; /* Esto permite que la imagen se ajuste proporcionalmente */
     }
     .projects{
-        width: 100%;
+        margin: auto;
+        width: 90%;
     }
     .grid-containerprj{
-        grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
         gap: 3% 0%; /* Espacio entre los elementos */
+        margin: auto;
         padding: 0%;
     }
     .container-project{
         margin: auto;
-        margin-left: 2%;
         width: 90%;
-    }
-    .modalprj1 {
-        top: 0%;
-        margin-bottom: -100%;
-    }
-    .modalcontent1 {
-        margin-top: 100%;
-        height: 200%;
     }
     .photoprj1 img{
         width: 70%;
@@ -251,5 +240,8 @@
         font-size: 90%;
         margin-top: 50%;
         margin-bottom: 5%;
+    }
+    .modalprj1{
+        height: 50%;
     }
   }
