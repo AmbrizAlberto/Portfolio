@@ -20,10 +20,10 @@ export default function Navbar() {
             </div>
 
             <div className="access">
-                <Link className="link" href="/app"><i className="bi bi-house-fill"></i><span>Inicio</span></Link>
-                <Link className="link" href="/"><i className="bi bi-translate"></i><span>EN / ES</span></Link>
-                <a className="link" href="/Personal"><i className="bi bi-person-raised-hand"></i><span>Solitario</span></a>
-                <Link className="link" href="/"><i className="bi bi-people-fill"></i><span>Grupal</span></Link>
+                <a className="link" href="/"><i className="bi bi-house-fill"></i><span>Inicio</span></a>
+                <a className="link" href="/"><i className="bi bi-translate"></i><span>EN / ES</span></a>
+                <a className="link" href="./Personal"><i className="bi bi-person-raised-hand"></i><span>Solitario</span></a>
+                <a className="link" href="/"><i className="bi bi-people-fill"></i><span>Grupal</span></a>
          
             </div>
             
