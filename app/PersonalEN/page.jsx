@@ -6,15 +6,16 @@ import Head from 'next/head';
 
 import styles from "./prjsviews.css"
 
-import Navbar from '../components/español/navbar';
+import NavbarEN from '../components/ingles/navbaren';
 import Proyectos from './components/projects';
+
 
 export default function Personalprjs() {
     const [english, setEnglish] = useState(true); // Set initial state to true for English version
 
     return (
         <div className='main'>
-            <Navbar />
+            <NavbarEN />
             <Proyectos/>
 
         <Head>

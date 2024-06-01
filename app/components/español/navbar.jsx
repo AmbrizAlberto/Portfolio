@@ -16,15 +16,13 @@ export default function Navbar() {
 
         <div className="navbar">
             <div className="logo">
-                <Link className="link" href="/"></Link>
+                <a className="link" href="/">Al</a>
             </div>
 
             <div className="access">
                 <a className="link" href="/"><i className="bi bi-house-fill"></i><span>Inicio</span></a>
-                <a className="link" href="/"><i className="bi bi-translate"></i><span>EN / ES</span></a>
-                <a className="link" href="./Personal"><i className="bi bi-person-raised-hand"></i><span>Solitario</span></a>
+                <a className="link" href="./Personal"><i className="bi bi-person-raised-hand"></i><span>Solo</span></a>
                 <a className="link" href="/"><i className="bi bi-people-fill"></i><span>Grupal</span></a>
-         
             </div>
             
         </div>
