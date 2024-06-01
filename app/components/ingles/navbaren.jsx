@@ -2,6 +2,9 @@
 
 'use client';
 
+/* IMPORT PRINCIPAL LIBRARYS */
+import Link from 'next/link';
+
 /* IMPORT CSS */
 import "../../css/navbar.css"
 
