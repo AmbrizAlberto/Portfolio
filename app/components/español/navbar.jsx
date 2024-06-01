@@ -16,7 +16,7 @@ export default function Navbar() {
 
         <div className="navbar">
             <div className="logo">
-                <a className="link" href="/">Al</a>
+                <a className="link" href="./Portfolio">Al</a>
             </div>
 
             <div className="access">

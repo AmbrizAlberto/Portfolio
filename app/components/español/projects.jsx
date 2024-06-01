@@ -9,6 +9,9 @@ import PEE1 from '../../images/PickEm1.jpg';
 import PEE2 from '../../images/PickEm2.jpg';
 import BB from '../../images/BB1.jpg';
 import BB1 from "../../images/BB2.jpeg";
+import CR from '../../images/CR.png';
+import CR1 from '../../images/CR1.png';
+import CR2 from '../../images/CR2.png';
 
 
 import "../../css/modal.css";
@@ -94,6 +97,23 @@ const Proyectos = () => {
           <div className="github">
             <i className="bi bi-eye-fill"></i>Ver proyecto
           </div>
+        </button>
+
+        <button className="container-project" onClick={() => openModalForProject("CarRecognition")}>
+            <div className="nameprj">Reconocimiento de Carros</div>
+            <div className="categorie">Personal</div>
+            <div className="photoprj">
+              <Image src={CR} alt="" width={"auto"} height={"auto"} />
+            </div>
+            <div className="descriptionprj">
+              <h4>Reconocimiento de carros en videos con Python</h4>
+            </div>
+            <div className="lenguajesprj">
+              <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={200} height={200} alt="" />
+            </div>
+            <div className="github">
+              <i className="bi bi-eye-fill"></i>Ver proyecto
+            </div>
         </button>
 
       </div>
@@ -224,6 +244,42 @@ const Proyectos = () => {
               <a href="https://github.com/AmbrizAlberto/BuggBlock.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>Ver en GitHub</a>
             </button>
 
+          </div>
+        </div>
+      )}
+
+      {modalOpen && selectedProject === "CarRecognition" && (
+        <div className='modalprj1' onClick={closeModal}>
+          <div className='modalcontent1' onClick={(e) => e.stopPropagation()}>
+
+            <button className="close-modal" onClick={closeModal}>
+              <X size={24} />
+            </button>
+
+            <div className="nameprj1">Car Recognition</div>
+            <div className="categorie1">Personal</div>
+            <div className="lenguajesprj1">
+                <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={200} height={200} alt="" />
+            </div>
+            <div className="photoprj1">
+              <Image src={CR1} alt="" width={"auto"} height={"auto"} />
+            </div>
+
+            <div className="descriptionprj1">
+              <h4>Reconocimiento de coches en videos con python utilizando Yolov5</h4>
+            </div>
+            <div className='descriptionprj2'>
+              <p>Cualquier coche que aparezca detectado en el video aparecera carcado dentro de un cuadrado rojo con su etiqueta</p>
+              <p>El programa facilita el cambio de color desde el codigo, ademas esta limitado a soloamente detectar los vehiculos, aunque realmente eso se puede quitar facilmente eliminando solo la duncion desde el codigo.</p>
+
+              <p>Es necesario instalar Yolov5 con pip</p>
+            </div>
+            <div className="photoprj1">
+              <Image src={CR2} alt="" width={"auto"} height={"auto"} />
+            </div>
+            <button className='btngithublink'>
+              <a href="https://github.com/AmbrizAlberto/Car-Recognition.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>Ver en GitHub</a>
+            </button>
           </div>
         </div>
       )}
