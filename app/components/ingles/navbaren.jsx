@@ -13,7 +13,7 @@ export default function NavbarEN() {
 
         <div className="navbar">
             <div className="logo">
-                <a className="link" href="./Portfolio">Al</a>
+                <Link className="link" href="/">Al</Link>
             </div>
 
             <div className="access">
