@@ -150,6 +150,41 @@ button {
   }
 
 
+/*  */
+
+.btnlinks1 {
+    position: absolute;
+    top: 90vh;
+    left: 0;
+    margin: auto;
+    text-decoration: none; /* Not needed here, inherits from button */
+    width: 100%;
+    color: rgb(0, 35, 60);
+  }
+  
+  .btnlinks1 button {
+    text-decoration: none;
+    padding: 1%;
+  }
+  
+  .btnlinks1 i {
+    font-weight: bold;
+    text-decoration: underline; /* Add underline on hover */
+    align-items: center;
+    color: rgb(0, 39, 60);
+    font-size: 300%;
+  }
+  
+  .btnlinks1 i:hover {
+    text-decoration: underline; /* Add underline on hover */
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: 500ms;
+  }
+
+
+
+
 
 
 

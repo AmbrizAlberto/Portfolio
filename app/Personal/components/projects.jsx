@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import CR from '../../images/CR.png';
 import CR1 from '../../images/CR1.png';
 import CR2 from '../../images/CR2.png';
+import NtePV from '../../images/NotePV.jpeg';
 import Nte from '../../images/Note.png';
 import Nte1 from '../../images/Note1.png';
 import PEE2 from '../../images/PickEm2.jpg';
@@ -43,6 +44,23 @@ const Proyectos = () => {
 
       <div className="grid-containerprj">
 
+        <button className="container-project" onClick={() => openModalForProject("NoteApp")}>
+          <div className="nameprj">Notes App</div>
+          <div className="categorie">Personal</div>
+          <div className="photoprj">
+            <Image src={NtePV} alt="" width={"auto"} height={"auto"} />
+          </div>
+          <div className="descriptionprj">
+            <h4>Aplicacion de Notas para iOS</h4>
+          </div>
+          <div className="lenguajesprj">
+            <Image src="https://cdn4.iconfinder.com/data/icons/logos-3/504/Swift-2-512.png" width={200} height={200} alt="" />
+          </div>
+          <div className="github">
+            <i className="bi bi-eye-fill"></i>Ver proyecto
+          </div>
+        </button>
+
         <button className="container-project" onClick={() => openModalForProject("CarRecognition")}>
             <div className="nameprj">Reconocimiento de Carros</div>
             <div className="categorie">Personal</div>
@@ -76,25 +94,6 @@ const Proyectos = () => {
             <i className="bi bi-eye-fill"></i>Ver proyecto
           </div>
         </button>
-
-        <button className="container-project" onClick={() => openModalForProject("NoteApp")}>
-          <div className="nameprj">Notes App</div>
-          <div className="categorie">Personal</div>
-          <div className="photoprj">
-            <Image src={Nte} alt="" width={"auto"} height={"auto"} />
-          </div>
-          <div className="descriptionprj">
-            <h4>Aplicacion de Notas para iOS</h4>
-          </div>
-          <div className="lenguajesprj">
-            <Image src="https://cdn4.iconfinder.com/data/icons/logos-3/504/Swift-2-512.png" width={200} height={200} alt="" />
-          </div>
-          <div className="github">
-            <i className="bi bi-eye-fill"></i>Ver proyecto
-          </div>
-        </button>
-
-
 
       </div>
       <br/><br/><br/><br/>

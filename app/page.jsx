@@ -58,8 +58,8 @@ export default function Portafolio() {
 
       <div className='btnlinks'>
         <button onClick={() => setEnglish(!english)}>
-            <i className="bi bi-translate"></i>          
-          </button>
+            <i className="bi bi-translate"></i>
+        </button>
         <button>
           <a href="https://www.linkedin.com/in/alberto-ambriz-chavez/" target="_blank">
             <i className="bi bi-linkedin"></i>
@@ -84,6 +84,18 @@ export default function Portafolio() {
   
       {english ? (
         <>
+          <div className='btnlinks1'>
+            <button>
+              <a href="./PersonalEN">
+                <i className="bi bi-person-raised-hand"></i>
+              </a>
+            </button>
+            <button>
+              <Link href="/">
+                <i className="bi bi-people-fill"></i>
+              </Link>
+            </button>
+          </div>
           <NavbarEN/>
           <AboutmeEN/>        
           <TecnologiasEN />
@@ -93,6 +105,18 @@ export default function Portafolio() {
         </>
       ) : (
         <>
+          <div className='btnlinks1'>
+            <button>
+              <a href="./Personal">
+                <i className="bi bi-person-raised-hand"></i>
+              </a>
+            </button>
+            <button>
+              <Link href="/">
+                <i className="bi bi-people-fill"></i>
+              </Link>
+            </button>
+          </div>
           <Navbar />
           <Aboutme/>
           <Tecnologias />
