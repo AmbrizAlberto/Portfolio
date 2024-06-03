@@ -2,21 +2,26 @@
 
 html{
     font-family: 'Roboto', sans-serif;
-    background-image: none;
     background-color: rgb(0, 52, 84);
-    height: 100%;
-}
-body{
-    height: 100%;
-    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+    overflow-x: hidden;
     width: 100%;
-    margin-bottom: 5%;
+    transition: 700ms;
+    font-size: 2vh;
+}
+
+body{
+    margin-left: 4%;
+    overflow-y: hidden;
+    width: 100%;
 }
 
 .main{
+    overflow-y: hidden;
     width: 85%;
     height: 100%;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 2%;
     border-radius: 20px;
     margin: auto;
@@ -27,11 +32,23 @@ body{
     font-size: 400%;
 }
 
-/* PROYECTOS */
-.projects{
-    margin-bottom: 5%;
-}
 
+
+/* PROYECTOS */
+
+.projects{
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    color: #7ed1f4;
+    transition: 500ms;
+}
+.projects h2{
+    font-weight: 600;
+    font-size: 350%;
+    transition: 500ms;
+}
 .photoprj img{
     width: 95%;
     height: auto;
@@ -129,3 +146,81 @@ body{
     transition: 500ms;
 }
 
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 820px) {
+    .projects{
+        margin: auto;
+        margin-top: 10%;
+        font-size: 200%;
+    }
+    .projects h2{
+        margin: auto;
+        height: 5%;
+        font-size: 150%;
+        margin-bottom: 4%;
+    }
+    .grid-containerprj{
+        grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    }
+    .container-project{
+        width:100%;
+        font-size: 47%;
+    }
+    .container-project .nameprj{
+        font-size: 200%;
+    }
+    .modalprj1{
+        height: 50%;
+        font-size: 40%;
+    }
+    .modalcontent{
+        font-size: 40%;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .projects{
+        margin: auto;
+        width: 90%;
+    }
+    .grid-containerprj{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
+        gap: 3% 0%; /* Espacio entre los elementos */
+        margin: auto;
+        margin-left: 0;
+        padding: 0%;
+    }
+    .container-project{
+        margin: auto;
+        width: 90%;
+    }
+    .photoprj1 img{
+        width: 70%;
+        height: 1%;
+        margin: auto;
+        margin-top: 1%;
+        border-radius: 0px;
+        box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.533);
+    }
+    .modalprj1{
+        height: 50%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .modalprj1{
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container-project{
+        margin: auto;
+        margin-left: 0;
+        width: 85%;
+    }
+}
