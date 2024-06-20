@@ -12,6 +12,9 @@ const nextConfig = {
         { hostname: 'dn-icons-png.flaticon.com'},
         { hostname: 'uxwing.com'},
         { hostname: 'icones.pro'},
+        { hostname: 'creazilla-store.fra1.digitaloceanspaces.com'},
+        { hostname: 'cdn.icon-icons.com'},
+        { hostname: 'seekicon.com'},
       ],
     },
   };

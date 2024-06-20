@@ -13,6 +13,9 @@ import BB1 from "../../images/BB2.jpeg";
 import CR from '../../images/CR.png';
 import CR1 from '../../images/CR1.png';
 import CR2 from '../../images/CR2.png';
+import PX1 from "../../images/PX1.jpeg";
+import PX2 from "../../images/PX2.jpeg";
+import PX3 from "../../images/PX3.jpeg";
 
 
 import "../../css/modal.css";
@@ -44,6 +47,28 @@ const ProyectosEN = () => {
     <div className='projects' id='proyecto'>
       <h2>PROJECTS</h2>
       <div className="grid-containerprj">
+
+        <button className="container-project" onClick={() => openModalForProject("Pixels")}>
+          <div className="nameprj">Pixels</div>
+          <div className="categorie">Personal</div>
+          <div className="photoprj">
+            <Image src={PX1} alt="" width={"auto"} height={"auto"} />
+          </div>
+          <div className="descriptionprj">
+            <h4>Social Network for Photographers</h4>
+          </div>
+          <div className="lenguajesprj">
+            <Image src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width={200} height={200} alt="" />
+            <Image src="https://camo.githubusercontent.com/57849c6a718458e32ed51527a073b72d8f1737ee515ab6f80d5a9107a485f40c/68747470733a2f2f7777772e6461746f636d732d6173736574732e636f6d2f37353934312f313635373730373837382d6e6578746a735f6c6f676f2e706e67" width={200} height={200} alt="" />
+            <Image src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_prisma_icon_130234.png" width={200} height={200} alt="" />
+            <Image src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" width={200} height={200} alt="" />
+          </div>
+          <div className="categorie" style={{ color: 'yellow' }}>In development</div>
+          <br />
+          <div className="github">
+            <i className="bi bi-eye-fill"></i>See project
+          </div>
+        </button>
 
         <button className="container-project" onClick={() => openModalForProject("harmony_heaven")}>
             <div className="nameprj">Harmony &amp; Heaven</div>
@@ -113,11 +138,59 @@ const ProyectosEN = () => {
               <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={200} height={200} alt="" />
             </div>
             <div className="github">
-              <i className="bi bi-eye-fill"></i>View project
+              <i className="bi bi-eye-fill"></i>See project
             </div>
         </button>
 
       </div>
+
+      {modalOpen && selectedProject === "Pixels" && (
+        <div className='modalprj1' onClick={closeModal}>
+          <div className='modalcontent1' onClick={(e) => e.stopPropagation()}>
+
+            <button className="close-modal" onClick={closeModal}>
+              <X size={24} />
+            </button>
+
+            <div className="nameprj1">Pixels</div>
+            <div className="categorie1">Personal</div>
+            <div className="lenguajesprj1">
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width={200} height={200} alt="" />
+              <Image src="https://seekicon.com/free-icon-download/next-js_1.png" width={200} height={200} alt="" />
+              <Image src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3254224/prisma-icon-md.png" width={200} height={200} alt="" />
+              <Image src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" width={200} height={200} alt="" />
+            </div>
+            <div className="photoprj1">
+              <Image src={PX1} alt="" width={"auto"} height={"auto"} />
+            </div>
+            <div className="descriptionprj1">
+              <h4>Social network for photographers, users will share their photographs and metadata will be displayed, the photographs cannot be stolen.</h4>
+            </div>
+            <div className="photoprj1">
+              <Image src={PX2} alt="" width={"auto"} height={"auto"} />
+            </div>
+            <div className='descriptionprj1'>
+              <p>The main objective of Pixels is to be a social network 100% focused on photography with the added benefit of offering high security for its users, even allowing them to sell their art exclusively.</p>
+            </div>
+            <div className="photoprj1">
+              <Image src={PX3} alt="" width={"auto"} height={"auto"} />
+            </div>
+            <div className="descriptionprj1">
+              <p>Pixels is still under development, so many features have yet to be implemented.</p>
+            </div>
+            <div>
+              <button className='btngithublink'>
+                <a href="https://pixels-flax.vercel.app/"><i className="bi bi-eye" style={{ marginRight: '5px' }}></i>View in Production</a>
+              </button>
+            </div>
+            <div>
+              <button className='btngithublink'>
+                <a href="https://github.com/AmbrizAlberto/Car-Recognition.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>View on GitHub</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {modalOpen && selectedProject === "harmony_heaven" && (
         <div className='modalprj1' onClick={closeModal}>

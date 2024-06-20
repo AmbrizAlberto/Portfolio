@@ -27,6 +27,10 @@ const TecnologiasEN = () => {
             <h2>Backend</h2>
             <div className="tecnologias">
               <div className="image-with-text">
+                <Image src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_prisma_icon_130234.png" width={200} height={200} alt="" />
+                <p>Prisma</p>
+              </div>
+              <div className="image-with-text">
                 <Image src="https://static-00.iconduck.com/assets.00/php-icon-2048x2048-jyo8hbbt.png" width={200} height={200} alt="" />
                 <p>PHP</p>
               </div>
@@ -46,7 +50,7 @@ const TecnologiasEN = () => {
 
           </div>
           <div className="grid-itemtec">
-            <h2>Learning</h2>
+            <h2>Extra</h2>
             <div className="tecnologias">
               <div className="image-with-text">
                 <Image src="https://cdn4.iconfinder.com/data/icons/logos-3/504/Swift-2-512.png" width={200} height={200} alt="" />
