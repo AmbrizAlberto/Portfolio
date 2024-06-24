@@ -1,5 +1,5 @@
-# PORTAFOLIO by AmbrizAlberto
-Portafolio de programador con proyectos, desarrollado con React y NextJS utilizando clases y librerias dedicadas.
+# PORTAFOLIO by Alberto Ambriz (Al Dev)
+Portafolio de programador con proyectos destacados y más, desarrollado con React y NextJS utilizando clases y librerias dedicadas.
 ##
 
 ## Contenido:
@@ -7,9 +7,11 @@ Portafolio de programador con proyectos, desarrollado con React y NextJS utiliza
 - Sobre mi
 - Tecnologias
 - Proyectos
+    - En solitario
+    - En grupo 
 - Contactame
 
-Dar creditos si se reutiliza :DD
+Dar creditos si se reutiliza
 
 Para iniciar el proyecto en local:
 ```bash
@@ -24,5 +26,5 @@ bun dev
 
 Abrir [http://localhost:3000](http://localhost:3000) con tu navegador para verlo.
 
-You puedes comenzar a ver la estructura en el archivo `app/page.js`.
+Tú puedes comenzar a ver la estructura en el archivo `app/page.js`.
 
