@@ -10,8 +10,10 @@ Portafolio de programador con proyectos destacados y más, desarrollado con Reac
     - En solitario
     - En grupo 
 - Contactame
+    - Correo
+    - Teléfono
 
-Dar creditos si se reutiliza
+De ser reutilizado este proyecto favor de dar creditos al creado (yo).
 
 Para iniciar el proyecto en local:
 ```bash
