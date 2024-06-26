@@ -15,7 +15,7 @@ Portafolio de programador con proyectos destacados y más, desarrollado con Reac
 
 De ser reutilizado este proyecto favor de dar creditos al creado (yo).
 
-Para iniciar el proyecto en local:
+## Para iniciar el proyecto en local:
 ```bash
 npm run dev
 # ó
