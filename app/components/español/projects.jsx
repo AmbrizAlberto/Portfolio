@@ -184,7 +184,7 @@ const Proyectos = () => {
             </div>
             <div>
               <button className='btngithublink'>
-                <a href="https://github.com/AmbrizAlberto/Car-Recognition.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>Ver en GitHub</a>
+                <a href="https://github.com/AmbrizAlberto/Pixels.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>Ver en GitHub</a>
               </button>
             </div>
           </div>
