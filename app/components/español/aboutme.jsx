@@ -27,7 +27,7 @@ const Aboutme = () => {
                 <div className="aboutme">
                     <h2>SOBRE MI...</h2>
                     <div className='descriptionme'>
-                        Estudiante de Ingeniería en Software, me apasiona el desarrollo de aplicaciones (web/móvil), el diseño de estas es lo más entretenido para mí, estoy listo para trabajar de inmediato.
+                        ¡Hola! Soy Alberto Ambriz, un desarrollador FullStack estudiante de Ingeniería de Software con más de 4 años de experiencia en el ámbito de la programación y desarrollo web. ¡Espero con entusiasmo la oportunidad de discutir cómo puedo agregar valor a su equipo y cumplir con sus objetivos de desarrollo!.
                     </div>
                 </div>
             </div>
