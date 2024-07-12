@@ -28,9 +28,8 @@ const AboutmeEN = () => {
                 <div className="aboutme">
                     <h2>ABOUT ME...</h2>
                     <div className='descriptionme'>
-                        Hello! I am Alberto Ambriz, a FullStack developer, Software Engineering student with more than 4 years of experience in the field of programming and web development. I look forward to the opportunity to discuss how I can add value to his team and meet his development goals!
+                        Hello! I am a FullStack developer Software Engineer with more than 4 years of experience in the field of programming. I look forward to the opportunity to be part of your development team!                
                     </div>
-                </div>
             </div>
         </div>
     )
