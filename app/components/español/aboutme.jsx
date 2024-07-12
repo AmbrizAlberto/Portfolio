@@ -27,7 +27,7 @@ const Aboutme = () => {
                 <div className="aboutme">
                     <h2>SOBRE MI...</h2>
                     <div className='descriptionme'>
-                        ¡Hola! Soy Alberto Ambriz, un desarrollador FullStack estudiante de Ingeniería de Software con más de 4 años de experiencia en el ámbito de la programación y desarrollo web. ¡Espero con entusiasmo la oportunidad de discutir cómo puedo agregar valor a su equipo y cumplir con sus objetivos de desarrollo!.
+                        ¡Hola! Soy un desarrollador FullStack Ingeniero de Software con más de 4 años de experiencia en el ámbito de la programación. ¡Espero con entusiasmo la oportunidad de formar parte de su equipo de desarrollo!.
                     </div>
                 </div>
             </div>
