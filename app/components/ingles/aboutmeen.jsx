@@ -30,6 +30,7 @@ const AboutmeEN = () => {
                     <div className='descriptionme'>
                         Hello! I am a FullStack developer Software Engineer with more than 4 years of experience in the field of programming. I look forward to the opportunity to be part of your development team!                
                     </div>
+                </div>
             </div>
         </div>
     )
