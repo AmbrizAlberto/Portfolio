@@ -22,7 +22,7 @@ export default function Navbar() {
             <div className="access">
                 <a className="link" href="#"><i className="bi bi-house-fill"></i><span>Inicio</span></a>
                 <a className="link" href="./Personal"><i className="bi bi-person-raised-hand"></i><span>Solo</span></a>
-                <Link className="link" href="/"><i className="bi bi-people-fill"></i><span>Grupal</span></Link>
+                <a className="link" href="./Grupal"><i className="bi bi-people-fill"></i><span>Grupal</span></a>
             </div>
             
         </div>
