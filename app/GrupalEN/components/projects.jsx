@@ -2,20 +2,13 @@ import Image from 'next/image';
 import { X } from 'react-feather';
 import React, { useState } from 'react';
 
-import CR from '../../images/CR.png';
-import CR1 from '../../images/CR1.png';
-import CR2 from '../../images/CR2.png';
-import NtePV from '../../images/NotePV.jpeg';
-import Nte from '../../images/Note.png';
-import Nte1 from '../../images/Note1.png';
+import HyH from '../../images/HarmonyAndHeavenM.jpg';
+import HyH1 from '../../images/HarmonyAndHeavenL.jpg';
+import PEE from '../../images/PickEm.jpg';
+import PEE1 from '../../images/PickEm1.jpg';
 import PEE2 from '../../images/PickEm2.jpg';
 import BB from '../../images/BB1.jpg';
 import BB1 from "../../images/BB2.jpeg";
-import PX1 from "../../images/PX1.jpeg";
-import PX2 from "../../images/PX2.jpeg";
-import PX3 from "../../images/PX3.jpeg";
-
-
 
 
 import "../../css/modal.css";
@@ -48,79 +41,63 @@ const Proyectos = () => {
       <h2 id='proyecto'>PROYECTOS</h2>
 
       <div className="grid-containerprj">
-      <button className="container-project" onClick={() => openModalForProject("Pixels")}>
-          <div className="nameprj">Pixels</div>
-          <div className="categorie">Personal</div>
-          <div className="photoprj">
-            <Image src={PX1} alt="" width={"auto"} height={"auto"} />
-          </div>
-          <div className="descriptionprj">
-            <h4>Red Social para Fotografos</h4>
-          </div>
-          <div className="lenguajesprj">
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width={200} height={200} alt="" />
-            <Image src="https://camo.githubusercontent.com/57849c6a718458e32ed51527a073b72d8f1737ee515ab6f80d5a9107a485f40c/68747470733a2f2f7777772e6461746f636d732d6173736574732e636f6d2f37353934312f313635373730373837382d6e6578746a735f6c6f676f2e706e67" width={200} height={200} alt="" />
-            <Image src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_prisma_icon_130234.png" width={200} height={200} alt="" />
-            <Image src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" width={200} height={200} alt="" />
-          </div>
-          <div className="categorie" style={{ color: 'yellow' }}>En desarrollo</div>
-          <br />
-          <div className="github">
-            <i className="bi bi-eye-fill"></i>Ver proyecto
-          </div>
-        </button>
 
-        <button className="container-project" onClick={() => openModalForProject("NoteApp")}>
-          <div className="nameprj">Notes App</div>
-          <div className="categorie">Personal</div>
-          <div className="photoprj">
-            <Image src={NtePV} alt="" width={"auto"} height={"auto"} />
-          </div>
-          <div className="descriptionprj">
-            <h4>Aplicacion de Notas para iOS</h4>
-          </div>
-          <div className="lenguajesprj">
-            <Image src="https://cdn4.iconfinder.com/data/icons/logos-3/504/Swift-2-512.png" width={200} height={200} alt="" />
-          </div>
-          <div className="github">
-            <i className="bi bi-eye-fill"></i>Ver proyecto
-          </div>
-        </button>
-
-        <button className="container-project" onClick={() => openModalForProject("CarRecognition")}>
-            <div className="nameprj">Reconocimiento de Carros</div>
-            <div className="categorie">Personal</div>
+      <button className="container-project" onClick={() => openModalForProject("harmony_heaven")}>
+            <div className="nameprj">Harmony &amp; Heaven</div>
+            <div className="categorie">Group</div>
             <div className="photoprj">
-              <Image src={CR} alt="" width={"auto"} height={"auto"} />
+              <Image src={HyH} alt="" width={"auto"} height={"auto"} />
             </div>
             <div className="descriptionprj">
-              <h4>Reconocimiento de carros en videos con Python</h4>
+              <h4>Instrument Store with CRUD, Login and Point of Sale.</h4>
             </div>
             <div className="lenguajesprj">
-              <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={200} height={200} alt="" />
+              <Image src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" width={40} height={40} alt="" />
+              <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" width={40} height={40} alt="" />
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
             </div>
             <div className="github">
-              <i className="bi bi-eye-fill"></i>Ver proyecto
+            <i class="bi bi-eye-fill"></i>See project
             </div>
         </button>
 
-        <button className="container-project" onClick={() => openModalForProject("NumberRecog")}>
-          <div className="nameprj">Number Recognition</div>
-          <div className="categorie">Personal</div>
+        <button className="container-project" onClick={() => openModalForProject("PickEmE")}>
+          <div className="nameprj">Pick Em&apos; Everithing</div>
+          <div className="categorie">Group</div>
           <div className="photoprj">
-
+            <Image src={PEE} alt="" width={"auto"} height={"auto"} />
           </div>
           <div className="descriptionprj">
-            <h4>Programa de reconocimiento de digitos dibujados por el usuario</h4>
+            <h4>Video game developed with the Pygame Python library</h4>
           </div>
           <div className="lenguajesprj">
             <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={200} height={200} alt="" />
           </div>
           <div className="github">
-            <i className="bi bi-eye-fill"></i>Ver proyecto
+            <i class="bi bi-eye-fill"></i>See project
           </div>
         </button>
 
+        <button className="container-project" onClick={() => openModalForProject("BugB")}>
+          <div className="nameprj">BuggBlock</div>
+          <div className="categorie">Group</div>
+          <div className="photoprj">
+            <Image src={BB} alt="" width={"auto"} height={"auto"} />
+          </div>
+          <div className="descriptionprj">
+            <h4>Web Computer blog focused on technology and computers, users can make new posts and the admin can delete them</h4>
+          </div>
+          <div className="lenguajesprj">
+            <Image src="https://static-00.iconduck.com/assets.00/php-icon-2048x2048-jyo8hbbt.png" width={200} height={200} alt="" />
+            <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
+            <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" width={40} height={40} alt="" />
+          </div>
+          <div className="github">
+            <i class="bi bi-eye-fill"></i>See project
+          </div>
+        </button>
+
+        
       </div>
       <br/><br/><br/><br/>
 
