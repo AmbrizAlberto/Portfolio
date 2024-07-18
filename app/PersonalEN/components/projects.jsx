@@ -263,25 +263,18 @@ const Proyectos = () => {
             <div className="nameprj1">Number Recognition</div>
             <div className="categorie1">Personal</div>
             <div className="lenguajesprj1">
-
+              <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={200} height={200} alt="" />
             </div>
-            <div className="photoprj1">
-              <Image src={BB} alt="" width={"auto"} height={"auto"} />
-            </div>
-
             <div className="descriptionprj1">
-              <h4>A web blog for tech enthusiasts.</h4>
+              <h4>SubTitle Soon...</h4>
             </div>
             <div className='descriptionprj3'>
-              <p>BuggBlock is a Blog-type website focused on technology information where registered users can make posts with text and photos to later view them in the Main section</p>
-            </div>
-            <div className="photoprj1">
-              <Image src={BB1} alt="" width={"auto"} height={"auto"} />
+              <p>Recognition of numbers drawn in the program... Soon</p>
             </div>
             <br />
             <br />
             <div className='descriptionprj3'>
-              BuggBlock was developed with PHP for managing user data and posts on the Backend side, and the design was done with Bootstrap icons and pure CSS.
+              Soon...
             </div>
             <button className='btngithublink'> 
               <a href="https://github.com/AmbrizAlberto/Drawn-Digits-Recognition-1.0/tree/master/Reconocimiento%20de%20numero"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>View on GitHub</a>

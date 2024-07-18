@@ -28,7 +28,7 @@ const AboutmeEN = () => {
                 <div className="aboutme">
                     <h2>ABOUT ME...</h2>
                     <div className='descriptionme'>
-                        Software Engineering student, I am passionate about developing applications (web/mobile), their design is the most entertaining for me, I am ready to work immediately.
+                        Hello! I am a FullStack developer Software Engineer with more than 4 years of experience in the field of programming. I look forward to the opportunity to be part of your development team!                
                     </div>
                 </div>
             </div>

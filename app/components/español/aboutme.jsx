@@ -27,7 +27,7 @@ const Aboutme = () => {
                 <div className="aboutme">
                     <h2>SOBRE MI...</h2>
                     <div className='descriptionme'>
-                        Estudiante de Ingeniería en Software, me apasiona el desarrollo de aplicaciones (web/móvil), el diseño de estas es lo más entretenido para mí, estoy listo para trabajar de inmediato.
+                        ¡Hola! Soy un desarrollador FullStack Ingeniero de Software con más de 4 años de experiencia en el ámbito de la programación. ¡Espero con entusiasmo la oportunidad de formar parte de su equipo de desarrollo!.
                     </div>
                 </div>
             </div>
