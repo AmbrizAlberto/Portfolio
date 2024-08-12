@@ -19,8 +19,8 @@
   - **En solitario**: Proyectos personales que muestran mi desarrollo y creatividad.
   - **En grupo**: Colaboraciones que destacan mi capacidad de trabajar en equipo.
 - **Contáctame**:
-  - **Correo**: [tu-email@example.com](mailto:tu-email@example.com)
-  - **Teléfono**: +52-XXX-XXX-XXXX
+  - **Correo**: [albertpoambez@icloud.com](mailto:albertpoambez@icloud.com)
+  - **Teléfono**
 
 ## 🛠️ Instalación y Uso
 
