@@ -45,5 +45,5 @@ Este proyecto es de uso libre, pero si decides reutilizarlo, por favor da crédi
 Este portafolio tiene como objetivo no solo mostrar mis habilidades y proyectos, sino también inspirar a otros desarrolladores a crear algo increíble. ¡Gracias por visitar y no dudes en contactarme para cualquier colaboración!
 
 
-# ⭐ Si te gusta este proyecto, no olvides darle una estrella en GitHub! ⭐
+## ⭐ Si te gusta este proyecto, no olvides darle una estrella en GitHub! ⭐
 
