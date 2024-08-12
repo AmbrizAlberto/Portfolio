@@ -15,6 +15,10 @@ import CR2 from '../../images/CR2.png';
 import PX1 from "../../images/PX1.jpeg";
 import PX2 from "../../images/PX2.jpeg";
 import PX3 from "../../images/PX3.jpeg";
+import SMMain from "../../images/SMMain.png"
+import SMDb from "../../images/SMDb.png"
+import SMLg from "../../images/SMLg.png"
+import SM from "../../images/SM.png"
 
 
 import "../../css/modal.css";
@@ -47,6 +51,29 @@ const Proyectos = () => {
       <h2 id='proyecto'>PROYECTOS</h2>
       <div className="grid-containerprj">
 
+      <button className="container-project" onClick={() => openModalForProject("SMatiz")}>
+          <div className="nameprj">Gestor de citas - Salon Matiz</div>
+          <div className="categorie">Personal</div>
+          <div className="photoprj">
+            <Image src={SMMain} alt="" width={"auto"} height={"auto"} />
+          </div>
+          <div className="descriptionprj">
+            <h4>Pagina web para agendar citas y gestionar horario de una barberia</h4>
+          </div>
+          <div className="lenguajesprj">
+            <Image src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width={200} height={200} alt="" />
+            <Image src="https://camo.githubusercontent.com/57849c6a718458e32ed51527a073b72d8f1737ee515ab6f80d5a9107a485f40c/68747470733a2f2f7777772e6461746f636d732d6173736574732e636f6d2f37353934312f313635373730373837382d6e6578746a735f6c6f676f2e706e67" width={200} height={200} alt="" />
+            <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
+            <Image src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_prisma_icon_130234.png" width={200} height={200} alt="" />
+            <Image src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" width={200} height={200} alt="" />
+          </div>
+          <div className="categorie" style={{ color: 'yellow' }}>En desarrollo</div>
+          <br />
+          <div className="github">
+            <i className="bi bi-eye-fill"></i>Ver proyecto
+          </div>
+        </button>
+
         <button className="container-project" onClick={() => openModalForProject("Pixels")}>
           <div className="nameprj">Pixels</div>
           <div className="categorie">Personal</div>
@@ -59,6 +86,7 @@ const Proyectos = () => {
           <div className="lenguajesprj">
             <Image src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width={200} height={200} alt="" />
             <Image src="https://camo.githubusercontent.com/57849c6a718458e32ed51527a073b72d8f1737ee515ab6f80d5a9107a485f40c/68747470733a2f2f7777772e6461746f636d732d6173736574732e636f6d2f37353934312f313635373730373837382d6e6578746a735f6c6f676f2e706e67" width={200} height={200} alt="" />
+            <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
             <Image src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_prisma_icon_130234.png" width={200} height={200} alt="" />
             <Image src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" width={200} height={200} alt="" />
           </div>
@@ -143,6 +171,55 @@ const Proyectos = () => {
 
       </div>
 
+      {modalOpen && selectedProject === "SMatiz" && (
+        <div className='modalprj1' onClick={closeModal}>
+          <div className='modalcontent1' onClick={(e) => e.stopPropagation()}>
+
+            <button className="close-modal" onClick={closeModal}>
+              <X size={24} />
+            </button>
+
+            <div className="nameprj1">Gestor de citas para Barberia</div>
+            <div className="categorie1">Personal</div>
+            <div className="lenguajesprj1">
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width={200} height={200} alt="" />
+              <Image src="https://seekicon.com/free-icon-download/next-js_1.png" width={200} height={200} alt="" />
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
+              <Image src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3254224/prisma-icon-md.png" width={200} height={200} alt="" />
+              <Image src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" width={200} height={200} alt="" />
+            </div>
+            <div className="descriptionprj1">
+              <h4>Aplicacion web publica para que las personas puedan agendar citas en una barberia.</h4>
+            </div>
+            <div className="photoprj1">
+              <Image src={SM} alt="" width={"auto"} height={"auto"} />
+            </div>
+            <div className='descriptionprj1'>
+              <p>Automaticamente se gestionaran los horarios de la barberia para no solapar citas sobre otras, cada servicio tiene un valor de tiempo que se toma en cuenta en la suma para el gestor de horarios disponibles sin interponserse entre otra cita para otros usuarios despues de que se agenden. </p>
+            </div>
+            <div className="photoprj1">
+              <Image src={SMLg} alt="" width={"auto"} height={"auto"} />
+            </div>
+            <div className="descriptionprj1">
+              <p> El Dashboard permite al administrador poder ver las citas del dia actual, filtrarlas entre fechas, servicios e inclusos nombres, ademas, este podra crear noticias para sus clientes y eliminarlas desde el mismo Dashboard</p>
+            </div>
+            <div className="photoprj1">
+              <Image src={SMDb} alt="" width={"auto"} height={"auto"} />
+            </div>
+            <div>
+              <button className='btngithublink'>
+                <a href="https://gestor-baber.vercel.app/"><i className="bi bi-eye" style={{ marginRight: '5px' }}></i>Ver en Produccion</a>
+              </button>
+            </div>
+            <div>
+              <button className='btngithublink'>
+                <a href="https://github.com/AmbrizAlberto/ControlOfBarberShop"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>Ver en GitHub</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+      
       {modalOpen && selectedProject === "Pixels" && (
         <div className='modalprj1' onClick={closeModal}>
           <div className='modalcontent1' onClick={(e) => e.stopPropagation()}>
