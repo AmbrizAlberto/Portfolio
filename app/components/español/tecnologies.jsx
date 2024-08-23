@@ -83,7 +83,7 @@ const Tecnologias = () => {
                 <p>GitHub</p>
               </div>
               <div className="image-with-text">
-                <Image src="https://static-00.iconduck.com/assets.00/npm-icon-2048x2048-3xqnd60o.png" width={200} height={200} alt="" />
+                <Image src="https://img.icons8.com/color/200/npm.png" width={200} height={200} alt="" />
                 <p>npm</p>
               </div>
             </div>
