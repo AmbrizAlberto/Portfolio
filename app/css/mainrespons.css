@@ -147,10 +147,16 @@
     .modalprj1{
         height: 50%;
     }
+    .grid-itemtec h2{
+        margin-bottom: -4%;
+    }
+    .btnlinks1{
+        margin-top: 2vh;
+    }
 }
 
 
-  /* R6Pro */
+  /* i14PM */
   @media screen and (max-width: 431px) {
     html{
         background-image: linear-gradient(to bottom, #ff7e5f 15%, #ff7f5f 14%, #31405f 28%, #31405f 84%, #000000 95%,  #000000 100%);
@@ -190,6 +196,9 @@
     }.descriptionme{
         height: 40%;
     }
+    .btnlinks1{
+        margin-top: -5vh;
+    }
     .btnlinks i{
         font-size: 250%;
     }
@@ -216,10 +225,11 @@
     .projects{
         margin: auto;
         width: 90%;
+        margin-top: 5vh;
     }
     .grid-containerprj{
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
-        gap: 3% 0%; /* Espacio entre los elementos */
+        gap: 1.5% 0%; /* Espacio entre los elementos */
         margin: auto;
         padding: 0%;
     }
@@ -238,7 +248,309 @@
 
     .contactme{
         font-size: 90%;
-        margin-top: 50%;
+        margin-top: 30vh;
+        margin-bottom: 5%;
+    }
+    .modalprj1{
+        height: 50%;
+    }
+  }
+
+
+    /* R6Pro */
+    @media screen and (max-width: 412px) {
+        html{
+            background-image: linear-gradient(to bottom, #ff7e5f 15%, #ff7f5f 14%, #31405f 28%, #31405f 84%, #000000 95%,  #000000 100%);
+            overflow-x: hidden;
+            font-size: 80%;
+        }
+        body{
+            margin-left: 0;
+            width: 100%;
+        }
+        .main{
+            width: 90%;
+        }.personaldata{
+            width: 90%;
+            height: 80vh;
+            font-size: 90%;
+            margin-top: 15%;
+            flex-wrap: wrap;
+            text-align: center;
+            margin: auto;
+        }
+        .datos1{
+            text-align: center;
+            padding-top: 10%;
+            margin: auto;
+            width: 100%;
+        }
+        .datos1 img{
+            margin: auto;
+        }
+        .datos2{
+            font-size: 1.1vh;
+            margin-top: 5%;
+            margin-left: 2%;
+            width: 90%;
+            height: auto;
+        }.descriptionme{
+            height: 40%;
+        }
+        .btnlinks1 {
+            top: 89vh;
+        }
+        .btnlinks i{
+            font-size: 250%;
+        }
+    
+        .lenguajes h2{
+            margin-bottom: -15%;
+        }
+        .grid-containertec{
+            grid-template-columns: repeat(auto-fill, minmax(250px, 0fr));
+            margin: auto;
+        }
+        .grid-itemtec {
+            margin: auto;
+            width: 90%;
+            height: 200px;
+        }
+        .grid-itemtec h2{
+            margin-bottom: 0%;
+        }
+        .image-with-text img {
+            width: 40px; /* Ajusta el ancho según sea necesario */
+            height: 40px; /* Esto permite que la imagen se ajuste proporcionalmente */
+        }
+        .projects{
+            margin: auto;
+            width: 90%;
+            margin-top: 5vh;
+        }
+        .grid-containerprj{
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
+            gap: 1.5% 0%; /* Espacio entre los elementos */
+            margin: auto;
+            padding: 0%;
+        }
+        .container-project{
+            margin: auto;
+            width: 90%;
+        }
+        .photoprj1 img{
+            width: 70%;
+            height: 1%;
+            margin: auto;
+            margin-top: 1%;
+            border-radius: 0px;
+            box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.533);
+        }
+    
+        .contactme{
+            font-size: 90%;
+            margin-top: 30vh;
+            margin-bottom: 5%;
+        }
+        .modalprj1{
+            height: 50%;
+        }
+      }
+
+
+/* iSE */
+@media screen and (max-width: 376px) {
+    html{
+        background-image: linear-gradient(to bottom, #ff7e5f 15%, #ff7f5f 14%, #31405f 28%, #31405f 84%, #000000 95%,  #000000 100%);
+        overflow-x: hidden;
+        font-size: 80%;
+    }
+    body{
+        margin-left: 0;
+        width: 100%;
+    }
+    .main{
+        width: 90%;
+    }.personaldata{
+        width: 90%;
+        height: 80vh;
+        font-size: 90%;
+        margin-top: 15%;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: auto;
+    }
+    .datos1{
+        text-align: center;
+        padding-top: 10%;
+        margin: auto;
+        width: 100%;
+    }
+    .datos1 img{
+        margin: auto;
+    }
+    .datos2{
+        font-size: 1.1vh;
+        margin-top: 5%;
+        margin-left: 2%;
+        width: 90%;
+        height: auto;
+    }.descriptionme{
+        height: 40%;
+    }
+    .btnlinks1 {
+        margin-top: 0vh;
+    }
+    .btnlinks i{
+        font-size: 250%;
+    }
+
+    .lenguajes h2{
+        margin-bottom: -15%;
+    }
+    .grid-containertec{
+        grid-template-columns: repeat(auto-fill, minmax(250px, 0fr));
+        margin: auto;
+    }
+    .grid-itemtec {
+        margin: auto;
+        width: 90%;
+        height: 200px;
+    }
+    .grid-itemtec h2{
+        margin-bottom: 0%;
+    }
+    .image-with-text img {
+        width: 40px; /* Ajusta el ancho según sea necesario */
+        height: 40px; /* Esto permite que la imagen se ajuste proporcionalmente */
+    }
+    .projects{
+        margin: auto;
+        width: 90%;
+        margin-top: 5vh;
+    }
+    .grid-containerprj{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
+        gap: 1.5% 0%; /* Espacio entre los elementos */
+        margin: auto;
+        padding: 0%;
+    }
+    .container-project{
+        margin: auto;
+        width: 90%;
+    }
+    .photoprj1 img{
+        width: 70%;
+        height: 1%;
+        margin: auto;
+        margin-top: 1%;
+        border-radius: 0px;
+        box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.533);
+    }
+
+    .contactme{
+        font-size: 90%;
+        margin-top: 40vh;
+        margin-bottom: 5%;
+    }
+    .modalprj1{
+        height: 50%;
+    }
+  }
+
+  /* R6Pro */
+  @media screen and (max-width: 360px) {
+    html{
+        background-image: linear-gradient(to bottom, #ff7e5f 15%, #ff7f5f 14%, #31405f 28%, #31405f 84%, #000000 95%,  #000000 100%);
+        overflow-x: hidden;
+        font-size: 80%;
+    }
+    body{
+        margin-left: 0;
+        width: 100%;
+    }
+    .main{
+        width: 90%;
+    }.personaldata{
+        width: 90%;
+        height: 80vh;
+        font-size: 90%;
+        margin-top: 15%;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: auto;
+    }
+    .datos1{
+        text-align: center;
+        padding-top: 10%;
+        margin: auto;
+        width: 100%;
+    }
+    .datos1 img{
+        margin: auto;
+    }
+    .datos2{
+        font-size: 1.1vh;
+        margin-top: 5%;
+        margin-left: 2%;
+        width: 90%;
+        height: auto;
+    }.descriptionme{
+        height: 40%;
+    }
+    .btnlinks1 {
+        margin-top: -2vh;
+    }
+    .btnlinks i{
+        font-size: 250%;
+    }
+
+    .lenguajes h2{
+        margin-bottom: -15%;
+    }
+    .grid-containertec{
+        grid-template-columns: repeat(auto-fill, minmax(250px, 0fr));
+        margin: auto;
+    }
+    .grid-itemtec {
+        margin: auto;
+        width: 90%;
+        height: 200px;
+    }
+    .grid-itemtec h2{
+        margin-bottom: 0%;
+    }
+    .image-with-text img {
+        width: 40px; /* Ajusta el ancho según sea necesario */
+        height: 40px; /* Esto permite que la imagen se ajuste proporcionalmente */
+    }
+    .projects{
+        margin: auto;
+        width: 90%;
+        margin-top: 5vh;
+    }
+    .grid-containerprj{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Establece columnas con un mínimo de 200px y se ajustan automáticamente */
+        gap: 1.5% 0%; /* Espacio entre los elementos */
+        margin: auto;
+        padding: 0%;
+    }
+    .container-project{
+        margin: auto;
+        width: 90%;
+    }
+    .photoprj1 img{
+        width: 70%;
+        height: 1%;
+        margin: auto;
+        margin-top: 1%;
+        border-radius: 0px;
+        box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.533);
+    }
+
+    .contactme{
+        font-size: 90%;
+        margin-top: 30vh;
         margin-bottom: 5%;
     }
     .modalprj1{

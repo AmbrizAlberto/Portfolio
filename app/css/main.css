@@ -160,6 +160,7 @@ button {
     text-decoration: none; /* Not needed here, inherits from button */
     width: 100%;
     color: rgb(0, 35, 60);
+    margin-top: auto;
   }
   
   .btnlinks1 button {
