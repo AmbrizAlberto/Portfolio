@@ -43,7 +43,7 @@ const Tecnologias = () => {
                 <p>MySQL</p>
               </div>
               <div className="image-with-text">
-                <Image src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" width={200} height={200} alt="" />
+                <Image src="https://cdn.iconscout.com/icon/free/png-256/free-node-js-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945054.png?f=webp&w=256" width={200} height={200} alt="" />
                 <p>NodeJS</p>
               </div>
             </div>

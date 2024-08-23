@@ -31,7 +31,7 @@ const TecnologiasEN = () => {
                 <p>Prisma</p>
               </div>
               <div className="image-with-text">
-                <Image src="https://static-00.iconduck.com/assets.00/php-icon-2048x2048-jyo8hbbt.png" width={200} height={200} alt="" />
+                <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968332.png" width={300} height={300} alt="" />
                 <p>PHP</p>
               </div>
               <div className="image-with-text">
@@ -43,7 +43,7 @@ const TecnologiasEN = () => {
                 <p>MySQL</p>
               </div>
               <div className="image-with-text">
-                <Image src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" width={200} height={200} alt="" />
+                <Image src="https://cdn.iconscout.com/icon/free/png-256/free-node-js-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945054.png?f=webp&w=256" width={200} height={200} alt="" />
                 <p>NodeJS</p>
               </div>
             </div>
@@ -83,7 +83,7 @@ const TecnologiasEN = () => {
                 <p>GitHub</p>
               </div>
               <div className="image-with-text">
-                <Image src="https://static-00.iconduck.com/assets.00/npm-icon-2048x2048-3xqnd60o.png" width={200} height={200} alt="" />
+                <Image src="https://img.icons8.com/color/200/npm.png" width={200} height={200} alt="" />
                 <p>npm</p>
               </div>
             </div>

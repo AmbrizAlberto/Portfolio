@@ -15,6 +15,7 @@ const nextConfig = {
         { hostname: 'creazilla-store.fra1.digitaloceanspaces.com'},
         { hostname: 'cdn.icon-icons.com'},
         { hostname: 'seekicon.com'},
+        { hostname: 'img.icons8.com'},
       ],
     },
   };
