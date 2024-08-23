@@ -31,7 +31,7 @@ const Tecnologias = () => {
                 <p>Prisma</p>
               </div>
               <div className="image-with-text">
-                <Image src="https://static-00.iconduck.com/assets.00/php-icon-2048x2048-jyo8hbbt.png" width={200} height={200} alt="" />
+                <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968332.png" width={300} height={300} alt="" />
                 <p>PHP</p>
               </div>
               <div className="image-with-text">
