@@ -46,4 +46,3 @@ Este portafolio tiene como objetivo no solo mostrar mis habilidades y proyectos,
 
 
 ## ⭐ Si te gusta este proyecto, no olvides darle una estrella en GitHub! ⭐
-
