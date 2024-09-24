@@ -92,9 +92,9 @@ export default function Portafolio() {
               </a>
             </button>
             <button>
-              <Link href="/">
+              <a href="./GrupalEN">
                 <i className="bi bi-people-fill"></i>
-              </Link>
+              </a>
             </button>
           </div>
           <NavbarEN/>
@@ -113,9 +113,9 @@ export default function Portafolio() {
               </a>
             </button>
             <button>
-              <Link href="/">
+              <a href="./Grupal">
                 <i className="bi bi-people-fill"></i>
-              </Link>
+              </a>
             </button>
           </div>
           <Navbar />
