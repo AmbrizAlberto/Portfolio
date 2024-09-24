@@ -35,7 +35,7 @@ const Tecnologias = () => {
                 <p>PHP</p>
               </div>
               <div className="image-with-text">
-                <Image src="https://camo.githubusercontent.com/57849c6a718458e32ed51527a073b72d8f1737ee515ab6f80d5a9107a485f40c/68747470733a2f2f7777772e6461746f636d732d6173736574732e636f6d2f37353934312f313635373730373837382d6e6578746a735f6c6f676f2e706e67" width={200} height={200} alt="" />
+                <Image src="https://static-00.iconduck.com/assets.00/next-js-icon-512x512-zuauazrk.png" width={200} height={200} alt="" />
                 <p>NextJS</p>
               </div>
               <div className="image-with-text">
