@@ -36,29 +36,30 @@ const Proyectos = () => {
     section.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
+
   return (
     <div className='projects' >
       <h2 id='proyecto'>PROYECTOS</h2>
 
       <div className="grid-containerprj">
 
-      <button className="container-project" onClick={() => openModalForProject("harmony_heaven")}>
-            <div className="nameprj">Harmony &amp; Heaven</div>
-            <div className="categorie">Group</div>
-            <div className="photoprj">
-              <Image src={HyH} alt="" width={"auto"} height={"auto"} />
-            </div>
-            <div className="descriptionprj">
-              <h4>Instrument Store with CRUD, Login and Point of Sale.</h4>
-            </div>
-            <div className="lenguajesprj">
-              <Image src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" width={40} height={40} alt="" />
-              <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" width={40} height={40} alt="" />
-              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
-            </div>
-            <div className="github">
-            <i class="bi bi-eye-fill"></i>See project
-            </div>
+        <button className="container-project" onClick={() => openModalForProject("harmony_heaven")}>
+          <div className="nameprj">Harmony &amp; Heaven</div>
+          <div className="categorie">Group</div>
+          <div className="photoprj">
+            <Image src={HyH} alt="" width={"auto"} height={"auto"} />
+          </div>
+          <div className="descriptionprj">
+            <h4>Instrument Store with CRUD, Login and Point of Sale.</h4>
+          </div>
+          <div className="lenguajesprj">
+            <Image src="https://cdn.iconscout.com/icon/free/png-256/free-node-js-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945054.png?f=webp&w=256" width={40} height={40} alt="" />
+            <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" width={40} height={40} alt="" />
+            <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
+          </div>
+          <div className="github">
+          <i class="bi bi-eye-fill"></i>See project
+          </div>
         </button>
 
         <button className="container-project" onClick={() => openModalForProject("PickEmE")}>
@@ -101,7 +102,7 @@ const Proyectos = () => {
       </div>
       <br/><br/><br/><br/>
 
-      {modalOpen && selectedProject === "Pixels" && (
+      {modalOpen && selectedProject === "harmony_heaven" && (
         <div className='modalprj1' onClick={closeModal}>
           <div className='modalcontent1' onClick={(e) => e.stopPropagation()}>
 
@@ -109,83 +110,38 @@ const Proyectos = () => {
               <X size={24} />
             </button>
 
-            <div className="nameprj1">Pixels</div>
-            <div className="categorie1">Personal</div>
+            <div className="nameprj1">Harmony &amp; Heaven</div>
+            <div className="categorie1">Group</div>
             <div className="lenguajesprj1">
-              <Image src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width={200} height={200} alt="" />
-              <Image src="https://seekicon.com/free-icon-download/next-js_1.png" width={200} height={200} alt="" />
-              <Image src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3254224/prisma-icon-md.png" width={200} height={200} alt="" />
-              <Image src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" width={200} height={200} alt="" />
+              <Image src="https://cdn.iconscout.com/icon/free/png-256/free-node-js-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945054.png?f=webp&w=256" width={40} height={40} alt="" />
+              <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" width={40} height={40} alt="" />
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
             </div>
             <div className="photoprj1">
-              <Image src={PX1} alt="" width={"auto"} height={"auto"} />
-            </div>
-            <div className="descriptionprj1">
-              <h4>Red social para fotografos, los usuarios compartiran sus fotografias y se mostraran metadatos de estas, las fotografias no podran ser robadas.</h4>
-            </div>
-            <div className="photoprj1">
-              <Image src={PX2} alt="" width={"auto"} height={"auto"} />
-            </div>
-            <div className='descriptionprj1'>
-              <p>El principal objetivo de Pixels es ser una red social 100% enfocada en fotografia con las novedades de ofrecer alta seguridad para sus usuarios permitiendo incluso la venta de su arte exclusivamente.</p>
-            </div>
-            <div className="photoprj1">
-              <Image src={PX3} alt="" width={"auto"} height={"auto"} />
-            </div>
-            <div className="descriptionprj1">
-              <p>Pixels aun esta en desarrollo por lo que aun faltan muchas funciones por implementar.</p>
-            </div>
-            <div>
-              <button className='btngithublink'>
-                <a href="https://pixels-flax.vercel.app/"><i className="bi bi-eye" style={{ marginRight: '5px' }}></i>Ver en Produccion</a>
-              </button>
-            </div>
-            <div>
-              <button className='btngithublink'>
-                <a href="https://github.com/AmbrizAlberto/Car-Recognition.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>Ver en GitHub</a>
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {modalOpen && selectedProject === "CarRecognition" && (
-        <div className='modalprj1' onClick={closeModal}>
-          <div className='modalcontent1' onClick={(e) => e.stopPropagation()}>
-
-            <button className="close-modal" onClick={closeModal}>
-              <X size={24} />
-            </button>
-
-            <div className="nameprj1">Car Recognition</div>
-            <div className="categorie1">Personal</div>
-            <div className="lenguajesprj1">
-                <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={200} height={200} alt="" />
-            </div>
-            <div className="photoprj1">
-              <Image src={CR1} alt="" width={"auto"} height={"auto"} />
+              <Image src={HyH1} alt="" width={"auto"} height={"auto"} />
             </div>
 
             <div className="descriptionprj1">
-              <h4>Reconocimiento de coches en videos con python utilizando Yolov5</h4>
+              <h4>CRUD Instrument Store, Inventory and Point of Sale.</h4>
             </div>
             <div className='descriptionprj2'>
-              <p>Cualquier coche que aparezca detectado en el video aparecera carcado dentro de un cuadrado rojo con su etiqueta</p>
-              <p>El programa facilita el cambio de color desde el codigo, ademas esta limitado a soloamente detectar los vehiculos, aunque realmente eso se puede quitar facilmente eliminando solo la duncion desde el codigo.</p>
+              <p>Harmony &amp; Heaven was developed as an inventory for an instrument store where products would be recorded with &quot;units for sale&quot;, &quot;product price&quot;, and &quot;category&quot;, in addition, the point of sale was created for the customer where they can add any product available in the store to the cart.</p>
+              <p>In the Seller section, Harmony &amp; Heaven has a search engine and data filtering to facilitate the collection of products, it also has an order manager for the Product Supplier where they will be registered when they are requested and when they are received to be in stock, automatically adding the quantities received in the inventory, as well as a dashboard to see summaries of sales, employees, and other things.</p>
+              <p>Products can be edited or deleted if necessary.</p>
 
-              <p>Es necesario instalar Yolov5 con pip</p>
+              <p>In the customer section &quot;Point of sale&quot;, the customer will only be able to see the products in stock and add them to the cart for purchase, the total price for the products to be purchased will always be shown until the purchase is made.</p>
             </div>
             <div className="photoprj1">
-              <Image src={CR2} alt="" width={"auto"} height={"auto"} />
+              <Image src={HyH} alt="" width={"auto"} height={"auto"} />
             </div>
-            <button className='btngithublink'>
-              <a href="https://github.com/AmbrizAlberto/Car-Recognition.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>Ver en GitHub</a>
+            <button className='btngithublink'> 
+            <a href="https://github.com/AmbrizAlberto/HarmonyAndHeavenm.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>See on GitHub</a>
             </button>
           </div>
         </div>
       )}
 
-      {modalOpen && selectedProject === "NoteApp" && (
+      {modalOpen && selectedProject === "PickEmE" && (
         <div className='modalprj1' onClick={closeModal}>
           <div className='modalcontent1' onClick={(e) => e.stopPropagation()}>
 
@@ -193,46 +149,49 @@ const Proyectos = () => {
               <X size={24} />
             </button>
 
-            <div className="nameprj1">Notes APP</div>
-            <div className="categorie1">Personal</div>
+            <div className="nameprj1">Pick Em&apos; Everithing</div>
+            <div className="categorie1">Grupal</div>
             <div className="lenguajesprj1">
-                <Image src="https://cdn4.iconfinder.com/data/icons/logos-3/504/Swift-2-512.png" width={200} height={200} alt="" />
+              <Image src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp" width={200} height={200} alt="" />
             </div>
             <div className="photoprj1">
-              <Image src={Nte} alt="" width={"auto"} height={"auto"} />
+              <Image src={PEE} alt="" width={"auto"} height={"auto"} />
             </div>
 
             <div className="descriptionprj1">
-              <h4>Aplicacion de Notas para iOS desarrollada con SwiftUI</h4>
+              <h4>Video game developed 100% with the Pygame Python library</h4>
             </div>
             <div className='descriptionprj2'>
-              <p>Un proyecto personal para conocer y aprender las bases del desarrollo para iOS</p>
+              <p>Pick Em&apos; Everithing is a video game dedicated to children with a focus on caring for the environment. Arthur &quot;the main character of the game&quot; will collect garbage throughout his adventure to take it to the garbage truck, referring to the responsibility of keeping a clean environment. place.</p> 
             </div>
             <div className="photoprj1">
-              <Image src={Nte} alt="" width={"auto"} height={"auto"} />
+              <Image src={PEE1} alt="" width={"auto"} height={"auto"} />
             </div>
             <br />
             <br />
             <div className='descriptionprj3'>
-              Con Notes APP se puede crear, editar y borrar una nota: 
+              Pick Em&apos; Everithing has:
+              <br />| MAIN MENU -- Spanish / English |
+              <br />| LEVEL MENU -- 3 Levels |
+              <br />| MUSIC WITHIN THE PROGRAM |
+              <br />| SETTINGS -- Remove music, change language |            
             </div>
             <div className="photoprj1">
-              <Image src={Nte1} alt="" width={"auto"} height={"auto"} />
+              <Image src={PEE2} alt="" width={"auto"} height={"auto"} />
             </div>
             <div className='descriptionprj4' id='1'>
               <p>
-                Pruebala con Xcode
+                All elements of the video game are original and completely created from scratch by the developers, from buttons to objects, even the character himself.
               </p>
             </div>
             <button className='btngithublink'> 
-              <a href="https://github.com/AmbrizAlberto/NotesAPP-SwiftUI.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>Ver en GitHub</a>
+              <a href="https://github.com/AmbrizAlberto/PICK-EM-EVERITHING---PYGAME-PROJECT.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>See on GitHub</a>
             </button>
-
           </div>
         </div>
       )}
 
-      {modalOpen && selectedProject === "NumberRecog" && (
+      {modalOpen && selectedProject === "BugB" && (
         <div className='modalprj1' onClick={closeModal}>
           <div className='modalcontent1' onClick={(e) => e.stopPropagation()}>
 
@@ -240,20 +199,22 @@ const Proyectos = () => {
               <X size={24} />
             </button>
 
-            <div className="nameprj1">Number Recognition</div>
-            <div className="categorie1">Personal</div>
+            <div className="nameprj1">BuggBlock</div>
+            <div className="categorie1">Group</div>
             <div className="lenguajesprj1">
-
+              <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968332.png" width={200} height={200} alt="" />
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
+              <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" width={40} height={40} alt="" />
             </div>
             <div className="photoprj1">
               <Image src={BB} alt="" width={"auto"} height={"auto"} />
             </div>
 
             <div className="descriptionprj1">
-              <h4>Un web blog para amantes de la tecnologia.</h4>
+              <h4>A web blog for technology lovers.</h4>
             </div>
             <div className='descriptionprj3'>
-              <p>BuggBlock es una pagina web tipo Blog con enfoque a informacion tecnologica donde los usuarios registrados podran realizar publicaciones con texto y fotos para despues verlas en el Main</p>
+              <p>BuggBlock is a Blog-type website focused on technological information where registered users can make publications with text and photos to later see them in the Main</p>
             </div>
             <div className="photoprj1">
               <Image src={BB1} alt="" width={"auto"} height={"auto"} />
@@ -261,12 +222,11 @@ const Proyectos = () => {
             <br />
             <br />
             <div className='descriptionprj3'>
-              BuggBlock fue desarrollado con php para el manejo de datos de usuarios y publicaciones por el lado del Backend, y el diseño realizado con iconos de Bootstrap y CSS puro. 
+              BuggBlock was developed with PHP to manage user data and posts on the Backend side, and the design was made with Bootstrap icons and pure CSS.            
             </div>
             <button className='btngithublink'> 
-              <a href="https://github.com/AmbrizAlberto/Drawn-Digits-Recognition-1.0/tree/master/Reconocimiento%20de%20numero"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>Ver en GitHub</a>
+              <a href="https://github.com/AmbrizAlberto/BuggBlock.git"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>See on GitHub</a>
             </button>
-
           </div>
         </div>
       )}
