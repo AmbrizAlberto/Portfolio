@@ -53,13 +53,13 @@ const ProyectosEN = () => {
       <div className="grid-containerprj">
 
         <button className="container-project" onClick={() => openModalForProject("SMatiz")}>
-          <div className="nameprj">Gestor de citas - Salon Matiz</div>
+          <div className="nameprj">Appointment Manager - Salon Matiz</div>
           <div className="categorie">Personal</div>
           <div className="photoprj">
             <Image src={SMMain} alt="" width={"auto"} height={"auto"} />
           </div>
           <div className="descriptionprj">
-            <h4>Pagina web para agendar citas y gestionar horario de una barberia</h4>
+            <h4>Website for scheduling appointments and managing the schedule of a barbershop</h4>
           </div>
           <div className="lenguajesprj">
             <Image src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width={200} height={200} alt="" />
@@ -70,7 +70,7 @@ const ProyectosEN = () => {
           </div>
           <br />
           <div className="github">
-            <i className="bi bi-eye-fill"></i>Ver proyecto
+            <i className="bi bi-eye-fill"></i>See project
           </div>
         </button>
 
@@ -179,7 +179,7 @@ const ProyectosEN = () => {
               <X size={24} />
             </button>
 
-            <div className="nameprj1">Gestor de citas para Barberia</div>
+            <div className="nameprj1">Appointment Manager for Barbershop</div>
             <div className="categorie1">Personal</div>
             <div className="lenguajesprj1">
               <Image src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width={200} height={200} alt="" />
@@ -189,31 +189,31 @@ const ProyectosEN = () => {
               <Image src="https://cdn.iconscout.com/icon/free/png-256/free-node-js-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945054.png?f=webp&w=256" width={200} height={200} alt="" />
             </div>
             <div className="descriptionprj1">
-              <h4>Aplicacion web publica para que las personas puedan agendar citas en una barberia.</h4>
+              <h4>Public web application for people to schedule appointments at a barbershop.</h4>
             </div>
             <div className="photoprj1">
               <Image src={SM} alt="" width={"auto"} height={"auto"} />
             </div>
             <div className='descriptionprj1'>
-              <p>Automaticamente se gestionaran los horarios de la barberia para no solapar citas sobre otras, cada servicio tiene un valor de tiempo que se toma en cuenta en la suma para el gestor de horarios disponibles sin interponserse entre otra cita para otros usuarios despues de que se agenden. </p>
+              <p>The schedules of the barbershop will be automatically managed to avoid overlapping appointments. Each service has a time value that is considered in the total for the available schedule manager without interfering with other appointments for other users after they are booked.</p>
             </div>
             <div className="photoprj1">
               <Image src={SMLg} alt="" width={"auto"} height={"auto"} />
             </div>
             <div className="descriptionprj1">
-              <p> El Dashboard permite al administrador poder ver las citas del dia actual, filtrarlas entre fechas, servicios e inclusos nombres, ademas, este podra crear noticias para sus clientes y eliminarlas desde el mismo Dashboard</p>
+              <p>The Dashboard allows the administrator to view the appointments for the current day, filter them by dates, services, and even names. Additionally, they can create news for their clients and delete them from the same Dashboard.</p>
             </div>
             <div className="photoprj1">
               <Image src={SMDb} alt="" width={"auto"} height={"auto"} />
             </div>
             <div>
               <button className='btngithublink'>
-                <a href="https://gestor-baber.vercel.app/"><i className="bi bi-eye" style={{ marginRight: '5px' }}></i>Ver en Produccion</a>
+                <a href="https://gestor-baber.vercel.app/"><i className="bi bi-eye" style={{ marginRight: '5px' }}></i>View in Production</a>
               </button>
             </div>
             <div>
               <button className='btngithublink'>
-                <a href="https://github.com/AmbrizAlberto/ControlOfBarberShop"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>Ver en GitHub</a>
+                <a href="https://github.com/AmbrizAlberto/ControlOfBarberShop"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>View on GitHub</a>
               </button>
             </div>
           </div>

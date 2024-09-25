@@ -14,6 +14,10 @@ import BB1 from "../../images/BB2.jpeg";
 import PX1 from "../../images/PX1.jpeg";
 import PX2 from "../../images/PX2.jpeg";
 import PX3 from "../../images/PX3.jpeg";
+import SMMain from "../../images/SMMain.png"
+import SMDb from "../../images/SMDb.png"
+import SMLg from "../../images/SMLg.png"
+import SM from "../../images/SM.png"
 
 import "../../css/modal.css";
 import "../../css/project.css";
@@ -45,6 +49,28 @@ const Proyectos = () => {
       <h2 id='project'>PROJECTS</h2>
 
       <div className="grid-containerprj">
+
+        <button className="container-project" onClick={() => openModalForProject("SMatiz")}>
+          <div className="nameprj">Appointment Manager - Salon Matiz</div>
+          <div className="categorie">Personal</div>
+          <div className="photoprj">
+            <Image src={SMMain} alt="" width={"auto"} height={"auto"} />
+          </div>
+          <div className="descriptionprj">
+            <h4>Website for scheduling appointments and managing the schedule of a barbershop</h4>
+          </div>
+          <div className="lenguajesprj">
+            <Image src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width={200} height={200} alt="" />
+            <Image src="https://static-00.iconduck.com/assets.00/next-js-icon-512x512-zuauazrk.png" width={200} height={200} alt="" />
+            <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
+            <Image src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_prisma_icon_130234.png" width={200} height={200} alt="" />
+            <Image src="https://cdn.iconscout.com/icon/free/png-256/free-node-js-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945054.png?f=webp&w=256" width={200} height={200} alt="" />
+          </div>
+          <br />
+          <div className="github">
+            <i className="bi bi-eye-fill"></i>See project
+          </div>
+        </button>
 
         <button className="container-project" onClick={() => openModalForProject("Pixels")}>
           <div className="nameprj">Pixels</div>
@@ -121,6 +147,56 @@ const Proyectos = () => {
 
       </div>
       <br/><br/><br/><br/>
+
+      {modalOpen && selectedProject === "SMatiz" && (
+        <div className='modalprj1' onClick={closeModal}>
+          <div className='modalcontent1' onClick={(e) => e.stopPropagation()}>
+
+            <button className="close-modal" onClick={closeModal}>
+              <X size={24} />
+            </button>
+
+            <div className="nameprj1">Appointment Manager for Barbershop</div>
+            <div className="categorie1">Personal</div>
+            <div className="lenguajesprj1">
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width={200} height={200} alt="" />
+              <Image src="https://static-00.iconduck.com/assets.00/next-js-icon-512x512-zuauazrk.png" width={200} height={200} alt="" />
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width={200} height={200} alt="" />
+              <Image src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_prisma_icon_130234.png" width={200} height={200} alt="" />
+              <Image src="https://cdn.iconscout.com/icon/free/png-256/free-node-js-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945054.png?f=webp&w=256" width={200} height={200} alt="" />
+            </div>
+            <div className="descriptionprj1">
+              <h4>Public web application for people to schedule appointments at a barbershop.</h4>
+            </div>
+            <div className="photoprj1">
+              <Image src={SM} alt="" width={"auto"} height={"auto"} />
+            </div>
+            <div className='descriptionprj1'>
+              <p>The schedules of the barbershop will be automatically managed to avoid overlapping appointments. Each service has a time value that is considered in the total for the available schedule manager without interfering with other appointments for other users after they are booked.</p>
+            </div>
+            <div className="photoprj1">
+              <Image src={SMLg} alt="" width={"auto"} height={"auto"} />
+            </div>
+            <div className="descriptionprj1">
+              <p>The Dashboard allows the administrator to view the appointments for the current day, filter them by dates, services, and even names. Additionally, they can create news for their clients and delete them from the same Dashboard.</p>
+            </div>
+            <div className="photoprj1">
+              <Image src={SMDb} alt="" width={"auto"} height={"auto"} />
+            </div>
+            <div>
+              <button className='btngithublink'>
+                <a href="https://gestor-baber.vercel.app/"><i className="bi bi-eye" style={{ marginRight: '5px' }}></i>View in Production</a>
+              </button>
+            </div>
+            <div>
+              <button className='btngithublink'>
+                <a href="https://github.com/AmbrizAlberto/ControlOfBarberShop"><i className="bi bi-github" style={{ marginRight: '5px' }}></i>View on GitHub</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
 
       {modalOpen && selectedProject === "Pixels" && (
         <div className='modalprj1' onClick={closeModal}>
