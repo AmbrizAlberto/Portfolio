@@ -51,7 +51,7 @@ const Proyectos = () => {
       <h2 id='proyecto'>PROYECTOS</h2>
       <div className="grid-containerprj">
 
-      <button className="container-project" onClick={() => openModalForProject("SMatiz")}>
+        <button className="container-project" onClick={() => openModalForProject("SMatiz")}>
           <div className="nameprj">Gestor de citas - Salon Matiz</div>
           <div className="categorie">Personal</div>
           <div className="photoprj">
