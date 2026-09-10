@@ -119,6 +119,11 @@ export default function Portafolio() {
             <i className="bi bi-instagram"></i>
           </a>
         </button>
+        <button>
+          <a href="https://music.apple.com/profile/byquesters" target="_blank">
+            <i className="bi bi-apple-music"></i>
+          </a>
+        </button>
       </div>
   
       <>

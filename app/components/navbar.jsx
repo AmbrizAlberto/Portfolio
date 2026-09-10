@@ -90,17 +90,17 @@ export default function Navbar() {
       <div className="access">
         <a className={linkClass('/')} href="./">
           <i className="bi bi-house-fill"></i>
-          <span className="titulo">{t.home}</span>
+          <span className="titulo">{t.navbar.home}</span>
         </a>
 
         <a className={linkClass('/Personal')} href="./Personal">
           <i className="bi bi-person-raised-hand"></i>
-          <span className="titulo">{t.solo}</span>
+          <span className="titulo">{t.navbar.solo}</span>
         </a>
 
         <a className={linkClass('/Grupal')} href="./Grupal">
           <i className="bi bi-people-fill"></i>
-          <span className="titulo">{t.grupal}</span>
+          <span className="titulo">{t.navbar.grupal}</span>
         </a>
 
         <a className="link" href={cvFile} download={cvName}>

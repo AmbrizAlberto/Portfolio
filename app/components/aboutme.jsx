@@ -15,7 +15,7 @@ const Aboutme = () => {
             <div className="datos1">
                 <div className="photomia">
                     <a href={downloadCV} download="CV ENG - Alberto Ambriz.pdf">
-                        <Image onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} src={hovered ? miImagen : miImagen2} width={"auto"} height={"auto"} priority={true} alt="" />
+                        <Image src={miImagen2} width={"auto"} height={"auto"} priority={true} alt="" />
                     </a>
                 </div>
                 <div className="datos">

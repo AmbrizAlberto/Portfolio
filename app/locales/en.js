@@ -10,7 +10,7 @@ const en = {
   },
   aboutme: {
     title: "ABOUT ME...",
-    description: "Hello! I'm a FullStack developer Software Engineer with more than 5 years of experience in the programming field. I'm looking forward to the opportunity to be part of your team!"
+    description: "Hello World! I’m Questers, a Full Stack Engineer with over 5 years of experience designing and developing solutions focused on clean code and scalable architecture. If you can imagine it, I can build it."
   },
   tecnologias: {
     title: "TECHNOLOGIES",

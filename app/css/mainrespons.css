@@ -30,6 +30,7 @@
         font-size: 70%;
     }
     .nombre{
+        font-size: 6vh;
         text-align: center;
     }
     .datos1 img{
@@ -74,7 +75,7 @@
         margin: auto;
         padding: 15px;
         width: 90%;
-        height: 270px;
+        height: auto;
         font-size: 65%;
       }.grid-itemtec h2{
         height: 25%;
@@ -131,7 +132,7 @@
         font-size: 40%;
     }
     .btnlinks{
-        margin-top: 10vh;
+        margin-top: 13vh;
     }
 }
 
@@ -167,7 +168,7 @@
     .grid-itemtec {
         margin-top: 2vh;
         width: 90%;
-        height: 40vh;
+        height: auto;
     }
     .image-with-text img {
         width: 9vh;
@@ -184,7 +185,7 @@
         font-family: 'Roboto', sans-serif;
     }
     .btnlinks i{
-        font-size: 2.5rem;
+        font-size: 10vh;
     }
     .btnlinks1 button{
         font-size: .9rem;
@@ -217,7 +218,9 @@ body{
     width: 100%;
 }
 .main{
-    width: 90%;
+    padding: 0;
+    margin: auto;
+    width: 100%;
 }
 .personaldata{
     width: 90%;
@@ -359,7 +362,7 @@ height: 40%;
 top: 93%;
 }
 .btnlinks i{
-font-size: 220%;
+font-size: 4vh;
 }
 .lenguajes h2{
 padding-top: 0%;
@@ -546,7 +549,7 @@ box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.533);
     }
     .personaldata{
         width: 90%;
-        height: 80vh;
+        height: auto;
         font-size: 90%;
         margin-top: 15%;
         flex-wrap: wrap;
@@ -564,7 +567,7 @@ box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.533);
     }
     .datos2{
         font-size: 1.1vh;
-        margin-top: 5%;
+        margin-top: 3vh;
         margin-left: 2%;
         width: 90%;
         height: auto;
@@ -588,7 +591,7 @@ box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.533);
     .grid-itemtec {
         margin: auto;
         width: 90%;
-        height: 200px;
+        height: auto;
     }
     .grid-itemtec h2{
         margin-bottom: 0%;

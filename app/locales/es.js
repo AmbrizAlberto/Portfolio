@@ -10,7 +10,7 @@ const es = {
   },
   aboutme: {
     title: "SOBRE MI...",
-    description: "¡Hola! Soy un desarrollador FullStack Ingeniero de Software con más de 5 años de experiencia en el ámbito de la programación. ¡Espero con entusiasmo la oportunidad de formar parte de su equipo!"
+    description: "Hola Mundo! Soy Questers, Ingeniero Full Stack con +5 años diseñando y desarrollando soluciones con enfoque clean code y arquitectura escalable. Si lo puedes imaginar, lo puedo construir."
   },
   tecnologias: {
     title: "TECNOLOGIAS",

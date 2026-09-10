@@ -192,8 +192,8 @@ body{
         margin: auto;
         height: auto;
         font-size: 150%;
-        margin-top: 10%;
-        margin-bottom: 15%;
+        margin-top: 35%;
+        margin-bottom: 10%;
     }
     .grid-containerprj{
         grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
@@ -229,16 +229,12 @@ body{
     }
     
     .projects{
-        margin: auto;
         width: 90%;
-        margin-bottom: 33dvh;
+        margin-bottom: 10vh;
     }
     .grid-containerprj{
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 2% 0%;
         margin: auto;
-        margin-left: 0;
-        padding: 0%;
     }
     .container-project{
         margin: auto;
@@ -271,7 +267,6 @@ body{
 @media screen and (max-width: 360px) {
     .container-project{
         margin: auto;
-        margin-left: 0;
         width: 85%;
     }
 }
