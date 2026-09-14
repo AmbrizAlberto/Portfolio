@@ -1,28 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html{
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(255, 255, 255);
-    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255) !important;
     height: auto;
     overflow-x: hidden;
     width: 100%;
-    margin: auto;
     transition: 700ms;
     font-size: 2vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
     overflow-y: auto;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .main{
     overflow-y: visible;
     width: 100%;
     height: auto;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important;
     padding: 2%;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -38,20 +40,19 @@ body{
 /* PROYECTOS */
 
 .projects{
-    margin-top: 10% !important;
+    margin: auto;
+    margin-top: 12vh !important;
     text-align: center;
-    width: 100%;
-    height: auto;
-    color: #7ed1f4;
+    width: 90%;
+    color: #7ed1f4 !important;
     transition: 500ms;
-    font-family: 'Roboto', sans-serif;
     margin-bottom: 5%;
 }
 .projects h2{
+    margin-bottom: 5vh;
     font-weight: 600;
-    font-size: 350%;
+    font-size: 300%;
     transition: 500ms;
-    font-family: 'Roboto', sans-serif;
 }
 .photoprj img{
     width: 95%;
@@ -62,8 +63,6 @@ body{
 }
 .grid-containerprj{
     margin: auto;
-    margin-left: 5%;
-    margin-right: 5%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
     gap: 60px 4%;
@@ -71,33 +70,37 @@ body{
 }
 
 .container-project{
-     box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.342);
+    width: 90%;
+    margin: auto;
+    margin-top: 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.342);
     cursor: pointer;
     border-radius: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.343);
-    padding: 10px;
-    padding: 5%;
-    transition: 1000ms;
     color: #424242;
     font-size: 160%;
     border: .3vh solid #424242;
     background-color: rgba(182, 182, 182, 0.099);
-    transition: 500ms;
-    margin-bottom: 2%;
+    padding: 5% 5% 8% 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition:
+        box-shadow       0.5s ease,
+        background-color 0.5s ease,
+        padding-bottom   0.45s ease;
 }
-
-.container-project:last-child{
-    margin-bottom: 5%;
-}
-
 .container-project:hover{
     box-shadow: 0px 0px 30px rgb(0, 0, 0);
     background-color: #ffffff84;
-    transition: 500ms;
+    /* NUEVO: reserva el espacio extra donde aparecerá el texto */
+    padding-bottom: 14%;
 }
 
 .container-project .nameprj{
-    font-size: 27px;
+    font-size: 3vh;
+    font-weight: bold;
     font-weight: bold;
     transition: 300ms;
     font-family: 'Roboto', sans-serif;
@@ -119,8 +122,8 @@ body{
     margin-top: 5%;
     margin-bottom: 5%;
     border-radius: 20px;
-    background-color: rgb(214, 214, 214);
     transition: 500ms;
+    background-color: rgb(214, 214, 214);
 }
 
 .container-project:hover .lenguajesprj{
@@ -132,39 +135,66 @@ body{
 .container-project .lenguajesprj img{
     margin: 1%;
     margin-bottom: -1%;
-    width: 10%;
-    height: 10%;
+    width: 5vh;
+    height: 5vh;
     transition: 500ms;
 }
 
 .container-project .github{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+
     width: 100%;
-    display: none;
-    position: relative;
-    color:black;
-    transition: 500ms;
+    padding: 0 5% 3% 5%;
+    box-sizing: border-box;
+
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transform: translateY(15px);
+    color: transparent;
+
+    transition:
+        max-height 0.40s ease,
+        opacity    0.30s ease,
+        transform  0.40s ease,
+        color      0.30s ease;
 }
 
 .container-project .github i{
     margin-right: 2%;
-    color:black;
+    transition: 500ms;
+}
+
+.container-project:hover .github{
+    max-height: 60px;
+    opacity: 1;
+    transform: translateY(0);
+    color: #424242;
+    transition-delay: 0.12s;
+}
+
+.container-project .github i{
+    margin-right: 2%;
     transition: 500ms;
 }
 
 .container-project:hover .categorie{
-    color: rgb(157, 218, 255);
-    transition: 500ms;
-    font-weight: bold;
-}
-
-.container-project:hover .github{
-    transition-delay: 500ms;
-    width: 100%;
-    display:inline;
-    color: black;
+    color: rgb(31, 122, 179);
     transition: 500ms;
 }
 
+.creador {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    margin-top: 5%;
+    padding: 1%;
+    border-top: 1px solid #424242;
+    color: #424242;
+}
 
 
 /* RESPONSIVE */
@@ -178,34 +208,14 @@ body{
         height: auto;
         overflow-y: visible;
     }
-    
-    .projects{
-        margin: auto;
-        margin-top: 10%;
-        font-size: 200%;
-        margin-bottom: 10%;
-    }
-    .projects h2{
-        margin: auto;
-        height: auto;
-        font-size: 150%;
-        margin-top: 10%;
-        margin-bottom: 15%;
-    }
     .grid-containerprj{
-        grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
     }
     .container-project{
-        width:100%;
         font-size: 2.5vh;
-        margin-bottom: 3%;
     }
     .container-project:last-child{
         margin-bottom: 8%;
-    }
-    .container-project .nameprj{
-        font-size: 200%;
-        font-family: 'Roboto', sans-serif;
     }
     .modalprj1{
         height: 50%;
@@ -224,18 +234,9 @@ body{
     .main{
         height: 100vh;
     }
-    
-    .projects{
-        margin: auto;
-        width: 90%;
-        margin-bottom: 33dvh;
-    }
     .grid-containerprj{
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 2% 0%;
         margin: auto;
-        margin-left: 0;
-        padding: 0%;
     }
     .container-project{
         margin: auto;
@@ -268,7 +269,6 @@ body{
 @media screen and (max-width: 360px) {
     .container-project{
         margin: auto;
-        margin-left: 0;
         width: 85%;
     }
 }

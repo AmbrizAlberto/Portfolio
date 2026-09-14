@@ -184,14 +184,14 @@ button {
   
   .btnlinks i {
     font-weight: bold;
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline;
     align-items: center;
     color: #424242;
-    font-size: 300%;
+    font-size: 4vh;
   }
   
   .btnlinks i:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline;
     cursor: pointer;
     color: #424242;
     transition: 500ms;
@@ -394,10 +394,8 @@ button {
 }
 
 .container-project{
-    /* NUEVO: referencia para el absolute de .github y recorte del desbordamiento */
     position: relative;
     overflow: hidden;
-
     box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.342);
     cursor: pointer;
     border-radius: 30px;
@@ -405,8 +403,6 @@ button {
     font-size: 160%;
     border: .3vh solid #424242;
     background-color: rgba(182, 182, 182, 0.099);
-
-    /* NUEVO: padding base con espacio reservado abajo para el texto hover */
     padding: 5% 5% 8% 5%;
     display: flex;
     flex-direction: column;
@@ -424,7 +420,7 @@ button {
 }
 
 .container-project .nameprj{
-    font-size: 27px;
+    font-size: 3vh;
     font-weight: bold;
     font-weight: bold;
     transition: 300ms;
@@ -456,12 +452,11 @@ button {
 .container-project .lenguajesprj img{
     margin: 1%;
     margin-bottom: -1%;
-    width: 6vh;
-    height: 6vh;
+    width: 5vh;
+    height: 5vh;
     transition: 500ms;
 }
 
-/* NUEVO: el texto del ojo queda anclado al fondo y no empuja el contenido */
 .container-project .github{
     position: absolute;
     left: 0;
@@ -475,7 +470,7 @@ button {
     max-height: 0;
     opacity: 0;
     overflow: hidden;
-    transform: translateY(15px);     /* entra desde abajo */
+    transform: translateY(15px);
     color: transparent;
 
     transition:
